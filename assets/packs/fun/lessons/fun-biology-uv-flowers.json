@@ -1,0 +1,78 @@
+{
+  "id": "fun-biology-uv-flowers",
+  "title": "Warum eine Blüte für eine Biene anders aussieht als für dich",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Wahrnehmung",
+    "Bestäubung",
+    "Ultraviolett"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Spezialwissen",
+    "Bienen",
+    "UV-Licht",
+    "Ultraviolett",
+    "Blüten",
+    "Bestäubung",
+    "Sehen",
+    "Evolution"
+  ],
+  "synonyms": [
+    "bee vision",
+    "UV patterns flowers",
+    "Nektarleitsystem",
+    "nectar guides"
+  ],
+  "summary": "Viele bestäubende Insekten können ultraviolettes Licht wahrnehmen, das für Menschen unsichtbar ist. Manche Blüten besitzen UV-Muster, die wie Leitsignale zum Nektar wirken – ihre visuelle Welt ist deshalb buchstäblich eine andere.",
+  "whyRelevant": "Der Effekt zeigt eindrucksvoll, dass „Farbe“ keine reine Eigenschaft eines Objekts ist, sondern aus Licht, Oberfläche und dem Wahrnehmungssystem eines Beobachters entsteht.",
+  "learningGoal": "Du kannst erklären, warum Menschen und Bienen dieselbe Blüte unterschiedlich sehen und welchen evolutionären Nutzen UV-Muster haben können.",
+  "sections": [
+    {
+      "title": "Sichtbar ist nur ein Ausschnitt des elektromagnetischen Spektrums",
+      "body": "Menschen besitzen drei Typen von Zapfen, deren Empfindlichkeiten grob auf lang-, mittel- und kurzwelliges sichtbares Licht verteilt sind. Ultraviolette Strahlung mit kürzeren Wellenlängen liegt außerhalb unseres normalen Farbsehens. Viele Insekten, darunter Honigbienen, besitzen dagegen Photorezeptoren, die auch im UV-Bereich empfindlich sind. Ihre drei Farbkanäle liegen ungefähr in UV, Blau und Grün. Was für uns identisch gelb aussieht, kann für eine Biene daher deutliche Kontraste besitzen, die wir ohne spezielle Kamera nicht erkennen."
+    },
+    {
+      "title": "Blüten können unsichtbare Wegweiser tragen",
+      "body": "Bei zahlreichen Pflanzen reflektieren verschiedene Teile einer Blüte UV-Licht unterschiedlich stark. Häufig entsteht dadurch ein Muster, bei dem der Bereich um das Blütenzentrum anders erscheint als die äußeren Blütenblätter. Solche Muster werden als Nektarleitsignale bezeichnet, weil sie Bestäubern Orientierung bieten können. Eine Biene kann dadurch effizienter zu Nektar und Pollen gelangen. Die Pflanze profitiert, weil der Besucher dabei mit den Fortpflanzungsorganen in Kontakt kommt und Pollen weiterträgt."
+    },
+    {
+      "title": "Farbe ist eine Beziehung, kein Etikett",
+      "body": "Zu sagen „diese Blüte ist gelb“ beschreibt also nur, wie ihr reflektiertes Licht mit dem menschlichen Sehsystem zusammenspielt. Ein Vogel, eine Biene oder ein anderes Tier kann dieselbe Oberfläche anders kategorisieren. Evolution formt sowohl Signale als auch Sinnesorgane: Pflanzen, deren Muster Bestäuber besser anlocken oder führen, können einen Fortpflanzungsvorteil haben; Bestäuber profitieren von effizienten Hinweisen auf Nahrung. Die sichtbare Welt ist deshalb nicht für alle Tiere dieselbe Version mit unterschiedlichen Namen, sondern kann sensorisch tatsächlich anders strukturiert sein."
+    }
+  ],
+  "misconception": "Bienen sehen nicht einfach „mehr Farben“ auf einer linearen Skala. Ihr Farbsystem verwendet andere Rezeptorempfindlichkeiten als unseres; UV ist Teil ihrer Farbwahrnehmung, während langwelliges Rot für Honigbienen deutlich schlechter zugänglich ist.",
+  "keyTakeaways": [
+    "Einige Insekten können UV-Licht sehen, das Menschen nicht wahrnehmen.",
+    "Blüten können UV-Kontraste besitzen, die Bestäubern als Orientierung dienen.",
+    "Farbe entsteht aus dem Zusammenspiel von Licht, Objekt und Sinnesorgan."
+  ],
+  "questions": [
+    {
+      "id": "fun-biology-uv-q1",
+      "prompt": "Warum können Bienen auf manchen Blüten Muster erkennen, die Menschen nicht sehen?",
+      "options": [
+        "Weil ihre Photorezeptoren auch für ultraviolette Wellenlängen empfindlich sind.",
+        "Weil Bienen Röntgenstrahlung sehen.",
+        "Weil Blüten für Bienen aktiv leuchten, sobald sie landen."
+      ],
+      "correctIndex": 0,
+      "explanation": "Bienen besitzen eine andere spektrale Empfindlichkeit und können UV-Kontraste wahrnehmen."
+    }
+  ],
+  "recallPrompt": "Was zeigt das Beispiel der UV-Muster über den Begriff „Farbe“?",
+  "recallAnswer": "Farbe ist keine vollständig beobachterunabhängige Eigenschaft. Sie entsteht daraus, welche Wellenlängen eine Oberfläche reflektiert und welche Rezeptoren das jeweilige Sehsystem besitzt und verarbeitet.",
+  "relatedLessonIds": [
+    "fun-biology-flamingo-pink",
+    "fun-biology-cats-sweet"
+  ],
+  "coverageWeight": 0.35,
+  "collections": [
+    "fun-facts"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "fun-history-month-names",
+  "title": "Warum heißen September bis Dezember nach den Zahlen sieben bis zehn?",
+  "durationMinutes": 5,
+  "categoryId": "history",
+  "path": [
+    "Antike",
+    "Römischer Kalender"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Kalender",
+    "September",
+    "Oktober",
+    "November",
+    "Dezember",
+    "Rom"
+  ],
+  "synonyms": [
+    "Monatsnamen Zahlen",
+    "September sieben",
+    "Oktober acht"
+  ],
+  "summary": "Die Monatsnamen bewahren Spuren eines älteren römischen Kalenders, in dem das Jahr im März begann.",
+  "whyRelevant": "Unsere Monatsnamen sind kleine historische Fossilien. Vier davon verraten bis heute, dass die Reihenfolge des Jahres einmal anders gedacht wurde.",
+  "learningGoal": "Du kannst erklären, warum die Namen September, Oktober, November und Dezember nicht zu ihren heutigen Monatsnummern passen.",
+  "sections": [
+    {
+      "title": "Die Zahlen stecken noch im Namen",
+      "body": "September erinnert an lateinisch „septem“ für sieben, Oktober an „octo“ für acht, November an „novem“ für neun und Dezember an „decem“ für zehn. Trotzdem sind sie heute der neunte bis zwölfte Monat. Das ist kein Rechenfehler, sondern ein sprachliches Überbleibsel aus der römischen Kalendergeschichte. In einer frühen römischen Tradition wurde der Jahresanfang mit dem März verbunden. Von dort aus gezählt lagen diese Monate tatsächlich an siebter bis zehnter Stelle."
+    },
+    {
+      "title": "Januar und Februar verschoben die Zählung",
+      "body": "Der römische Kalender entwickelte sich über Jahrhunderte und war komplizierter als die einfache Erzählung eines einzigen „alten Kalenders“. Entscheidend für die Namensfrage ist jedoch: Januar und Februar wurden vor die bisherigen Zählmonate eingeordnet beziehungsweise der zivile Jahresanfang verlagerte sich. Die Zahlwörter in den alten Monatsnamen blieben erhalten. Sprache ist oft konservativer als Verwaltungsregeln – ein Name kann weiterleben, obwohl sich das System dahinter verändert.\n\nAuch andere Monatsnamen tragen römische Geschichte: Juli geht auf Julius Caesar zurück, August auf Augustus. Die Monatsreihe ist deshalb kein logisch neu entworfenes System, sondern ein historisch gewachsenes Gemisch aus Zahlen, Gottheiten, Personen und Kalenderreformen."
+    },
+    {
+      "title": "Ein sprachliches Fossil im Alltag",
+      "body": "Ähnliche Spuren alter Systeme finden sich überall in Sprache und Kultur. Begriffe werden geprägt, wenn eine bestimmte Ordnung gilt, und bleiben anschließend bestehen, obwohl sich die Realität verändert. September bis Dezember sind deshalb besonders anschauliche Beispiele: Jedes Mal, wenn wir den Monatsnamen sagen, verwenden wir unbewusst lateinische Zahlwörter aus einer älteren Ordnung des Jahres.\n\nGerade solche Unstimmigkeiten sind für Historiker interessant. Ein perfekt regelmäßiges System hätte viele Spuren seiner Vergangenheit verloren; die scheinbar „falschen“ Namen bewahren dagegen Information über frühere Ordnungen."
+    }
+  ],
+  "misconception": "Die Namen wurden nicht „falsch übersetzt“. Sie sind historische Namen, deren ursprüngliche Position sich durch Kalenderreformen verschoben hat.",
+  "keyTakeaways": [
+    "Septem, octo, novem und decem bedeuten sieben, acht, neun und zehn.",
+    "In einer älteren römischen Ordnung wurde vom März aus gezählt.",
+    "Die Monatsnamen blieben bestehen, obwohl sich die Positionen im Kalender verschoben."
+  ],
+  "questions": [
+    {
+      "id": "fun-months-q1",
+      "prompt": "Warum passt „Oktober“ nicht mehr zum achten Monat?",
+      "options": [
+        "Weil das lateinische Wort „octo“ eigentlich zehn bedeutet.",
+        "Weil sich die Kalenderordnung änderte, der alte Monatsname aber blieb.",
+        "Weil der Oktober im Mittelalter umbenannt wurde."
+      ],
+      "correctIndex": 1,
+      "explanation": "Der Name bewahrt eine ältere Zählung, in der der Oktober vom März aus der achte Monat war."
+    }
+  ],
+  "recallPrompt": "Welche historische Veränderung erklärt die scheinbar falschen Zahlennamen von September bis Dezember?",
+  "recallAnswer": "In einer älteren römischen Jahresordnung wurde vom März aus gezählt; später verschob sich die Monatsreihenfolge beziehungsweise der Jahresanfang, während die alten Namen erhalten blieben.",
+  "relatedLessonIds": [
+    "fun-geography-china-timezone"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

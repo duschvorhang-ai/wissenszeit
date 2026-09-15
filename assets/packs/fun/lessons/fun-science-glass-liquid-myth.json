@@ -1,0 +1,75 @@
+{
+  "id": "fun-science-glass-liquid-myth",
+  "title": "Warum altes Fensterglas unten dicker ist – aber nicht „fließt“",
+  "durationMinutes": 5,
+  "categoryId": "science",
+  "path": [
+    "Chemie",
+    "Materialwissenschaft",
+    "Glas"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Spezialwissen",
+    "Glas",
+    "Materialwissenschaft",
+    "amorpher Festkörper",
+    "Fenster",
+    "Mythos"
+  ],
+  "synonyms": [
+    "glass is liquid",
+    "Glas fließt",
+    "amorphous solid",
+    "altes Fensterglas"
+  ],
+  "summary": "Glas besitzt keine regelmäßige Kristallstruktur, ist bei Raumtemperatur aber ein Festkörper. Dass historische Fensterscheiben häufig unten dicker sind, stammt vor allem aus alten Herstellungsverfahren – nicht aus jahrhundertelangem Herunterfließen.",
+  "whyRelevant": "Der Mythos ist beliebt, weil Glas strukturell zwischen dem vertrauten Bild von Kristall und Flüssigkeit liegt. Gerade deshalb eignet er sich gut, um den Begriff „amorpher Festkörper“ zu verstehen.",
+  "learningGoal": "Du kannst erklären, warum Glas trotz ungeordneter Struktur fest ist und weshalb alte Fenster keine Belege für messbares Fließen bei Raumtemperatur sind.",
+  "sections": [
+    {
+      "title": "Ungeordnet heißt nicht flüssig",
+      "body": "In einem Kristall sitzen Atome oder Moleküle in einer weitreichend regelmäßigen Struktur. Bei gewöhnlichem Glas fehlt diese periodische Fernordnung. Seine mikroskopische Struktur erinnert deshalb in mancher Hinsicht an eine eingefrorene Flüssigkeit. Daraus entstand die populäre Aussage, Glas sei eigentlich eine extrem zähe Flüssigkeit. Bei Raumtemperatur verhält sich Fensterglas jedoch mechanisch wie ein Festkörper. Es besitzt eine endliche Elastizität und fließt auf historischen Zeitskalen nicht in einem Ausmaß, das die Form alter Fenster erklären könnte."
+    },
+    {
+      "title": "Die Glasübergangstemperatur ist entscheidend",
+      "body": "Beim Abkühlen einer Glasschmelze steigt die Viskosität stark an. Anders als ein idealer Kristall muss Glas dabei nicht an einem einzigen scharfen Schmelzpunkt in eine geordnete Struktur springen. Stattdessen durchläuft es einen Glasübergangsbereich, in dem molekulare Bewegungen zunehmend „einfrieren“. Unterhalb dieses Bereichs sind strukturelle Umlagerungen extrem langsam. Deshalb bezeichnet man Glas sinnvoll als amorphen Festkörper. Bei hohen Temperaturen kann es selbstverständlich weich werden und fließen; bei Raumtemperatur ist dieser Prozess praktisch vernachlässigbar."
+    },
+    {
+      "title": "Warum historische Scheiben ungleich dick sind",
+      "body": "Frühe Verfahren zur Herstellung von Fensterglas erzeugten keine perfekt ebenen Scheiben mit gleichmäßiger Dicke. Geblasene oder geschleuderte Glasstücke waren wellig und keilförmig. Beim Einbau setzte man den dickeren, stabileren Rand häufig nach unten. Darum findet man in alten Gebäuden tatsächlich oft unten dickeres Glas – aber die Ursache ist Produktion und Montage. Würde Glas über Jahrhunderte sichtbar nach unten fließen, müssten auch antike Glasobjekte systematische Verformungen zeigen, die man so nicht beobachtet."
+    }
+  ],
+  "misconception": "„Amorph“ bedeutet nicht „flüssig“. Es beschreibt fehlende weitreichende Kristallordnung. Der mechanische Zustand hängt von Temperatur und Zeitskala ab.",
+  "keyTakeaways": [
+    "Fensterglas ist bei Raumtemperatur ein amorpher Festkörper.",
+    "Historische Dickenunterschiede stammen überwiegend aus alten Herstellungsverfahren und Einbauweise.",
+    "Glas kann bei hoher Temperatur fließen; bei Raumtemperatur ist die strukturelle Relaxation extrem langsam."
+  ],
+  "questions": [
+    {
+      "id": "fun-science-glass-liquid-q1",
+      "prompt": "Was erklärt am besten, warum viele alte Fensterscheiben unten dicker sind?",
+      "options": [
+        "Sie sind im Lauf der Jahrhunderte sichtbar nach unten geflossen.",
+        "Historische Herstellungsverfahren produzierten ungleich dicke Scheiben, die oft mit der dickeren Seite nach unten eingebaut wurden.",
+        "Die Erdrotation zieht Glas nach unten."
+      ],
+      "correctIndex": 1,
+      "explanation": "Die ungleichmäßige Dicke ist ein Herstellungs- und Montageeffekt, kein Beleg für fließendes Glas."
+    }
+  ],
+  "recallPrompt": "Warum ist der Satz „Glas ist eine sehr langsame Flüssigkeit“ irreführend?",
+  "recallAnswer": "Glas ist strukturell ungeordnet, verhält sich bei Raumtemperatur aber als amorpher Festkörper. Seine mögliche strukturelle Relaxation ist auf menschlichen Zeitskalen viel zu gering, um alte Fensterscheiben sichtbar nach unten fließen zu lassen.",
+  "relatedLessonIds": [
+    "fun-science-eiffel-expansion"
+  ],
+  "coverageWeight": 0.35,
+  "collections": [
+    "fun-facts"
+  ]
+}

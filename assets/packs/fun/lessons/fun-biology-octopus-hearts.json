@@ -1,0 +1,72 @@
+{
+  "id": "fun-biology-octopus-hearts",
+  "title": "Warum hat ein Oktopus drei Herzen und blaues Blut?",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Tierwelt",
+    "Kreislauf"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Oktopus",
+    "Krake",
+    "Herz",
+    "Blut",
+    "Hämocyanin"
+  ],
+  "synonyms": [
+    "Octopus drei Herzen",
+    "blaues Blut",
+    "Krake Herzen"
+  ],
+  "summary": "Kopffüßer lösen den Sauerstofftransport anders als Menschen – mit drei Herzen und kupferhaltigem Hämocyanin.",
+  "whyRelevant": "Der Oktopus wirkt ohnehin fremdartig. Sein Kreislauf zeigt, dass Evolution für dasselbe Problem – Sauerstoff verteilen – sehr unterschiedliche Lösungen hervorbringen kann.",
+  "learningGoal": "Du kannst die Aufgaben der drei Herzen und die blaue Farbe des Oktopusbluts erklären.",
+  "sections": [
+    {
+      "title": "Drei Pumpen für zwei Aufgaben",
+      "body": "Ein Oktopus besitzt ein zentrales Körperherz und zwei sogenannte Kiemenherzen. Die beiden Kiemenherzen sitzen jeweils in der Nähe einer Kieme und pumpen sauerstoffarmes Blut durch die Kiemen. Dort wird Sauerstoff aufgenommen. Anschließend gelangt das Blut zum Körperherz, das es in den restlichen Körper pumpt. Es handelt sich also nicht um drei identische Herzen, die parallel dasselbe tun, sondern um ein arbeitsteiliges Pumpsystem."
+    },
+    {
+      "title": "Blau statt rot",
+      "body": "Menschen transportieren Sauerstoff hauptsächlich mit Hämoglobin. Darin spielt Eisen eine zentrale Rolle, und sauerstoffreiches Blut erscheint rot. Oktopusse und viele andere Weichtiere verwenden dagegen Hämocyanin. Dieses Protein enthält Kupfer. Wenn Hämocyanin Sauerstoff bindet, erhält es eine bläuliche Färbung. Das Blut ist also nicht „magisch blau“, sondern die Farbe ergibt sich aus einem anderen Metall und einer anderen Molekülstruktur des Sauerstofftransporters.\n\nInteressant ist auch, dass das Körperherz beim Schwimmen zeitweise weniger effektiv arbeitet beziehungsweise seine Aktivität verändert. Oktopusse bevorzugen deshalb häufig kriechende Fortbewegung am Meeresboden, die energetisch günstiger sein kann. Kreislauf und Bewegungsweise hängen also enger zusammen, als die bloße Zahl „drei Herzen“ vermuten lässt."
+    },
+    {
+      "title": "Ein Kreislauf für ein aktives Tier im Meer",
+      "body": "Hämocyanin funktioniert unter den Bedingungen vieler Meerestiere gut, ist aber anders aufgebaut und gelöst als das Hämoglobin in unseren roten Blutkörperchen. Oktopusse sind aktive Tiere mit einem komplexen Nervensystem und benötigen entsprechend einen leistungsfähigen Kreislauf. Die zusätzlichen Kiemenherzen helfen dabei, den Widerstand beim Durchströmen der Kiemen zu überwinden. Das Beispiel zeigt: Evolution baut nicht auf eine einzige optimale Konstruktion, sondern auf Lösungen, die in der jeweiligen Abstammungslinie funktionieren.\n\nDass verschiedene Tiergruppen unterschiedliche Sauerstofftransporter verwenden, erinnert daran, dass „Blut“ kein weltweit einheitliches biologisches Produkt ist. Farbe und Chemie können sich je nach Abstammungslinie deutlich unterscheiden."
+    }
+  ],
+  "misconception": "Die drei Herzen sind keine drei vollständigen Ersatzherzen. Zwei davon sind spezialisierte Kiemenherzen.",
+  "keyTakeaways": [
+    "Zwei Kiemenherzen pumpen Blut durch die Kiemen.",
+    "Ein Körperherz verteilt sauerstoffreiches Blut im Körper.",
+    "Kupferhaltiges Hämocyanin lässt sauerstoffgebundenes Blut bläulich erscheinen."
+  ],
+  "questions": [
+    {
+      "id": "fun-octopus-q1",
+      "prompt": "Warum wirkt sauerstoffreiches Oktopusblut bläulich?",
+      "options": [
+        "Wegen gelösten Meerwassers.",
+        "Wegen kupferhaltigem Hämocyanin.",
+        "Weil Oktopusse kein Sauerstofftransportprotein besitzen."
+      ],
+      "correctIndex": 1,
+      "explanation": "Hämocyanin enthält Kupfer und nimmt bei Sauerstoffbindung eine bläuliche Farbe an."
+    }
+  ],
+  "recallPrompt": "Welche Aufgaben haben die drei Herzen eines Oktopus?",
+  "recallAnswer": "Zwei Kiemenherzen pumpen sauerstoffarmes Blut durch die Kiemen; das zentrale Körperherz verteilt anschließend das sauerstoffreiche Blut im restlichen Körper.",
+  "relatedLessonIds": [
+    "fun-biology-wombat-cubes"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

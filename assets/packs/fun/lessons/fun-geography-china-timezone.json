@@ -1,0 +1,72 @@
+{
+  "id": "fun-geography-china-timezone",
+  "title": "Warum hat China trotz seiner Größe nur eine offizielle Zeitzone?",
+  "durationMinutes": 5,
+  "categoryId": "geography",
+  "path": [
+    "Zeit & Raum",
+    "Zeitzonen"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "China",
+    "Zeitzone",
+    "Peking-Zeit",
+    "Geografie",
+    "Uhrzeit"
+  ],
+  "synonyms": [
+    "China one timezone",
+    "eine Zeitzone China",
+    "Beijing Time"
+  ],
+  "summary": "China erstreckt sich geografisch über mehrere natürliche Zeitzonen, verwendet offiziell aber landesweit dieselbe Standardzeit.",
+  "whyRelevant": "Zeitzonen wirken wie reine Geografie. Tatsächlich sind sie auch politische und organisatorische Entscheidungen.",
+  "learningGoal": "Du kannst erklären, warum geografische Breite beziehungsweise Länge nicht automatisch bestimmt, wie viele offizielle Zeitzonen ein Staat verwendet.",
+  "sections": [
+    {
+      "title": "Geografisch wären mehrere Zonen naheliegend",
+      "body": "Die Erde dreht sich in 24 Stunden einmal um ihre Achse. Deshalb unterscheidet sich der natürliche Sonnenstand von Osten nach Westen. Große Länder können sich über mehrere theoretische Zeitzonen erstrecken. China reicht sehr weit in Ost-West-Richtung und würde nach rein geografischer Einteilung mehrere Zeitzonen abdecken. Trotzdem gilt offiziell im ganzen Land dieselbe Standardzeit, die sich an Peking orientiert und international meist als China Standard Time bezeichnet wird."
+    },
+    {
+      "title": "Zeitzonen sind Konventionen",
+      "body": "Eine Zeitzone ist keine Naturgrenze. Staaten entscheiden, welche Standardzeit sie verwenden, damit Verwaltung, Verkehr, Medien und Wirtschaft koordiniert werden können. Manche große Staaten nutzen mehrere Zeitzonen, andere vereinheitlichen sie stärker. China entschied sich nach der Gründung der Volksrepublik für eine landesweit einheitliche Zeit. Das vereinfacht nationale Koordination, führt aber dazu, dass Uhrzeit und Sonnenstand im äußersten Westen deutlich weiter auseinanderliegen können als im Osten.\n\nIm äußersten Westen Chinas kann dadurch der offizielle Mittag deutlich vom höchsten Sonnenstand abweichen. Im Alltag werden regional teilweise informelle Zeitgewohnheiten genutzt, während für Behörden, Bahnverkehr und landesweite Kommunikation die offizielle Peking-Zeit maßgeblich bleibt."
+    },
+    {
+      "title": "Die Uhr kann politisch sein",
+      "body": "Das Beispiel zeigt, dass Karten mit Zeitzonen nicht einfach die Physik der Erdrotation abbilden. Grenzen werden verschoben, zusammengelegt oder an Staatsgrenzen angepasst. Deshalb gibt es auf der Welt Zeitzonen mit ungewöhnlichen Versätzen und große Unterschiede zwischen „Sonnenzeit“ und offizieller Uhrzeit. Zeitmessung ist technisch präzise – die Frage, welche Zahl eine Uhr an einem Ort anzeigen soll, ist jedoch eine gesellschaftliche Vereinbarung.\n\nAndere Staaten treffen andere Entscheidungen: Russland, Kanada oder die USA nutzen mehrere Zeitzonen. Das zeigt, dass es nicht die eine geografisch zwingende Lösung gibt, sondern unterschiedliche Abwägungen zwischen lokaler Sonnenzeit und nationaler Koordination."
+    }
+  ],
+  "misconception": "Ein Land „muss“ nicht für jede geografische Zone eine eigene Uhrzeit verwenden. Offizielle Zeitzonen sind politische und organisatorische Standards.",
+  "keyTakeaways": [
+    "China erstreckt sich geografisch über mehrere natürliche Zeitzonen.",
+    "Offiziell gilt landesweit dieselbe Standardzeit.",
+    "Zeitzonen sind gesellschaftliche Konventionen, nicht nur direkte Folgen der Erdrotation."
+  ],
+  "questions": [
+    {
+      "id": "fun-china-time-q1",
+      "prompt": "Welche Aussage über Zeitzonen ist richtig?",
+      "options": [
+        "Sie folgen weltweit exakt den Längengraden.",
+        "Staaten können ihre offiziellen Zeitzonen politisch und organisatorisch festlegen.",
+        "Große Länder müssen zwingend mehrere Zeitzonen besitzen."
+      ],
+      "correctIndex": 1,
+      "explanation": "Die Erdrotation liefert die astronomische Grundlage, aber konkrete Zeitzonengrenzen und Standardzeiten sind gesellschaftlich festgelegt."
+    }
+  ],
+  "recallPrompt": "Warum kann ein sehr großes Land trotzdem nur eine offizielle Zeitzone verwenden?",
+  "recallAnswer": "Weil offizielle Zeitzonen Konventionen sind, die ein Staat zur einheitlichen Organisation festlegen kann, auch wenn der natürliche Sonnenstand regional stark abweicht.",
+  "relatedLessonIds": [
+    "fun-history-month-names"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

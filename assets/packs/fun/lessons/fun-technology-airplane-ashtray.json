@@ -1,0 +1,72 @@
+{
+  "id": "fun-technology-airplane-ashtray",
+  "title": "Warum gibt es im Flugzeug noch Aschenbecher, obwohl Rauchen verboten ist?",
+  "durationMinutes": 5,
+  "categoryId": "technology",
+  "path": [
+    "Luftfahrt",
+    "Sicherheitsdesign"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Flugzeug",
+    "Aschenbecher",
+    "Rauchen",
+    "Sicherheit",
+    "Luftfahrt"
+  ],
+  "synonyms": [
+    "Aschenbecher Flugzeugtoilette",
+    "ashtray airplane",
+    "Rauchverbot Flugzeug"
+  ],
+  "summary": "Der Aschenbecher ist kein Relikt mit Einladung zum Rauchen, sondern Teil einer Sicherheitsstrategie für Regelverstöße.",
+  "whyRelevant": "Gutes Sicherheitsdesign plant nicht nur für korrektes Verhalten, sondern auch dafür, dass Menschen Regeln missachten. Flugzeug-Aschenbecher sind ein überraschend klares Beispiel.",
+  "learningGoal": "Du kannst erklären, warum Aschenbecher trotz Rauchverbots aus Sicherheitsgründen sinnvoll beziehungsweise vorgeschrieben sein können.",
+  "sections": [
+    {
+      "title": "Rauchverbot beseitigt nicht jedes Risiko",
+      "body": "Auf Passagierflügen ist Rauchen seit vielen Jahren verboten. Trotzdem kann eine Sicherheitsplanung nicht davon ausgehen, dass sich ausnahmslos jeder Mensch an das Verbot hält. Wenn jemand heimlich eine Zigarette anzündet, entsteht anschließend ein zweites Problem: Wohin mit der glimmenden Zigarette? Ein Papierkorb voller Papierhandtücher wäre dafür offensichtlich ein gefährlicher Ort. Genau deshalb findet man in oder nahe Flugzeugtoiletten häufig einen kleinen Aschenbecher."
+    },
+    {
+      "title": "Fehlverhalten wird mitgedacht",
+      "body": "In der Sicherheitstechnik gibt es das Prinzip, nicht nur den idealen Ablauf zu betrachten. Man fragt auch: Was passiert bei Fehlern, Missverständnissen oder Regelverstößen? Der Aschenbecher schafft eine feuerfeste Möglichkeit, eine Zigarette sicher auszudrücken, falls trotz Verbots geraucht wird. Er ist damit kein Widerspruch zum Rauchverbot, sondern eine zusätzliche Schutzschicht. Vergleichbar ist ein Notausgang: Niemand plant, ihn im normalen Betrieb zu benutzen, aber er muss vorhanden sein, falls etwas schiefgeht.\n\nGerade in Toiletten ist das Risiko besonders relevant, weil heimliches Rauchen dort eher stattfinden würde und Papierabfälle vorhanden sind. Rauchmelder und Verbote sind wichtige Schutzschichten, ersetzen aber nicht die Frage, was mit einer bereits angezündeten Zigarette geschieht."
+    },
+    {
+      "title": "Das ist „fehlertolerantes“ Design",
+      "body": "Das Beispiel illustriert eine allgemeine Idee aus Technik und Sicherheitsmanagement: Systeme sollten möglichst nicht von perfektem menschlichem Verhalten abhängen. Man versucht, Folgen eines Fehlers zu begrenzen. In der Luftfahrt ist dieses Denken besonders ausgeprägt, weil kleine Fehler große Konsequenzen haben können. Ein winziger Aschenbecher wirkt deshalb absurd, solange man nur die Regel „Rauchen verboten“ betrachtet. Sobald man das Restrisiko betrachtet, wird er logisch.\n\nDieses Denken nennt man oft Defense in Depth: Mehrere unabhängige Schutzmaßnahmen sollen verhindern, dass ein einzelner Fehler sofort zum Unfall führt. Warnung, Überwachung und sichere Entsorgungsmöglichkeit erfüllen unterschiedliche Aufgaben."
+    }
+  ],
+  "misconception": "Der Aschenbecher bedeutet nicht, dass Rauchen erlaubt oder geduldet wäre. Er dient dazu, die Folgen eines möglichen Regelverstoßes sicherer zu machen.",
+  "keyTakeaways": [
+    "Rauchverbote verhindern nicht garantiert jeden Regelverstoß.",
+    "Eine glimmende Zigarette braucht im Notfall einen sicheren, nicht brennbaren Ablageort.",
+    "Sicherheitsdesign berücksichtigt auch Fehlverhalten und versucht dessen Folgen zu begrenzen."
+  ],
+  "questions": [
+    {
+      "id": "fun-ashtray-q1",
+      "prompt": "Was ist der wichtigste Grund für einen Aschenbecher trotz Rauchverbots?",
+      "options": [
+        "Er ist ausschließlich nostalgische Dekoration.",
+        "Er bietet bei einem Regelverstoß eine sicherere Möglichkeit zum Löschen einer Zigarette.",
+        "Er zeigt an, wo früher die Raucherklasse begann."
+      ],
+      "correctIndex": 1,
+      "explanation": "Sicherheitsdesign berücksichtigt auch den Fall, dass jemand das Verbot missachtet, und reduziert dann das Brandrisiko."
+    }
+  ],
+  "recallPrompt": "Welches allgemeine Sicherheitsprinzip zeigt der Flugzeug-Aschenbecher?",
+  "recallAnswer": "Ein gutes System plant auch menschliche Fehler oder Regelverstöße ein und begrenzt deren Folgen, statt nur auf perfektes Verhalten zu vertrauen.",
+  "relatedLessonIds": [
+    "fun-technology-keyboard-fj"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

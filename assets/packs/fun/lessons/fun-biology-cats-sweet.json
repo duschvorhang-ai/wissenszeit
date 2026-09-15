@@ -1,0 +1,72 @@
+{
+  "id": "fun-biology-cats-sweet",
+  "title": "Warum schmecken Katzen Süßes kaum?",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Tierwelt",
+    "Sinne"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Katze",
+    "Geschmack",
+    "Süß",
+    "Rezeptoren",
+    "Sinne"
+  ],
+  "synonyms": [
+    "Katzen schmecken süß",
+    "cats taste sweet",
+    "Süßrezeptor Katze"
+  ],
+  "summary": "Hauskatzen besitzen keinen funktionsfähigen Süßrezeptor wie Menschen – passend zu ihrer stark fleischbasierten Evolution.",
+  "whyRelevant": "Geschmack wirkt subjektiv, beruht aber auf konkreten Rezeptoren. Katzen zeigen, dass andere Tierarten dieselbe Nahrung völlig anders wahrnehmen können.",
+  "learningGoal": "Du kannst erklären, warum Katzen Süße anders wahrnehmen als Menschen.",
+  "sections": [
+    {
+      "title": "Süß ist ein Rezeptorsignal",
+      "body": "Damit wir etwas als süß wahrnehmen, müssen bestimmte Moleküle an passende Geschmacksrezeptoren auf der Zunge binden. Beim Menschen gehört dazu ein Rezeptorkomplex, an dem unter anderem die Proteine T1R2 und T1R3 beteiligt sind. Bindet Zucker oder ein anderer geeigneter Stoff, wird eine Signalkette ausgelöst und das Gehirn interpretiert das Muster als „süß“. Geschmack ist deshalb keine Eigenschaft, die ein Lebensmittel unabhängig vom Tier besitzt – er entsteht aus Molekül und Sinnesapparat gemeinsam."
+    },
+    {
+      "title": "Bei Katzen fehlt ein entscheidender Baustein",
+      "body": "Bei Katzen ist das Gen für einen wichtigen Bestandteil des Süßrezeptors, T1R2, zu einem nicht funktionsfähigen Pseudogen geworden. Dadurch fehlt ihnen der typische funktionsfähige Rezeptor, mit dem viele andere Säugetiere Zucker erkennen. Katzen können natürlich weiterhin andere Geschmackseigenschaften wahrnehmen, aber Süße spielt für sie eine deutlich geringere Rolle. Dass einzelne Katzen trotzdem Interesse an Eis, Kuchen oder Milchprodukten zeigen, kann an Fett, Geruch, Textur oder anderen Bestandteilen liegen – nicht zwingend am Zucker.\n\nDie Veränderung des Süßrezeptors findet sich nicht nur bei Hauskatzen, sondern auch bei anderen Katzenartigen. Das spricht dafür, dass sie schon bei gemeinsamen fleischfressenden Vorfahren dieser Gruppe entstand. Ein Sinn kann sich also zurückbilden, wenn die entsprechende Information über sehr lange Zeit kaum Vorteile bringt."
+    },
+    {
+      "title": "Das passt zu ihrer Ernährungsgeschichte",
+      "body": "Katzen sind obligate Karnivoren: Ihre Physiologie ist stark an eine Ernährung mit tierischem Gewebe angepasst. In einer solchen Ernährungsweise war die zuverlässige Erkennung zuckerreicher Pflanzenkost offenbar weniger wichtig als bei vielen Alles- oder Pflanzenfressern. Über evolutionäre Zeit können Gene, die keinen starken Nutzen mehr haben, funktionslos werden. Die fehlende Süßwahrnehmung ist daher ein schönes Beispiel dafür, wie Ökologie, Ernährung und Sinnesbiologie zusammenpassen.\n\nUmgekehrt besitzen andere Tierarten Geschmackssysteme, die auf ihre Nahrung spezialisiert sind. Was für uns besonders süß, bitter oder angenehm wirkt, ist daher kein universeller Maßstab für Tiere."
+    }
+  ],
+  "misconception": "Wenn eine Katze an süßem Essen interessiert ist, bedeutet das nicht automatisch, dass sie Zucker so schmeckt wie ein Mensch.",
+  "keyTakeaways": [
+    "Süßgeschmack benötigt bestimmte Rezeptoren.",
+    "Katzen besitzen keinen funktionsfähigen T1R2-Baustein des typischen Süßrezeptors.",
+    "Interesse an süßen Speisen kann durch Fett, Geruch oder Textur entstehen."
+  ],
+  "questions": [
+    {
+      "id": "fun-cat-sweet-q1",
+      "prompt": "Warum nehmen Katzen Süße nur sehr eingeschränkt wahr?",
+      "options": [
+        "Ihre Zunge hat gar keine Geschmacksrezeptoren.",
+        "Ein wichtiger Bestandteil des Süßrezeptors ist genetisch nicht funktionsfähig.",
+        "Zucker löst bei Katzen ausschließlich Geruchssignale aus."
+      ],
+      "correctIndex": 1,
+      "explanation": "Das Gen für T1R2 ist bei Katzen nicht funktionsfähig; damit fehlt ein zentraler Teil des typischen Süßrezeptors."
+    }
+  ],
+  "recallPrompt": "Was verbindet die Ernährungsgeschichte von Katzen mit ihrer geringen Süßwahrnehmung?",
+  "recallAnswer": "Als stark fleischangepasste Tiere waren Katzen weniger auf die Erkennung zuckerreicher Pflanzenkost angewiesen; ein wichtiger Süßrezeptor-Baustein verlor im Verlauf der Evolution seine Funktion.",
+  "relatedLessonIds": [
+    "fun-biology-flamingo-pink"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

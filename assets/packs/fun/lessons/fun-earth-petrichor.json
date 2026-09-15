@@ -1,0 +1,72 @@
+{
+  "id": "fun-earth-petrichor",
+  "title": "Warum riecht Regen so unverwechselbar?",
+  "durationMinutes": 5,
+  "categoryId": "earth",
+  "path": [
+    "Wetter & Atmosphäre",
+    "Petrichor"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Regen",
+    "Petrichor",
+    "Geosmin",
+    "Geruch",
+    "Wetter"
+  ],
+  "synonyms": [
+    "Regengeruch",
+    "Geruch nach Regen",
+    "nasse Erde"
+  ],
+  "summary": "Der typische Geruch nach einem Sommerregen entsteht aus Stoffen im Boden und winzigen Aerosolen.",
+  "whyRelevant": "Fast jeder kennt den Geruch nach Regen, aber nur wenige wissen, dass dahinter ein konkreter chemisch-physikalischer Mechanismus steckt.",
+  "learningGoal": "Du kannst erklären, was Petrichor ist und wie Regentropfen Geruchsstoffe aus dem Boden in die Luft bringen.",
+  "sections": [
+    {
+      "title": "Der Geruch hat einen Namen",
+      "body": "Der typische erdige Geruch, der besonders nach Regen auf trockenen Boden auffällt, wird häufig als Petrichor bezeichnet. Dabei handelt es sich nicht um einen einzigen Stoff. Pflanzenöle und andere organische Verbindungen können sich während trockener Perioden auf Böden und Gestein ablagern. Besonders prägnant ist außerdem Geosmin, ein Stoff, der unter anderem von bestimmten Bodenbakterien gebildet wird. Menschen können Geosmin schon in sehr niedrigen Konzentrationen wahrnehmen. Deshalb reicht eine winzige Menge in der Luft, damit der Geruch auffällt."
+    },
+    {
+      "title": "Regentropfen funktionieren wie winzige Sprühgeräte",
+      "body": "Wenn ein Regentropfen auf eine poröse Oberfläche trifft, können kleine Luftblasen in Vertiefungen des Bodens eingeschlossen werden. Diese Bläschen steigen durch den Tropfen auf und platzen an seiner Oberfläche. Dabei entstehen winzige Tröpfchen, sogenannte Aerosole. Sie können Geosmin und andere Stoffe mit in die Luft nehmen. Ein leichter bis mäßiger Regen auf trockenen Boden kann diesen Effekt besonders gut erzeugen. Wind verteilt die Aerosole anschließend in der Umgebung – und plötzlich „riecht man den Regen“.\n\nDie Empfindlichkeit gegenüber Geosmin ist bemerkenswert hoch. Deshalb kann ein kleiner Anteil des Stoffes den Gesamteindruck eines Regenschauers dominieren. Derselbe Stoff ist übrigens auch dafür verantwortlich, dass Trinkwasser oder Lebensmittel manchmal unangenehm „erdig“ schmecken, obwohl er in winzigen Mengen vorkommt."
+    },
+    {
+      "title": "Warum man Regen manchmal schon vorher riecht",
+      "body": "Der bekannte Erdgeruch entsteht meist beim Auftreffen von Tropfen. Vor einem Gewitter kann aber zusätzlich Ozon wahrnehmbar sein. Elektrische Entladungen können in der Atmosphäre Reaktionen auslösen, bei denen unter anderem Ozon entsteht; Luftströmungen können es aus höheren Luftschichten nach unten transportieren. Ozon riecht eher scharf und „elektrisch“ als erdig. Was wir umgangssprachlich als Regengeruch bezeichnen, kann deshalb je nach Situation aus mehreren unterschiedlichen Gerüchen bestehen.\n\nWie stark Petrichor wahrgenommen wird, hängt außerdem vom Untergrund, der Dauer der Trockenperiode, der Regenintensität und der Luftbewegung ab. Asphalt nach einem kurzen Schauer riecht daher anders als ein trockener Gartenboden nach mehreren Wochen ohne Regen."
+    }
+  ],
+  "misconception": "Regenwasser selbst besitzt nicht einfach den typischen „Regengeruch“. Der Geruch entsteht vor allem dadurch, dass Regen bereits vorhandene Stoffe aus Boden und Umgebung mobilisiert.",
+  "keyTakeaways": [
+    "Petrichor beschreibt den charakteristischen Geruch nach Regen auf trockenem Boden.",
+    "Geosmin trägt stark zum erdigen Geruch bei.",
+    "Regentropfen können Geruchsstoffe über winzige Aerosole in die Luft befördern."
+  ],
+  "questions": [
+    {
+      "id": "fun-petrichor-q1",
+      "prompt": "Wie gelangen viele der typischen Geruchsstoffe nach einem Regenschauer in die Luft?",
+      "options": [
+        "Sie entstehen erst durch Sonnenlicht im Regentropfen.",
+        "Winzige Aerosole tragen Stoffe aus dem Boden in die Luft.",
+        "Der Regen spaltet Sauerstoff direkt in Geruchsmoleküle."
+      ],
+      "correctIndex": 1,
+      "explanation": "Beim Auftreffen der Tropfen können kleine Bläschen und Aerosole entstehen, die Stoffe wie Geosmin in die Luft transportieren."
+    }
+  ],
+  "recallPrompt": "Was ist der wichtigste Zusammenhang hinter dem typischen Geruch nach Regen?",
+  "recallAnswer": "Regentropfen mobilisieren Stoffe aus trockenem Boden, darunter Geosmin, und verteilen sie über winzige Aerosole in der Luft.",
+  "relatedLessonIds": [
+    "fun-science-eiffel-expansion"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

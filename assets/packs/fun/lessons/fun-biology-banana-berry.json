@@ -1,0 +1,72 @@
+{
+  "id": "fun-biology-banana-berry",
+  "title": "Warum ist die Banane eine Beere – die Erdbeere aber nicht?",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Botanik",
+    "Früchte"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Banane",
+    "Erdbeere",
+    "Beere",
+    "Botanik",
+    "Frucht"
+  ],
+  "synonyms": [
+    "Bananen sind Beeren",
+    "Erdbeere keine Beere",
+    "botanische Beere"
+  ],
+  "summary": "Botanische Namen folgen dem Aufbau einer Frucht – nicht unserem Küchengefühl.",
+  "whyRelevant": "Die Begriffe Obst, Beere und Nuss wirken selbstverständlich. Botanisch bedeuten sie aber etwas anderes als im Alltag. Genau daran lässt sich schön sehen, wie Wissenschaft Begriffe definiert.",
+  "learningGoal": "Du kannst erklären, warum eine Banane botanisch als Beere gilt und eine Erdbeere nicht.",
+  "sections": [
+    {
+      "title": "Alltagssprache und Botanik meinen Verschiedenes",
+      "body": "Im Supermarkt ist die Sache einfach: Erdbeeren liegen bei den Beeren, Bananen nicht. In der Botanik wird eine Frucht aber nicht nach Geschmack, Größe oder Verwendung eingeordnet, sondern danach, wie sie aus einer Blüte entsteht. Eine botanische Beere entwickelt sich aus einem einzelnen Fruchtknoten. Ihre Fruchtwand bleibt überwiegend fleischig, und die Samen liegen im Inneren. Diese Definition passt überraschend gut zur Banane. Auch Tomaten, Weintrauben und Kiwis erfüllen sie. Der Küchenbegriff „Beere“ ist also viel enger und orientiert sich eher daran, wie wir Früchte essen und wahrnehmen."
+    },
+    {
+      "title": "Warum die Banane die Definition erfüllt",
+      "body": "Eine Bananenfrucht entsteht aus dem Fruchtknoten einer einzelnen Blüte. Die Schale und das weiche Innere gehen aus den Geweben dieser Frucht hervor. Wilde Bananen besitzen deutlich erkennbare harte Samen; unsere Kulturbananen wurden über lange Zeit so ausgewählt und vermehrt, dass die Samenanlagen stark reduziert sind. Das ändert die botanische Einordnung nicht. Die Banane bleibt eine Beere, auch wenn sie weder klein noch rund ist und im Alltag niemand von „Bananenbeeren“ spricht.\n\nEin weiterer Grund für die Verwirrung ist, dass „Obst“ selbst kein streng botanischer Fruchttyp ist. In der Küche ordnen wir Pflanzen danach, wie sie schmecken und verwendet werden; Botaniker ordnen Früchte nach ihrer Entwicklung. Darum können auch Gurke, Paprika und Kürbis botanisch als Beeren beziehungsweise besondere Beerentypen eingeordnet werden, obwohl sie niemand im Obstsalat erwartet."
+    },
+    {
+      "title": "Warum die Erdbeere ausgerechnet keine Beere ist",
+      "body": "Bei der Erdbeere ist das rote Fruchtfleisch botanisch betrachtet nicht die eigentliche Frucht. Der fleischige Teil entsteht vor allem aus dem vergrößerten Blütenboden. Die vielen kleinen gelblichen „Körnchen“ auf der Oberfläche sind jeweils einzelne kleine Früchte, sogenannte Achänen; in ihnen sitzt jeweils ein Samen. Die Erdbeere ist deshalb eine Sammelnussfrucht beziehungsweise Sammelfrucht. Der überraschende Merksatz lautet also: Bei der Erdbeere sitzen die eigentlichen Früchte außen – bei der Banane liegen die für Beeren typischen Fruchtstrukturen im Inneren.\n\nBei Kulturbananen sieht man die Samen nur noch als kleine dunkle Punkte. Wilde Verwandte zeigen, wie stark Züchtung das Aussehen einer Frucht verändern kann, ohne ihren grundlegenden botanischen Bauplan auszutauschen."
+    }
+  ],
+  "misconception": "„Beere“ ist kein Synonym für kleine, süße Früchte. Die botanische Definition richtet sich nach der Entstehung und dem Aufbau der Frucht.",
+  "keyTakeaways": [
+    "Botanische Beeren entstehen aus einem einzelnen Fruchtknoten und sind innen fleischig.",
+    "Bananen erfüllen diese Definition.",
+    "Das rote Gewebe der Erdbeere ist vergrößerter Blütenboden; die kleinen Punkte außen sind einzelne Früchte."
+  ],
+  "questions": [
+    {
+      "id": "fun-banana-q1",
+      "prompt": "Welche Aussage erklärt den Unterschied botanisch am besten?",
+      "options": [
+        "Eine Beere muss klein und rund sein.",
+        "Entscheidend ist, aus welchen Teilen der Blüte die Frucht entsteht.",
+        "Nur Früchte mit sichtbaren Samen können Beeren sein."
+      ],
+      "correctIndex": 1,
+      "explanation": "Botanische Fruchttypen werden nach ihrer Entstehung aus der Blüte und ihrem Aufbau definiert, nicht nach Größe oder Geschmack."
+    }
+  ],
+  "recallPrompt": "Erkläre in einem Satz, warum die Banane botanisch eine Beere ist, die Erdbeere aber nicht.",
+  "recallAnswer": "Die Banane entsteht als fleischige Frucht aus einem einzelnen Fruchtknoten, während bei der Erdbeere der rote Teil überwiegend aus dem Blütenboden entsteht und die kleinen Punkte außen die eigentlichen Einzelfrüchte sind.",
+  "relatedLessonIds": [
+    "fun-biology-flamingo-pink"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

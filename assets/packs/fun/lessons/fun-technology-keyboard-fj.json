@@ -1,0 +1,72 @@
+{
+  "id": "fun-technology-keyboard-fj",
+  "title": "Warum haben die Tasten F und J kleine Erhebungen?",
+  "durationMinutes": 5,
+  "categoryId": "technology",
+  "path": [
+    "Mensch & Maschine",
+    "Tastatur"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Tastatur",
+    "F-Taste",
+    "J-Taste",
+    "Blindschreiben",
+    "Ergonomie"
+  ],
+  "synonyms": [
+    "Noppen F J",
+    "Tastatur Erhebung",
+    "keyboard bumps"
+  ],
+  "summary": "Die kleinen Markierungen helfen den Zeigefingern, die Grundposition zu finden, ohne auf die Tastatur schauen zu müssen.",
+  "whyRelevant": "Ein winziges Detail auf fast jeder Tastatur zeigt, wie gutes Interface-Design den Tastsinn nutzt und visuelle Aufmerksamkeit spart.",
+  "learningGoal": "Du kannst erklären, wozu die fühlbaren Markierungen auf F und J dienen.",
+  "sections": [
+    {
+      "title": "Die Finger brauchen einen Referenzpunkt",
+      "body": "Beim Zehnfingerschreiben liegen die Finger in einer Grundposition auf der mittleren Buchstabenreihe. Die linken Finger orientieren sich an A, S, D und F; die rechten an J, K, L und der angrenzenden Taste. Die Zeigefinger liegen damit auf F und J. Kleine fühlbare Erhebungen auf genau diesen beiden Tasten geben den Händen einen festen Referenzpunkt. Man kann die Grundposition finden, ohne auf die Tastatur schauen zu müssen."
+    },
+    {
+      "title": "Tastsinn ersetzt einen Blick",
+      "body": "Das ist ein Beispiel für haptisches Design. Informationen werden nicht nur visuell dargestellt, sondern über den Tastsinn vermittelt. Ein geübter Schreiber kann die Hände kurz anheben und anschließend allein durch die Markierungen wieder korrekt positionieren. Das spart Aufmerksamkeit und ermöglicht, den Blick auf Bildschirm oder Text zu richten. Ähnliche fühlbare Orientierungshilfen gibt es an vielen Geräten, etwa auf bestimmten Zifferntasten von Telefonen oder Bedienfeldern.\n\nWenn du die Hände bewusst von der Tastatur nimmst und wieder auflegst, kannst du den Effekt leicht testen: Die Zeigefinger suchen die beiden Markierungen, danach finden die übrigen Finger ihre Position fast automatisch. Die Information ist klein, aber genau am richtigen Ort."
+    },
+    {
+      "title": "Kleine Details können Bedienung stark verbessern",
+      "body": "Die Markierungen sind technisch unspektakulär und kosten fast keinen Platz. Trotzdem verbessern sie die Benutzbarkeit eines Geräts deutlich. Genau solche Details sind in der Ergonomie wichtig: Ein gutes Interface zwingt den Menschen nicht, jeden Schritt bewusst zu kontrollieren. Es unterstützt Gewohnheiten, mehrere Sinne und motorisches Gedächtnis. Die zwei kleinen Striche auf F und J sind deshalb eine Art „unsichtbare Navigation“ für die Hände.\n\nBarrierearme Produkte nutzen solche Mehrkanal-Hinweise bewusst. Eine wichtige Funktion ausschließlich über Farbe zu kennzeichnen wäre beispielsweise problematisch; ein fühlbares Merkmal kann zusätzlich Menschen helfen, die nicht auf visuelle Hinweise angewiesen sein wollen oder können."
+    }
+  ],
+  "misconception": "Die Erhebungen markieren nicht besonders häufige Buchstaben. Ihre Funktion ist die haptische Orientierung der Zeigefinger.",
+  "keyTakeaways": [
+    "F und J markieren die Grundposition der Zeigefinger.",
+    "Die Orientierung funktioniert ohne Blick auf die Tastatur.",
+    "Das ist ein einfaches Beispiel für haptisches und ergonomisches Interface-Design."
+  ],
+  "questions": [
+    {
+      "id": "fun-fj-q1",
+      "prompt": "Warum befinden sich die fühlbaren Markierungen gerade auf F und J?",
+      "options": [
+        "Weil F und J die häufigsten Buchstaben sind.",
+        "Weil dort in der Grundposition die Zeigefinger liegen.",
+        "Weil diese Tasten mechanisch stabilisiert werden müssen."
+      ],
+      "correctIndex": 1,
+      "explanation": "F und J dienen als haptische Referenz für die Zeigefinger in der üblichen Grundposition des Zehnfingersystems."
+    }
+  ],
+  "recallPrompt": "Welche Information vermitteln die Erhebungen auf F und J, ohne dass du hinschauen musst?",
+  "recallAnswer": "Sie zeigen den Zeigefingern die Grundposition auf der Tastatur und helfen dadurch, die restlichen Finger automatisch auszurichten.",
+  "relatedLessonIds": [
+    "fun-technology-airplane-ashtray"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

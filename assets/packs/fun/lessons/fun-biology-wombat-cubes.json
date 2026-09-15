@@ -1,0 +1,72 @@
+{
+  "id": "fun-biology-wombat-cubes",
+  "title": "Warum machen Wombats würfelförmigen Kot?",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Tierwelt",
+    "Verdauung"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Wombat",
+    "Australien",
+    "Verdauung",
+    "Tiere",
+    "Würfel"
+  ],
+  "synonyms": [
+    "Wombat Würfel",
+    "würfelförmiger Kot",
+    "cube poop"
+  ],
+  "summary": "Wombats produzieren tatsächlich kantige Kotstücke – die Form entsteht im letzten Teil des Darms.",
+  "whyRelevant": "Es klingt wie ein erfundener Internet-Fakt, ist aber ein gutes Beispiel dafür, wie Materialeigenschaften und Anatomie zusammen ungewöhnliche Formen erzeugen.",
+  "learningGoal": "Du kannst erklären, wie die Würfelform im Darm entsteht und warum sie für Wombats nützlich sein kann.",
+  "sections": [
+    {
+      "title": "Die Würfel werden nicht „gepresst“",
+      "body": "Wombats sind die einzigen bekannten Tiere, die regelmäßig annähernd würfelförmige Kotstücke produzieren. Lange war unklar, wo diese Form entsteht. Untersuchungen des Darms zeigten: Die Würfel werden nicht erst am Ausgang geformt. Die Form entwickelt sich bereits im Dickdarm, während dem Nahrungsbrei immer mehr Wasser entzogen wird. Aus einem weichen Material wird dabei zunehmend ein festes, formstabiles Stück."
+    },
+    {
+      "title": "Unterschiedliche Elastizität formt Kanten",
+      "body": "Der entscheidende Punkt ist, dass die Darmwand nicht überall gleich elastisch ist. Manche Bereiche dehnen sich stärker, andere weniger. Während der Darminhalt weitertransportiert und getrocknet wird, wirken dadurch unterschiedliche Kräfte auf das Material. Vergleichbar mit einem weichen Gegenstand, der wiederholt aus verschiedenen Richtungen gedrückt wird, entstehen flachere Seiten und deutlichere Kanten. Die Form ist also das Ergebnis aus langsamer Trocknung, Transportbewegung und den mechanischen Eigenschaften des Darms.\n\nDie Verdauung von Wombats ist langsam und auf nährstoffarme Pflanzenkost ausgelegt. Der Darminhalt verbringt vergleichsweise lange Zeit im Verdauungstrakt, wodurch sehr viel Wasser entzogen werden kann. Diese starke Trocknung ist eine wichtige Voraussetzung dafür, dass das Material überhaupt stabil genug wird, um Kanten zu behalten."
+    },
+    {
+      "title": "Wozu könnten Würfel gut sein?",
+      "body": "Wombats setzen Kot an markanten Stellen ab und nutzen Gerüche zur Kommunikation und Reviermarkierung. Kantige Stücke rollen weniger leicht von Steinen, Baumstämmen oder anderen erhöhten Flächen herunter als runde. Das ist eine plausible funktionale Erklärung für den Nutzen der Form. Wichtig ist jedoch die Trennung: Wie die Würfel entstehen, ist mechanisch gut untersucht; warum sich diese besondere Form evolutionär etabliert hat, wird als funktionale Interpretation betrachtet und ist schwieriger direkt zu beweisen.\n\nExperimente mit mathematischen und mechanischen Modellen zeigen, dass man keine würfelförmige Röhre braucht, um kantige Formen zu erzeugen. Entscheidend ist, wie weiches Material wiederholt unterschiedlich stark verformt wird."
+    }
+  ],
+  "misconception": "Der After des Wombats ist nicht würfelförmig. Die Form entsteht schon vorher durch Trocknung und unterschiedliche mechanische Eigenschaften des Darms.",
+  "keyTakeaways": [
+    "Wombatkot wird im Dickdarm kantig geformt.",
+    "Unterschiedlich elastische Darmbereiche erzeugen beim Trocknen verschiedene Kräfte.",
+    "Kantige Kotstücke können beim Markieren von erhöhten Stellen weniger leicht wegrollen."
+  ],
+  "questions": [
+    {
+      "id": "fun-wombat-q1",
+      "prompt": "Wo entsteht die charakteristische Würfelform hauptsächlich?",
+      "options": [
+        "Erst beim Austritt aus dem Körper.",
+        "Während Trocknung und Transport im Dickdarm.",
+        "Nachdem der Kot an der Luft mehrere Stunden liegt."
+      ],
+      "correctIndex": 1,
+      "explanation": "Die Form entsteht bereits im Darm durch die Kombination aus Wasserentzug, Bewegung und unterschiedlich elastischen Darmabschnitten."
+    }
+  ],
+  "recallPrompt": "Welche zwei Faktoren sind für die Würfelform besonders wichtig?",
+  "recallAnswer": "Die zunehmende Trocknung des Darminhalts und unterschiedlich elastische Bereiche der Darmwand, die verschiedene Kräfte auf das Material ausüben.",
+  "relatedLessonIds": [
+    "fun-biology-octopus-hearts"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

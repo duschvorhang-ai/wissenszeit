@@ -68,14 +68,37 @@
   function isDue(id) { const p=pFor(id); return p.completions>0 && p.nextReviewAt>0 && p.nextReviewAt<=Date.now(); }
   function funLesson(l) { const hay=[...(l.tags||[]),...(l.synonyms||[])].join(' ').toLowerCase(); return hay.includes('unnützes wissen') || hay.includes('unnuetzes wissen') || l.packId.includes('fun') || packTitle(l.packId).toLowerCase().includes('unnützes'); }
 
-  async function loadBasePack() {
-    const manifest = await fetch('./assets/packs/basis/manifest.json').then(r=>r.json());
-    const lessons = await Promise.all(manifest.lessonFiles.map(f=>fetch('./assets/packs/basis/lessons/'+f).then(r=>r.json())));
+  async function loadBundledPack(folder) {
+    const manifest = await fetch(`./assets/packs/${folder}/manifest.json`).then(r=>{
+      if(!r.ok) throw new Error(`Lernpaket ${folder} konnte nicht geladen werden.`);
+      return r.json();
+    });
+    const lessons = await Promise.all((manifest.lessonFiles||[]).map(f=>fetch(`./assets/packs/${folder}/lessons/${f}`).then(r=>{
+      if(!r.ok) throw new Error(`Lerneinheit ${f} konnte nicht geladen werden.`);
+      return r.json();
+    })));
     const pack = {id:manifest.id,title:manifest.title,version:manifest.version||1,description:manifest.description||'',author:manifest.author||'Wissenszeit',builtIn:true,lessonIds:lessons.map(l=>l.id)};
+    return {pack,lessons};
+  }
+
+  async function loadBasePack() {
+    const bundledList = await Promise.all([
+      loadBundledPack('basis'),
+      loadBundledPack('fun')
+    ]);
+    const bundled = Object.fromEntries(bundledList.map(x=>[x.pack.id,x]));
     const imported = STORE.get('importedPacks', {});
-    const allPacks = {[pack.id]: {pack, lessons}, ...imported};
-    state.packs = Object.values(allPacks).map(x=>x.pack);
-    state.lessons = Object.values(allPacks).flatMap(x=>x.lessons.map(l=>({...l,packId:l.packId||x.pack.id,coverageWeight:l.coverageWeight ?? (l.durationMinutes>=20?2.5:1)})));
+    const merged = {...imported};
+
+    // Zentrale Standardpakete gewinnen bei gleicher oder neuerer Version.
+    // Fortschritt und Aktiv/Deaktiviert-Status liegen separat und bleiben erhalten.
+    for (const [id, builtIn] of Object.entries(bundled)) {
+      const manual = imported[id];
+      if (!manual || Number(builtIn.pack.version||1) >= Number(manual.pack?.version||1)) merged[id] = builtIn;
+    }
+
+    state.packs = Object.values(merged).map(x=>x.pack);
+    state.lessons = Object.values(merged).flatMap(x=>x.lessons.map(l=>({...l,packId:l.packId||x.pack.id,coverageWeight:l.coverageWeight ?? (l.durationMinutes>=20?2.5:1)})));
     state.baseLoaded=true;
   }
 

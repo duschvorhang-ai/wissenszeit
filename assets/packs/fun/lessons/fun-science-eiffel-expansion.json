@@ -1,0 +1,72 @@
+{
+  "id": "fun-science-eiffel-expansion",
+  "title": "Warum wird der Eiffelturm im Sommer größer?",
+  "durationMinutes": 5,
+  "categoryId": "science",
+  "path": [
+    "Physik",
+    "Wärmeausdehnung"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Eiffelturm",
+    "Wärmeausdehnung",
+    "Metall",
+    "Temperatur",
+    "Paris"
+  ],
+  "synonyms": [
+    "Eiffel tower grows",
+    "Eiffelturm Sommer höher",
+    "thermische Ausdehnung"
+  ],
+  "summary": "Metall dehnt sich bei Erwärmung aus – bei einem 300-Meter-Bauwerk wird der Effekt messbar.",
+  "whyRelevant": "Wärmeausdehnung begegnet uns überall, bleibt im Alltag aber oft unsichtbar. Der Eiffelturm macht den Effekt anschaulich.",
+  "learningGoal": "Du kannst erklären, warum große Metallkonstruktionen ihre Abmessungen mit der Temperatur verändern.",
+  "sections": [
+    {
+      "title": "Atome bewegen sich stärker",
+      "body": "Ein Metallstab wirkt fest und unveränderlich, besteht aber aus Atomen, die ständig schwingen. Steigt die Temperatur, nimmt ihre mittlere Bewegungsenergie zu. In einem realen Festkörper führt das dazu, dass der mittlere Abstand zwischen den Atomen etwas größer wird. Der einzelne Abstand ändert sich nur minimal. Über viele Meter summieren sich diese winzigen Änderungen jedoch zu einem messbaren Effekt: Das Material dehnt sich aus."
+    },
+    {
+      "title": "Bei einem Turm summiert sich viel Länge",
+      "body": "Der Eiffelturm besteht überwiegend aus Eisen beziehungsweise schmiedeeisernen Bauteilen. Zwischen kalten Wintertagen und heißen Sommertagen kann die Temperatur des Metalls um viele Grad schwanken. Dadurch verändert sich die Gesamthöhe des Turms um mehrere Zentimeter; häufig wird für starke saisonale Unterschiede eine Größenordnung von rund einem Dutzend Zentimetern genannt. Zusätzlich kann einseitige Sonneneinstrahlung eine Seite stärker erwärmen, sodass sich die Turmspitze geringfügig von der Sonne weg bewegt.\n\nDer Effekt lässt sich sogar grob berechnen: Für viele Metalle kennt man einen linearen Wärmeausdehnungskoeffizienten. Multipliziert man Ausgangslänge, Temperaturänderung und diesen Koeffizienten, erhält man eine Näherung der Längenänderung. Bei wenigen Zentimetern pro hundert Meter wird aus unsichtbarer Atomphysik plötzlich Architektur."
+    },
+    {
+      "title": "Darum brauchen Bauwerke Bewegungsraum",
+      "body": "Der Eiffelturm ist nur ein spektakuläres Beispiel. Brücken, Schienen, Rohrleitungen und Fassaden müssen ebenfalls mit temperaturbedingter Ausdehnung umgehen. Konstruktionen besitzen deshalb Dehnfugen, Lager oder andere Elemente, die kleine Bewegungen zulassen. Würde man lange Bauteile vollkommen starr einspannen, könnten bei Temperaturänderungen große Spannungen entstehen. Ein „wachsender“ Turm ist also keine Kuriosität außerhalb der normalen Physik, sondern die sichtbare Folge eines Effekts, den Ingenieurinnen und Ingenieure ständig berücksichtigen.\n\nAuch beim Verlegen von Bahngleisen und beim Bau langer Rohrleitungen ist dieser Effekt wichtig. Moderne Konstruktionen verhindern nicht jede Bewegung, sondern kontrollieren, wo und wie sie stattfinden darf."
+    }
+  ],
+  "misconception": "Der Turm wächst nicht dauerhaft. Er wird bei Erwärmung größer und zieht sich bei Abkühlung wieder zusammen.",
+  "keyTakeaways": [
+    "Metalle dehnen sich bei Erwärmung aus.",
+    "Bei sehr langen Konstruktionen summieren sich winzige Längenänderungen zu Zentimetern.",
+    "Ingenieurbauten brauchen deshalb konstruktiven Spielraum für Temperaturänderungen."
+  ],
+  "questions": [
+    {
+      "id": "fun-eiffel-q1",
+      "prompt": "Warum ist Wärmeausdehnung bei großen Bauwerken relevant?",
+      "options": [
+        "Weil jedes Atom mehrere Zentimeter größer wird.",
+        "Weil sich sehr kleine Änderungen über große Längen summieren.",
+        "Weil Metall bei Wärme dauerhaft weicher und länger bleibt."
+      ],
+      "correctIndex": 1,
+      "explanation": "Die Änderung auf atomarer Ebene ist winzig, aber über Hunderte Meter kann daraus eine messbare Längenänderung entstehen."
+    }
+  ],
+  "recallPrompt": "Warum kann der Eiffelturm an heißen Tagen höher sein als an kalten?",
+  "recallAnswer": "Weil sich das Metall bei Erwärmung thermisch ausdehnt und sich die kleinen Längenänderungen über die gesamte Konstruktion summieren.",
+  "relatedLessonIds": [
+    "fun-earth-petrichor"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "fun-biology-flamingo-pink",
+  "title": "Warum sind Flamingos eigentlich rosa?",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Tierwelt",
+    "Pigmente"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Flamingo",
+    "Rosa",
+    "Carotinoide",
+    "Pigmente",
+    "Vögel"
+  ],
+  "synonyms": [
+    "Flamingos pink",
+    "warum Flamingo rosa",
+    "Flamingofarbe"
+  ],
+  "summary": "Flamingos werden nicht rosa geboren – Farbstoffe aus der Nahrung werden im Körper umgebaut und im Gefieder eingelagert.",
+  "whyRelevant": "Die auffällige Farbe eines Flamingos ist ein direkt sichtbares Beispiel dafür, wie Ernährung, Stoffwechsel und Erscheinungsbild zusammenhängen.",
+  "learningGoal": "Du kannst erklären, woher die rosa Färbung von Flamingos stammt.",
+  "sections": [
+    {
+      "title": "Junge Flamingos starten eher grau",
+      "body": "Flamingos kommen nicht mit dem kräftigen rosa bis rötlichen Gefieder erwachsener Tiere zur Welt. Junge Tiere tragen zunächst ein eher graues oder weißliches Gefieder. Die typische Farbe entwickelt sich mit der Zeit. Der entscheidende Rohstoff stammt aus der Nahrung: Flamingos nehmen verschiedene Carotinoide auf. Das sind Farbstoffe, die auch vielen Pflanzen, Algen und Tieren gelbe, orange oder rote Töne verleihen."
+    },
+    {
+      "title": "Die Nahrung liefert die Pigmente",
+      "body": "Je nach Flamingoart besteht die Nahrung unter anderem aus kleinen Krebstieren, Algen und anderen Organismen. Diese enthalten Carotinoide oder haben sie zuvor aus ihrer eigenen Nahrung aufgenommen. Im Verdauungssystem werden die Farbstoffe verarbeitet. Anschließend gelangen Pigmente über den Stoffwechsel in Haut und Federn. Dort sorgen sie für die charakteristischen Farbtöne. Welche Nuance entsteht, hängt unter anderem von Art, Ernährung und Stoffwechsel ab.\n\nDie Intensität der Farbe ist bei Flamingos außerdem nicht völlig konstant. Während Federwachstum, Ernährung und Gesundheitszustand können sich Farbtöne verändern. Federn selbst sind nach dem Wachstum totes Material; Pigmente müssen deshalb während der Federbildung eingelagert werden."
+    },
+    {
+      "title": "Farbe ist biologisch, nicht dekorativ",
+      "body": "Dass Ernährung das Aussehen beeinflusst, ist nicht auf Flamingos beschränkt. Carotinoide spielen bei vielen Tierarten eine Rolle in Haut-, Feder- oder Schalenfarben. Bei Flamingos ist der Effekt nur besonders auffällig. In menschlicher Haltung muss die Ernährung deshalb passende Carotinoidquellen enthalten, wenn die natürliche Färbung erhalten bleiben soll. Ein Flamingo ist also nicht einfach „von Natur aus rosa“ im Sinne einer unveränderlichen Lackfarbe – sein Aussehen entsteht aus Genetik, Nahrung und Stoffwechsel gemeinsam.\n\nBei einigen Flamingos spielen zusätzlich pigmenthaltige Sekrete aus Drüsen eine Rolle, die beim Putzen auf Federn verteilt werden können. Das zeigt, dass selbst eine scheinbar einfache Frage wie „Warum rosa?“ mehrere biologische Ebenen berührt."
+    }
+  ],
+  "misconception": "Flamingos sind nicht deshalb rosa, weil ihr Gefieder von Geburt an rosa pigmentiert ist. Die Färbung entwickelt sich durch aufgenommene und verarbeitete Carotinoide.",
+  "keyTakeaways": [
+    "Junge Flamingos sind zunächst eher grau oder hell.",
+    "Carotinoide aus der Nahrung liefern die Ausgangsstoffe für die Färbung.",
+    "Stoffwechsel und Ernährung bestimmen mit, wie kräftig die Farbe ausfällt."
+  ],
+  "questions": [
+    {
+      "id": "fun-flamingo-q1",
+      "prompt": "Was ist die wichtigste Quelle für die rosa Färbung von Flamingos?",
+      "options": [
+        "Carotinoide aus der Nahrung.",
+        "Direkte Sonneneinstrahlung auf weiße Federn.",
+        "Eisen im Blut, das in die Federn gelangt."
+      ],
+      "correctIndex": 0,
+      "explanation": "Carotinoide aus Nahrung wie Algen und kleinen Organismen werden verarbeitet und als Pigmente im Körper beziehungsweise Gefieder wirksam."
+    }
+  ],
+  "recallPrompt": "Warum wird ein Flamingo mit der Zeit rosa?",
+  "recallAnswer": "Weil er Carotinoide über die Nahrung aufnimmt, diese im Stoffwechsel verarbeitet und Pigmente in Haut und Gefieder einlagert.",
+  "relatedLessonIds": [
+    "fun-biology-banana-berry"
+  ],
+  "coverageWeight": 0.45,
+  "collections": [
+    "fun-facts"
+  ]
+}

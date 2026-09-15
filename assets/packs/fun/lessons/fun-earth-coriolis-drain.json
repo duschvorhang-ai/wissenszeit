@@ -1,0 +1,76 @@
+{
+  "id": "fun-earth-coriolis-drain",
+  "title": "Warum Toiletten nicht wegen der Erdhalbkugel andersherum wirbeln",
+  "durationMinutes": 5,
+  "categoryId": "earth",
+  "path": [
+    "Erde",
+    "Corioliskraft",
+    "Alltagsmythen"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Spezialwissen",
+    "Corioliskraft",
+    "Erdrotation",
+    "Abfluss",
+    "Toilette",
+    "Wirbel",
+    "Halbkugel"
+  ],
+  "synonyms": [
+    "Coriolis toilet",
+    "Abfluss Nordhalbkugel",
+    "Waschbecken Wirbelrichtung"
+  ],
+  "summary": "Die Corioliskraft beeinflusst großräumige Luft- und Meeresströmungen, ist in einem normalen Waschbecken oder WC aber viel zu schwach, um zuverlässig die Drehrichtung festzulegen. Dort dominieren Form, Zufluss und vorhandene Restbewegungen.",
+  "whyRelevant": "Der Mythos verbindet einen echten physikalischen Effekt mit der falschen Größenskala – ein Muster, das in vielen populären Erklärungen vorkommt.",
+  "learningGoal": "Du kannst erklären, wann die Corioliskraft relevant wird und warum ein Haushaltsabfluss kein verlässlicher Test für die Erdhalbkugel ist.",
+  "sections": [
+    {
+      "title": "Die Corioliskraft ist real",
+      "body": "In einem rotierenden Bezugssystem wie der Erde erscheinen bewegte Massen seitlich abgelenkt. Auf der Nordhalbkugel erfolgt diese scheinbare Ablenkung relativ zur Bewegungsrichtung nach rechts, auf der Südhalbkugel nach links. Bei großräumigen Wetter- und Ozeanströmungen wirkt der Effekt lange genug und über genügend große Distanzen, um die Rotation von Tiefdruckgebieten oder Strömungsmuster mitzuprägen. Die Corioliskraft ist also keineswegs erfunden – nur ihre Bedeutung hängt stark von Größe und Zeitdauer eines Vorgangs ab."
+    },
+    {
+      "title": "Im Waschbecken sind andere Effekte viel stärker",
+      "body": "Ein Becken ist klein, Wasser fließt nur kurze Zeit und startet selten vollkommen bewegungslos. Schon ein minimal schräger Abfluss, eine asymmetrische Beckenform oder die Bewegung beim Herausziehen des Stöpsels erzeugt Drehimpuls, der den Corioliseffekt deutlich übertrifft. Auch ein WC ist kein neutrales Experiment: Düsen und Beckenform geben der Strömung konstruktiv eine bevorzugte Richtung. Man kann daher auf derselben Halbkugel verschiedene Waschbecken finden, deren Wasser in entgegengesetzte Richtungen wirbelt."
+    },
+    {
+      "title": "Unter Laborbedingungen kann der Effekt sichtbar werden",
+      "body": "In sorgfältig kontrollierten Experimenten mit großen, symmetrischen Gefäßen kann man Restströmungen lange abklingen lassen und das Wasser sehr langsam ablaufen lassen. Dann kann die schwache Wirkung der Erdrotation messbar werden. Gerade das zeigt aber, warum der Alltagstest nicht funktioniert: Man muss fast alle stärkeren Störungen gezielt entfernen. Die richtige Lehre lautet also nicht „Coriolis wirkt nie auf einen Abfluss“, sondern „im normalen Haushalt bestimmt Coriolis die Drehrichtung nicht zuverlässig“."
+    }
+  ],
+  "misconception": "Dass die Corioliskraft in einem Haushaltsabfluss nicht sichtbar dominiert, bedeutet nicht, dass sie grundsätzlich zu schwach oder unreal ist. Ihre Bedeutung wächst mit räumlicher und zeitlicher Skala.",
+  "keyTakeaways": [
+    "Coriolis prägt großräumige Strömungen, nicht zuverlässig die Drehrichtung normaler Waschbecken.",
+    "Lokale Geometrie und Restbewegungen sind im kleinen Becken viel stärker.",
+    "In streng kontrollierten Experimenten kann die Erdrotation auch bei Wassergefäßen messbar werden."
+  ],
+  "questions": [
+    {
+      "id": "fun-earth-coriolis-q1",
+      "prompt": "Warum ist die Drehrichtung eines normalen Waschbeckens kein verlässlicher Hinweis auf die Erdhalbkugel?",
+      "options": [
+        "Weil lokale Strömungen und Beckenform den schwachen Corioliseffekt überlagern.",
+        "Weil sich die Erde nicht schnell genug dreht, um irgendeinen Corioliseffekt zu erzeugen.",
+        "Weil Wasser grundsätzlich nicht von der Erdrotation beeinflusst wird."
+      ],
+      "correctIndex": 0,
+      "explanation": "Im Haushaltsmaßstab dominieren viele stärkere lokale Einflüsse."
+    }
+  ],
+  "recallPrompt": "Warum ist der Waschbecken-Mythos trotzdem nicht völlig aus der Luft gegriffen?",
+  "recallAnswer": "Weil die Corioliskraft ein realer Effekt der Erdrotation ist und unter ausreichend großen oder streng kontrollierten Bedingungen Strömungen beeinflusst. Im normalen Waschbecken ist sie aber zu schwach gegenüber lokalen Störungen.",
+  "relatedLessonIds": [
+    "geography-timezones",
+    "fun-geography-china-timezone"
+  ],
+  "coverageWeight": 0.35,
+  "collections": [
+    "fun-facts"
+  ]
+}

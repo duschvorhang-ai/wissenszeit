@@ -1,0 +1,74 @@
+{
+  "id": "fun-science-mirror-reversal",
+  "title": "Warum Spiegel links und rechts gar nicht vertauschen",
+  "durationMinutes": 5,
+  "categoryId": "science",
+  "path": [
+    "Optik",
+    "Spiegel",
+    "Raumwahrnehmung"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Spezialwissen",
+    "Spiegel",
+    "Optik",
+    "Reflexion",
+    "Links Rechts",
+    "Wahrnehmung"
+  ],
+  "synonyms": [
+    "mirror reversal",
+    "Spiegelverkehrt",
+    "Spiegelschrift"
+  ],
+  "summary": "Ein ebener Spiegel vertauscht physikalisch nicht links und rechts, sondern die Richtung senkrecht zur Spiegelfläche: vorne und hinten. Dass wir dennoch von „links-rechts vertauscht“ sprechen, entsteht durch die Art, wie wir uns gedanklich mit unserem Spiegelbild vergleichen.",
+  "whyRelevant": "Das ist ein schönes Beispiel dafür, wie eine intuitive Beschreibung korrekt wirkt, obwohl die zugrunde liegende Geometrie etwas anderes sagt.",
+  "learningGoal": "Du kannst erklären, welche Raumachse ein Spiegel tatsächlich umkehrt und warum Schrift trotzdem spiegelverkehrt erscheint.",
+  "sections": [
+    {
+      "title": "Der Spiegel kehrt die Tiefenrichtung um",
+      "body": "Stell dich vor einen Spiegel und hebe deine rechte Hand. Dein Spiegelbild hebt die Hand auf der Seite, die dir gegenüber links erscheint. Daraus entsteht die Aussage, der Spiegel vertausche links und rechts. Physikalisch passiert jedoch etwas anderes: Ein ebener Spiegel bildet jeden Punkt so ab, als läge er gleich weit hinter der Spiegeloberfläche wie der reale Punkt davor. Die Richtung senkrecht zur Spiegeloberfläche wird damit umgekehrt – vorne wird zu hinten. Oben bleibt oben und die horizontale Position bleibt ebenfalls erhalten. Ein Punkt, der auf deiner rechten Seite liegt, erscheint weiterhin auf der rechten Seite des Spiegelraums."
+    },
+    {
+      "title": "Warum fühlt es sich trotzdem nach links-rechts an?",
+      "body": "Wenn wir unser Spiegelbild mit einer zweiten Person vergleichen, stellen wir uns unbewusst oft vor, wir hätten uns um eine vertikale Achse gedreht und stünden uns nun gegenüber. Bei einer solchen Drehung tauschen linke und rechte Körperseite relativ zum Betrachter ihre Position. Man könnte sich stattdessen vorstellen, man werde über den Kopf nach hinten geklappt; dann würde die intuitive Beschreibung eher „oben und unten vertauscht“ lauten. Der Spiegel selbst wählt keine dieser Drehungen. Er erzeugt lediglich die geometrische Reflexion an seiner Ebene."
+    },
+    {
+      "title": "Spiegelschrift zeigt die gleiche Geometrie",
+      "body": "Schrift wirkt im Spiegel horizontal umgedreht, weil die Vorderseite des beschrifteten Objekts im Spiegel nach hinten gespiegelt wird. Um die reale Schrift so auszurichten wie ihr Spiegelbild, würden wir ein Blatt typischerweise um eine vertikale Achse wenden – und genau diese menschliche Vergleichsbewegung lässt links und rechts vertauscht erscheinen. Mathematisch ist entscheidend: Spiegelung und Drehung sind unterschiedliche Transformationen. Der alltägliche Ausdruck „seitenverkehrt“ ist nützlich, aber keine präzise Beschreibung der Raumtransformation."
+    }
+  ],
+  "misconception": "Der Spiegel entscheidet nicht, links und rechts zu tauschen. Er spiegelt die Achse senkrecht zu seiner Fläche; der Eindruck einer Links-Rechts-Vertauschung entsteht durch unseren Vergleich mit einer gedrehten Person.",
+  "keyTakeaways": [
+    "Ein ebener Spiegel kehrt die Tiefenrichtung an der Spiegeloberfläche um.",
+    "Links-rechts entsteht als intuitive Vergleichsvorstellung, nicht als besondere Eigenschaft der Reflexion.",
+    "Spiegelschrift folgt derselben Geometrie."
+  ],
+  "questions": [
+    {
+      "id": "fun-science-mirror-reversal-q1",
+      "prompt": "Welche Richtung wird bei einem ebenen Spiegel physikalisch gespiegelt?",
+      "options": [
+        "Die Richtung senkrecht zur Spiegeloberfläche – vorne und hinten.",
+        "Ausschließlich links und rechts.",
+        "Ausschließlich oben und unten."
+      ],
+      "correctIndex": 0,
+      "explanation": "Bei der Spiegelung wird die Koordinate normal zur Spiegeloberfläche umgekehrt."
+    }
+  ],
+  "recallPrompt": "Warum sagt man trotzdem oft, ein Spiegel vertausche links und rechts?",
+  "recallAnswer": "Weil wir unser Spiegelbild gedanklich häufig mit einer Person vergleichen, die sich um eine vertikale Achse zu uns herumgedreht hat. Diese gedachte Drehung tauscht die Körperseiten; die Spiegelung selbst kehrt dagegen die Tiefenrichtung um.",
+  "relatedLessonIds": [
+    "science-blue-sky"
+  ],
+  "coverageWeight": 0.35,
+  "collections": [
+    "fun-facts"
+  ]
+}

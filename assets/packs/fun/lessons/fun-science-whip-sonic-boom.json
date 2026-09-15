@@ -1,0 +1,75 @@
+{
+  "id": "fun-science-whip-sonic-boom",
+  "title": "Warum eine Peitsche knallt: ein winziger Überschallknall",
+  "durationMinutes": 5,
+  "categoryId": "science",
+  "path": [
+    "Physik",
+    "Wellen",
+    "Überschall"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "Unnützes Wissen",
+    "unnuetzes_wissen",
+    "Fun Fact",
+    "Überraschendes Wissen",
+    "Spezialwissen",
+    "Peitsche",
+    "Überschall",
+    "Schallmauer",
+    "Schall",
+    "Welle",
+    "Mechanik"
+  ],
+  "synonyms": [
+    "whip crack",
+    "sonic boom whip",
+    "Peitschenknall"
+  ],
+  "summary": "Der Knall einer Peitsche entsteht, weil sich eine Störung entlang der sich verjüngenden Peitsche beschleunigt und Teile nahe der Spitze Überschallgeschwindigkeit erreichen können. Dabei entstehen Stoßwellen – im Prinzip ein sehr kleiner Überschallknall.",
+  "whyRelevant": "Der Effekt ist ein überraschendes Stück Hochgeschwindigkeitsphysik in einem uralten Alltagsobjekt und zeigt, wie Energie durch Geometrie konzentriert werden kann.",
+  "learningGoal": "Du kannst erklären, warum die Spitze einer Peitsche viel schneller als die Hand werden kann und weshalb der Knall mit einer Stoßwelle zusammenhängt.",
+  "sections": [
+    {
+      "title": "Die Hand muss nicht Überschall erreichen",
+      "body": "Beim Schwingen einer Peitsche läuft eine Biegung beziehungsweise Welle vom Griff in Richtung Spitze. Die Peitsche wird dabei immer dünner und leichter. Energie und Impuls der Bewegung werden auf zunehmend weniger bewegte Masse übertragen. Dadurch steigt die lokale Geschwindigkeit stark an. Die Hand selbst bewegt sich vergleichsweise langsam; die Geometrie der Peitsche konzentriert die Bewegung entlang ihrer Länge. Der genaue Vorgang ist dynamisch und komplexer als eine einfache starre Hebelwirkung, aber die Verjüngung spielt eine zentrale Rolle."
+    },
+    {
+      "title": "Nahe der Spitze kann die Schallgeschwindigkeit überschritten werden",
+      "body": "Hochgeschwindigkeitsaufnahmen und Messungen zeigen, dass Bereiche nahe dem Ende einer korrekt geführten Peitsche Geschwindigkeiten oberhalb der lokalen Schallgeschwindigkeit erreichen können. Bewegt sich ein Objekt oder eine Störung schneller als sich Druckinformationen in der Luft ausbreiten, können sich Druckwellen zu einer Stoßfront überlagern. Diese abrupte Druckänderung hören wir als scharfen Knall. Der Effekt ähnelt dem Überschallknall eines Flugzeugs, ist aber räumlich und energetisch sehr viel kleiner."
+    },
+    {
+      "title": "Der „Cracker“ macht den Knall leichter hörbar",
+      "body": "Am Ende vieler Peitschen sitzt ein sehr leichter Faden, der sogenannte Cracker. Er kann besonders hohe Geschwindigkeiten erreichen und eine deutliche Stoßwelle erzeugen. Historisch ist der Peitschenknall bemerkenswert: Menschen erzeugten Überschallbewegungen lange bevor Flugzeuge existierten oder die Physik der Schallmauer verstanden wurde. Der Knall ist damit kein Geräusch zweier Teile, die wie Klatschen aufeinanderschlagen, sondern hauptsächlich eine Folge extrem schneller Bewegung in der Luft."
+    }
+  ],
+  "misconception": "Der typische Knall entsteht nicht einfach dadurch, dass die Peitsche irgendwo „zusammenschlägt“. Entscheidend ist die hoch beschleunigte Bewegung nahe der Spitze und die daraus entstehende Stoßwelle.",
+  "keyTakeaways": [
+    "Eine Welle läuft entlang der sich verjüngenden Peitsche und beschleunigt zur Spitze hin.",
+    "Bereiche nahe der Spitze können Überschallgeschwindigkeit erreichen.",
+    "Der hörbare Knall ist im Wesentlichen eine kleine Stoßwelle."
+  ],
+  "questions": [
+    {
+      "id": "fun-science-whip-q1",
+      "prompt": "Warum kann die Peitschenspitze viel schneller sein als die Hand?",
+      "options": [
+        "Die Bewegungsenergie wird entlang der leichter werdenden, verjüngten Peitsche konzentriert.",
+        "Die Spitze besitzt einen kleinen Motor.",
+        "Die Schwerkraft beschleunigt die Spitze immer auf Überschall."
+      ],
+      "correctIndex": 0,
+      "explanation": "Die Wellendynamik und abnehmende Masse zur Spitze ermöglichen sehr hohe lokale Geschwindigkeiten."
+    }
+  ],
+  "recallPrompt": "Was hat ein Peitschenknall mit einem Überschallflugzeug gemeinsam?",
+  "recallAnswer": "In beiden Fällen entstehen Stoßwellen, wenn sich eine Bewegung relativ zur Luft schneller als die Schallgeschwindigkeit ausbreitet. Bei der Peitsche geschieht das nur in einem kleinen Bereich nahe der Spitze.",
+  "relatedLessonIds": [
+    "science-atoms"
+  ],
+  "coverageWeight": 0.35,
+  "collections": [
+    "fun-facts"
+  ]
+}

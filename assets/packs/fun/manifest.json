@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "wissenszeit-unnuetzes-wissen-pilot",
+  "title": "Unnützes Wissen",
+  "version": 3,
+  "author": "Wissenszeit",
+  "description": "18 überraschende, kuriose und fundierte Lerninhalte aus Natur, Alltag, Geschichte und Technik – darunter fünf Spezialwissen-Einheiten.",
+  "lessonFiles": [
+    "fun-biology-banana-berry.json",
+    "fun-earth-petrichor.json",
+    "fun-biology-wombat-cubes.json",
+    "fun-biology-octopus-hearts.json",
+    "fun-science-eiffel-expansion.json",
+    "fun-biology-flamingo-pink.json",
+    "fun-biology-cats-sweet.json",
+    "fun-technology-airplane-ashtray.json",
+    "fun-technology-keyboard-fj.json",
+    "fun-history-month-names.json",
+    "fun-geography-china-timezone.json",
+    "fun-psychology-senses-weird.json",
+    "fun-biology-evolution-tinkering.json",
+    "fun-science-mirror-reversal.json",
+    "fun-science-glass-liquid-myth.json",
+    "fun-earth-coriolis-drain.json",
+    "fun-science-whip-sonic-boom.json",
+    "fun-biology-uv-flowers.json"
+  ]
+}
