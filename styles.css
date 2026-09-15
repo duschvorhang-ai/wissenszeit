@@ -171,3 +171,39 @@ h2.section-title { font-size:1.55rem; margin:28px 0 14px; letter-spacing:-.02em;
   .time-card { min-height:138px; padding:17px; }
   .time-card strong { font-size:1.35rem; }
 }
+
+/* v0.2 – geführter Lernmodus */
+.lesson-shell { padding-bottom: 118px; }
+.lesson-meta { min-width:0; }
+.lesson-progress-head { display:flex; align-items:center; justify-content:space-between; gap:14px; margin:16px 0 8px; color:var(--muted); font-size:.9rem; }
+.lesson-progress-head > div { display:flex; align-items:center; gap:9px; min-width:0; }
+.lesson-progress-head strong { color:var(--text); font-size:.95rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.step-number { display:inline-flex; align-items:center; background:var(--primary-soft); color:var(--primary); border-radius:999px; padding:5px 9px; font-weight:700; white-space:nowrap; }
+.lesson-progress-track { height:7px; border-radius:999px; overflow:hidden; background:var(--surface-3); margin:0 0 18px; }
+.lesson-progress-fill { height:100%; border-radius:inherit; background:linear-gradient(90deg,var(--primary),var(--primary-2)); transition:width .22s ease; }
+.lesson-page h1 { margin-bottom:8px; }
+.step-title { color:var(--primary); font-weight:700; font-size:1rem; margin-bottom:18px; }
+.lesson-step-content { animation:lessonStepIn .18s ease-out; }
+@keyframes lessonStepIn { from { opacity:.35; transform:translateY(5px); } to { opacity:1; transform:none; } }
+.step-kicker { color:var(--primary); font-weight:700; font-size:.84rem; text-transform:uppercase; letter-spacing:.035em; margin-bottom:7px; }
+.lesson-reading { margin:12px 0; }
+.lesson-reading .small { margin-bottom:7px; }
+.learning-goal { background:linear-gradient(145deg,var(--surface),var(--surface-2)); }
+.preknowledge { padding:20px; }
+.reflection { margin-top:16px; border-left:3px solid var(--primary); background:var(--surface-2); color:var(--muted); border-radius:0 16px 16px 0; padding:13px 14px; line-height:1.52; }
+.recall-card .secondary-btn { margin-top:14px; }
+.recall-pause { margin:14px 0 0; color:var(--muted); background:var(--surface-2); border-radius:14px; padding:11px 13px; font-size:.9rem; line-height:1.45; }
+.completion-card { text-align:center; background:linear-gradient(145deg,var(--surface),var(--surface-2)); }
+.completion-mastery { color:var(--primary); font-size:2.7rem; line-height:1; margin:14px 0 12px; font-weight:500; }
+.lesson-actions { display:grid; grid-template-columns:minmax(105px,.72fr) minmax(0,1.28fr); gap:10px; }
+.lesson-actions .primary-btn,.lesson-actions .secondary-btn { margin:0; min-height:48px; }
+.lesson-actions .secondary-btn:disabled { opacity:.38; cursor:default; }
+.lesson-footer { padding-top:9px; }
+@media (max-width:430px) {
+  .lesson-page h1 { font-size:1.82rem; }
+  .lesson-shell { padding-left:15px; padding-right:15px; }
+  .lesson-progress-head { margin-top:13px; }
+  .section-card { padding:17px; }
+  .lesson-actions { grid-template-columns:108px 1fr; gap:9px; }
+  .lesson-actions .primary-btn,.lesson-actions .secondary-btn { padding-left:12px; padding-right:12px; font-size:.93rem; }
+}

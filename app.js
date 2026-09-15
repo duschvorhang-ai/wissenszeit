@@ -25,6 +25,7 @@
   const state = {
     view: 'start',
     lesson: null,
+    lessonStep: 0,
     category: null,
     settings: false,
     search: { query:'', duration:null, level:null, unlearned:false, more:false, category:'', pack:'', includeDisabled:false },
@@ -170,10 +171,131 @@
     return `<div class="settings-modal" data-action="close-settings"><section class="settings-sheet" onclick="event.stopPropagation()"><h2>Einstellungen</h2><div class="settings-row"><label>Name</label><input id="setting-name" value="${escapeHtml(name)}"/></div><div class="settings-row"><label>Darstellung</label><select id="setting-theme"><option value="system" ${theme==='system'?'selected':''}>System</option><option value="light" ${theme==='light'?'selected':''}>Hell</option><option value="dark" ${theme==='dark'?'selected':''}>Dunkel</option></select></div><div class="stack"><button class="primary-btn" data-action="save-settings">Speichern</button><button class="secondary-btn" data-action="close-settings">Schließen</button></div></section></div>`;
   }
 
-  function lessonView(l) {
-    const p=pFor(l.id), answers=STORE.get('quiz:'+l.id,{});
-    return `<div class="lesson-page"><main class="page"><div class="lesson-top"><button class="back" data-action="back">‹</button><div><div class="small">${escapeHtml(cat(l.categoryId).shortTitle)} · ${l.durationMinutes} Min · ${escapeHtml(levelLabel(l.knowledgeLevel))}</div><div class="small">Lernpaket: ${escapeHtml(packTitle(l.packId))}</div></div></div><h1>${escapeHtml(l.title)}</h1><p class="small">${escapeHtml(l.learningGoal||'')}</p><section class="relevant"><strong>Warum relevant?</strong><div style="margin-top:7px;line-height:1.55">${escapeHtml(l.whyRelevant||'')}</div></section>${(l.sections||[]).map((s,i)=>`<section class="section-card"><div class="small">${i+1} / ${(l.sections||[]).length}</div><h2>${escapeHtml(s.title)}</h2><p>${escapeHtml(s.body)}</p></section>`).join('')}${l.misconception?`<section class="section-card misconception"><h2>Typische Fehlannahme</h2><p>${escapeHtml(l.misconception)}</p></section>`:''}<section class="section-card takeaways"><h2>Das solltest du mitnehmen</h2><ul>${(l.keyTakeaways||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul></section>${(l.questions||[]).map((q,qi)=>quizHtml(l,q,qi,answers[q.id])).join('')}<section class="section-card"><h2>Aktiver Abruf</h2><p>${escapeHtml(l.recallPrompt||'')}</p><button class="secondary-btn" data-action="show-recall">Musterantwort anzeigen</button><div id="recall-answer" class="recall-answer">${escapeHtml(l.recallAnswer||'')}</div></section><div class="small" style="margin-top:18px">Aktueller Wissensstand: ${Math.round(p.mastery||0)} %</div></main><footer class="lesson-footer"><div class="inner"><button class="primary-btn" data-action="complete-lesson">Einheit abschließen</button></div></footer></div>`;
+  function sectionBlock(section, index=null) {
+    if (!section) return '';
+    const kicker = index === null ? '' : `<div class="small">Abschnitt ${index + 1}</div>`;
+    return `<section class="section-card lesson-reading">${kicker}<h2>${escapeHtml(section.title)}</h2><p>${escapeHtml(section.body)}</p></section>`;
   }
+
+  function misconceptionBlock(l) {
+    return l.misconception ? `<section class="section-card misconception"><div class="step-kicker">Perspektive</div><h2>Typische Fehlannahme</h2><p>${escapeHtml(l.misconception)}</p></section>` : '';
+  }
+
+  function takeawaysBlock(l) {
+    const items=l.keyTakeaways||[];
+    if(!items.length) return '';
+    return `<section class="section-card takeaways"><div class="step-kicker">Merken</div><h2>Das solltest du mitnehmen</h2><ul>${items.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul></section>`;
+  }
+
+  function recallBlock(l) {
+    return `<section class="section-card recall-card"><div class="step-kicker">Aktiver Abruf</div><h2>Erkläre es mit deinen eigenen Worten</h2><p>${escapeHtml(l.recallPrompt||'Fasse den wichtigsten Gedanken dieser Einheit in eigenen Worten zusammen.')}</p><div class="recall-pause">Denk erst kurz selbst nach, bevor du die Musterantwort öffnest.</div><button class="secondary-btn" data-action="show-recall">Musterantwort anzeigen</button><div id="recall-answer" class="recall-answer">${escapeHtml(l.recallAnswer||'')}</div></section>`;
+  }
+
+  function quizBlock(l) {
+    const answers=STORE.get('quiz:'+l.id,{}), questions=l.questions||[];
+    if(!questions.length) return `<section class="section-card"><h2>Wissens-Check</h2><p>Für diese Einheit ist kein Quiz hinterlegt. Geh direkt zum nächsten Schritt.</p></section>`;
+    return questions.map((q,qi)=>quizHtml(l,q,qi,answers[q.id])).join('');
+  }
+
+  function lessonSteps(l) {
+    const sections=l.sections||[];
+    if(l.durationMinutes<=5) {
+      const cut=Math.max(1,Math.ceil(sections.length/2));
+      const first=sections.slice(0,cut);
+      const second=sections.slice(cut);
+      return [
+        {
+          label:'Verstehen',
+          title:'Worum geht es?',
+          html:`<section class="relevant"><div class="step-kicker">Warum relevant?</div><div>${escapeHtml(l.whyRelevant||l.summary||'')}</div></section>${first.map((x,i)=>sectionBlock(x,i)).join('')}`
+        },
+        {
+          label:'Vertiefen',
+          title:'Den Gedanken festigen',
+          html:`${second.map((x,i)=>sectionBlock(x,cut+i)).join('')}${misconceptionBlock(l)}${takeawaysBlock(l)}` || `<section class="section-card"><p>${escapeHtml(l.summary||'')}</p></section>`
+        },
+        {
+          label:'Prüfen',
+          title:'Wissens-Check',
+          html:quizBlock(l)
+        },
+        {
+          label:'Erinnern',
+          title:'Aktiv erinnern',
+          html:`${recallBlock(l)}${takeawaysBlock(l)}`
+        }
+      ];
+    }
+
+    // 20-Minuten-Einheiten: bewusst in neun kleine Etappen aufgeteilt.
+    const n=sections.length;
+    const a=Math.min(n,Math.max(1,Math.ceil(n*0.28)));
+    const b=Math.min(n,Math.max(a+1,Math.ceil(n*0.55)));
+    const c=Math.min(n,Math.max(b+1,Math.ceil(n*0.72)));
+    const fundamentals=sections.slice(0,a);
+    const connections=sections.slice(a,b);
+    const examples=sections.slice(b,c);
+    const perspectives=sections.slice(c);
+    return [
+      {
+        label:'Orientierung',
+        title:'Worum geht es?',
+        html:`<section class="relevant"><div class="step-kicker">Warum relevant?</div><div>${escapeHtml(l.whyRelevant||l.summary||'')}</div></section><section class="section-card learning-goal"><div class="step-kicker">Lernziel</div><h2>Nach dieser Einheit kannst du …</h2><p>${escapeHtml(l.learningGoal||'die zentralen Zusammenhänge dieses Themas erklären.')}</p></section>`
+      },
+      {
+        label:'Vorwissen',
+        title:'Was weißt du schon?',
+        html:`<section class="section-card preknowledge"><div class="step-kicker">Vorwissen aktivieren</div><h2>Bevor du weiterliest</h2><p>Was fällt dir zu „${escapeHtml(l.title)}“ bereits ein? Formuliere für dich zwei oder drei Gedanken – es geht noch nicht darum, richtig zu liegen.</p><div class="reflection">${escapeHtml(l.summary||'')}</div></section>`
+      },
+      {
+        label:'Fundament',
+        title:'Die Grundlagen',
+        html:fundamentals.map((x,i)=>sectionBlock(x,i)).join('') || `<section class="section-card"><p>${escapeHtml(l.summary||'')}</p></section>`
+      },
+      {
+        label:'Zusammenhang',
+        title:'Wie hängt es zusammen?',
+        html:connections.map((x,i)=>sectionBlock(x,a+i)).join('') || `<section class="section-card"><p>${escapeHtml(l.summary||'')}</p></section>`
+      },
+      {
+        label:'Beispiel',
+        title:'Vertiefung und Anwendung',
+        html:examples.map((x,i)=>sectionBlock(x,b+i)).join('') || `<section class="section-card"><p>${escapeHtml(l.summary||'')}</p></section>`
+      },
+      {
+        label:'Perspektive',
+        title:'Einordnen und hinterfragen',
+        html:`${perspectives.map((x,i)=>sectionBlock(x,c+i)).join('')}${misconceptionBlock(l)}` || misconceptionBlock(l) || `<section class="section-card"><p>${escapeHtml(l.summary||'')}</p></section>`
+      },
+      {
+        label:'Wissens-Check',
+        title:'Prüfe dein Verständnis',
+        html:quizBlock(l)
+      },
+      {
+        label:'Transfer',
+        title:'Kannst du es selbst erklären?',
+        html:recallBlock(l)
+      },
+      {
+        label:'Abschluss',
+        title:'Das bleibt hängen',
+        html:`${takeawaysBlock(l)}<section class="section-card completion-card"><div class="step-kicker">Dein Wissensstand</div><div class="completion-mastery">${Math.round(pFor(l.id).mastery||0)} %</div><p>Mit dem Abschluss wird diese Einheit in deinen Lernfortschritt übernommen und für spätere Wiederholungen eingeplant.</p></section>`
+      }
+    ];
+  }
+
+  function lessonView(l) {
+    const steps=lessonSteps(l);
+    const stored=Number.isFinite(Number(state.lessonStep))?Number(state.lessonStep):0;
+    const stepIndex=Math.max(0,Math.min(steps.length-1,stored));
+    state.lessonStep=stepIndex;
+    const step=steps[stepIndex];
+    const pct=Math.round(((stepIndex+1)/steps.length)*100);
+    const isFirst=stepIndex===0, isLast=stepIndex===steps.length-1;
+    return `<div class="lesson-page"><main class="page lesson-shell"><div class="lesson-top"><button class="back" data-action="back" aria-label="Einheit verlassen">‹</button><div class="lesson-meta"><div class="small">${escapeHtml(cat(l.categoryId).shortTitle)} · ${l.durationMinutes} Min · ${escapeHtml(levelLabel(l.knowledgeLevel))}</div><div class="small">Lernpaket: ${escapeHtml(packTitle(l.packId))}</div></div></div><div class="lesson-progress-head"><div><span class="step-number">${stepIndex+1} von ${steps.length}</span><strong>${escapeHtml(step.label)}</strong></div><span>${pct} %</span></div><div class="lesson-progress-track"><div class="lesson-progress-fill" style="width:${pct}%"></div></div><h1>${escapeHtml(l.title)}</h1><div class="step-title">${escapeHtml(step.title)}</div><div class="lesson-step-content">${step.html}</div></main><footer class="lesson-footer"><div class="inner lesson-actions"><button class="secondary-btn lesson-prev" data-action="lesson-prev" ${isFirst?'disabled':''}>← Zurück</button>${isLast?`<button class="primary-btn lesson-next" data-action="complete-lesson">Einheit abschließen</button>`:`<button class="primary-btn lesson-next" data-action="lesson-next">Weiter →</button>`}</div></footer></div>`;
+  }
+
   function quizHtml(l,q,qi,selected) {
     return `<section class="section-card quiz"><div class="small">Wissens-Check ${qi+1}</div><h2>${escapeHtml(q.prompt)}</h2>${q.options.map((o,i)=>{let cls='quiz-option'; if(selected!==undefined){ if(i===q.correctIndex) cls+=' correct'; else if(i===selected) cls+=' wrong'; } return `<button class="${cls}" data-quiz="${escapeHtml(q.id)}" data-choice="${i}" ${selected!==undefined?'disabled':''}>${escapeHtml(o)}</button>`}).join('')}${selected!==undefined?`<div class="feedback">${escapeHtml(q.explanation||'')}</div>`:''}</section>`;
   }
@@ -196,7 +318,7 @@
   }
 
   function showToast(msg) { state.toast=msg; render(); setTimeout(()=>{state.toast='';render()},2200); }
-  function openLesson(id) { state.lesson=state.lessons.find(l=>l.id===id)||null; window.scrollTo(0,0); render(); }
+  function openLesson(id) { state.lesson=state.lessons.find(l=>l.id===id)||null; state.lessonStep=Number(STORE.get('lessonStep:'+id,0))||0; window.scrollTo(0,0); render(); }
   function chooseDuration(d) { const l=selectRecommendation(d); if(l) openLesson(l.id); else showToast(`Keine ${d}-Minuten-Einheit verfügbar.`); }
   function surprise() { const list=activeLessons().filter(funLesson); const unseen=list.filter(l=>pFor(l.id).completions===0); const pool=unseen.length?unseen:list; if(pool.length) openLesson(pool[Math.floor(Math.random()*pool.length)].id); }
   function completeLesson() {
@@ -211,7 +333,7 @@
     else mastery=Math.min(100,(old.mastery||0)+8+score*12);
     const days=mastery<60?1:mastery<75?3:mastery<90?7:21;
     all[l.id]={mastery,completions:(old.completions||0)+1,lastScore:score,lastLearnedAt:Date.now(),nextReviewAt:Date.now()+days*86400000};
-    saveProgress(all); STORE.del('quiz:'+l.id); state.lesson=null; state.view='start'; showToast('Einheit abgeschlossen.');
+    saveProgress(all); STORE.del('quiz:'+l.id); STORE.del('lessonStep:'+l.id); state.lessonStep=0; state.lesson=null; state.view='start'; showToast('Einheit abgeschlossen.');
   }
 
   async function unzipLearnpack(file) {
@@ -262,6 +384,8 @@
     document.querySelectorAll('[data-category]').forEach(x=>x.onclick=()=>{state.category=x.dataset.category;render();window.scrollTo(0,0)});
     document.querySelector('[data-action="back-knowledge"]')?.addEventListener('click',()=>{state.category=null;render()});
     document.querySelector('[data-action="back"]')?.addEventListener('click',()=>{state.lesson=null;render()});
+    document.querySelector('[data-action="lesson-prev"]')?.addEventListener('click',()=>{if(!state.lesson)return;state.lessonStep=Math.max(0,state.lessonStep-1);STORE.set('lessonStep:'+state.lesson.id,state.lessonStep);render();window.scrollTo(0,0)});
+    document.querySelector('[data-action="lesson-next"]')?.addEventListener('click',()=>{if(!state.lesson)return;const total=lessonSteps(state.lesson).length;state.lessonStep=Math.min(total-1,state.lessonStep+1);STORE.set('lessonStep:'+state.lesson.id,state.lessonStep);render();window.scrollTo(0,0)});
     document.querySelector('[data-action="show-recall"]')?.addEventListener('click',()=>document.getElementById('recall-answer')?.classList.add('show'));
     document.querySelector('[data-action="complete-lesson"]')?.addEventListener('click',completeLesson);
     document.querySelectorAll('[data-quiz]').forEach(x=>x.onclick=()=>{const l=state.lesson, a=STORE.get('quiz:'+l.id,{});a[x.dataset.quiz]=Number(x.dataset.choice);STORE.set('quiz:'+l.id,a);render()});
