@@ -1,0 +1,63 @@
+{
+  "id": "culture-chords",
+  "packId": "general-knowledge-basis",
+  "title": "Warum funktionieren Akkorde?",
+  "durationMinutes": 5,
+  "categoryId": "culture",
+  "path": [
+    "Musik",
+    "Musiktheorie"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Akkord",
+    "Tonleiter",
+    "Dreiklang",
+    "Dur",
+    "Moll",
+    "Harmonie"
+  ],
+  "synonyms": [
+    "chord",
+    "music theory"
+  ],
+  "summary": "Akkorde entstehen, wenn mehrere Töne gleichzeitig erklingen. In westlicher tonaler Musik bilden Dreiklänge aus Grundton, Terz und Quinte eine zentrale harmonische Grundlage.",
+  "whyRelevant": "Wer Akkorde versteht, erkennt das Gerüst vieler Popsongs, klassischer Stücke und Begleitungen. Schon wenig Theorie macht musikalische Strukturen deutlich leichter hörbar.",
+  "learningGoal": "Du kannst erklären, wie ein Dur- beziehungsweise Moll-Dreiklang aufgebaut ist und warum Akkordfolgen Spannung und Auflösung erzeugen können.",
+  "sections": [
+    {
+      "title": "Drei Töne bilden einen Dreiklang",
+      "body": "Ein einfacher Dreiklang besteht aus Grundton, Terz und Quinte. Von C aus erhält man in C-Dur die Töne C, E und G. Der Abstand zwischen C und E ist eine große Terz, zwischen E und G eine kleine Terz. Beim C-Moll-Dreiklang wird E zu Es: C, Es, G. Dadurch liegt unten die kleine und oben die große Terz. Diese unterschiedliche Struktur prägt den charakteristischen Klang von Dur und Moll."
+    },
+    {
+      "title": "Akkorde gehören zu einer Tonart",
+      "body": "Eine Tonleiter stellt einen Vorrat an Tönen bereit. Auf jeder Stufe kann man prinzipiell durch Terzschichtung einen Dreiklang bilden. In C-Dur entstehen dadurch unter anderem C-Dur, F-Dur und G-Dur. Diese Akkorde haben innerhalb der Tonart unterschiedliche Funktionen. Besonders wichtig sind Tonika, Subdominante und Dominante. Ihre Beziehungen schaffen Erwartungen, die unser Ohr durch musikalische Erfahrung gelernt hat."
+    },
+    {
+      "title": "Spannung und Auflösung",
+      "body": "Der Dominantakkord enthält Töne, die stark zur Tonika hinführen. In C-Dur erzeugt G-Dur beziehungsweise G7 daher häufig das Gefühl, nach C-Dur zurückzukehren. Musik muss diese Erwartung nicht erfüllen; Komponisten können sie verzögern oder überraschen. Akkordfolgen funktionieren also nicht wie Naturgesetze, sondern als Mischung aus akustischen Beziehungen, kulturellen Konventionen und erlernten Hörerwartungen."
+    }
+  ],
+  "misconception": "Dur ist nicht objektiv immer „fröhlich“ und Moll nicht immer „traurig“. Tempo, Rhythmus, Melodie, Klangfarbe und kultureller Kontext beeinflussen die Wirkung mindestens ebenso.",
+  "keyTakeaways": [
+    "Ein Dreiklang besteht in der Grundform aus Grundton, Terz und Quinte.",
+    "Dur und Moll unterscheiden sich unter anderem durch die Lage der Terz.",
+    "Akkordfolgen erzeugen durch tonale Funktionen Erwartungen von Spannung und Auflösung."
+  ],
+  "questions": [
+    {
+      "id": "culture-chords-q1",
+      "prompt": "Welche Töne bilden einen C-Dur-Dreiklang?",
+      "options": [
+        "C – E – G",
+        "C – F – A",
+        "C – Es – G"
+      ],
+      "correctIndex": 0,
+      "explanation": "C, E und G bilden Grundton, große Terz und Quinte des C-Dur-Dreiklangs."
+    }
+  ],
+  "recallPrompt": "Was verändert sich zwischen C-Dur und C-Moll im einfachsten Dreiklang?",
+  "recallAnswer": "Die Terz wird abgesenkt: C-Dur besteht aus C–E–G, C-Moll aus C–Es–G. Dadurch ändert sich die Intervallstruktur und der harmonische Charakter.",
+  "relatedLessonIds": []
+}

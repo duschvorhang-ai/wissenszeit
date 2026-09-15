@@ -1,0 +1,131 @@
+{
+  "id": "technology-ai-kv-cache",
+  "title": "Warum lange KI-Chats so viel Speicher brauchen: der KV-Cache",
+  "durationMinutes": 20,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Künstliche Intelligenz",
+    "Inference"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "KI",
+    "LLM",
+    "KV-Cache",
+    "Inference",
+    "Transformer",
+    "Attention",
+    "Kontextfenster",
+    "VRAM",
+    "GPU",
+    "Prefill",
+    "Decode",
+    "Grouped Query Attention"
+  ],
+  "synonyms": [
+    "Key Value Cache",
+    "KV Cache",
+    "context window memory",
+    "Paged Attention",
+    "GQA",
+    "MQA"
+  ],
+  "summary": "Der KV-Cache speichert bereits berechnete Key- und Value-Repräsentationen früherer Tokens. Dadurch muss ein LLM beim schrittweisen Generieren nicht den gesamten Kontext neu berechnen – bezahlt dafür aber mit wachsendem Laufzeitspeicher.",
+  "whyRelevant": "Der KV-Cache erklärt viele praktische Eigenschaften von LLM-Systemen: warum lange Kontexte VRAM verbrauchen, warum parallele Nutzer teuer sind und weshalb moderne Serving-Architekturen so viel Aufwand in Speicherverwaltung investieren.",
+  "learningGoal": "Du kannst erklären, was im KV-Cache liegt, warum er Inferenz beschleunigt, wodurch seine Größe wächst und wie Techniken wie GQA oder Paged Attention den Engpass reduzieren.",
+  "sections": [
+    {
+      "title": "Warum Textgenerierung schrittweise erfolgt",
+      "body": "Ein autoregressives Sprachmodell erzeugt eine Antwort Token für Token. Zuerst verarbeitet es den gesamten vorhandenen Prompt und berechnet Wahrscheinlichkeiten für das nächste Token. Dieses neue Token wird an den Kontext angehängt; anschließend folgt das nächste. Würde das Modell bei jedem Schritt alle früheren Transformer-Berechnungen vollständig wiederholen, wäre das extrem verschwenderisch. Ein großer Teil der Informationen über bereits verarbeitete Tokens ändert sich nämlich nicht mehr. Genau hier setzt der KV-Cache an. Er speichert für vergangene Positionen die Key- und Value-Repräsentationen der Attention-Schichten, damit sie beim nächsten Generierungsschritt nicht erneut aus denselben alten Tokens berechnet werden müssen."
+    },
+    {
+      "title": "Was im KV-Cache gespeichert wird",
+      "body": "In jeder Attention-Schicht entstehen aus den Tokenrepräsentationen Query-, Key- und Value-Vektoren. Für ein neu erzeugtes Token benötigt das Modell einen neuen Query und neue K/V-Repräsentationen dieser Position. Die Keys und Values der früheren Tokens können jedoch wiederverwendet werden. Der KV-Cache enthält deshalb für jede relevante Schicht und Position die bereits berechneten Key- und Value-Tensoren. Beim nächsten Schritt wird nur die neue Position ergänzt. Der aktuelle Query kann dann gegen die gespeicherten Keys attentionieren und aus den gespeicherten Values Informationen übernehmen. Das spart viel Rechenarbeit, macht aber Speicher zum entscheidenden Faktor."
+    },
+    {
+      "title": "Langer Kontext kostet auch ohne mehr Parameter",
+      "body": "Die Größe der Modellgewichte hängt primär von der Parameterzahl und ihrer numerischen Präzision ab. Der KV-Cache wächst dagegen mit der Zahl der gleichzeitig gehaltenen Tokens, der Anzahl der Schichten, der Dimension der Key/Value-Köpfe, der Batchgröße und der verwendeten Präzision. Deshalb kann ein Modell mit identischen Gewichten bei einem kurzen Prompt deutlich weniger Laufzeitspeicher benötigen als bei einem sehr langen Kontext. Bei vielen parallelen Nutzern vervielfacht sich dieser Effekt, weil jeder aktive Kontext seinen eigenen Cache benötigt. In Servern ist die Frage „Wie viele Anfragen passen gleichzeitig in den GPU-Speicher?“ deshalb mindestens so wichtig wie die reine Modellgröße."
+    },
+    {
+      "title": "Prefill und Decode sind unterschiedliche Arbeitsphasen",
+      "body": "Bei der Inferenz lassen sich grob zwei Phasen unterscheiden. Im Prefill wird der vorhandene Prompt verarbeitet: Viele Tokens liegen gleichzeitig vor und die Hardware kann Matrixoperationen stark parallelisieren. Danach beginnt der Decode-Schritt, bei dem typischerweise jeweils nur ein neues Token erzeugt wird. Hier müssen für jede Schicht die relevanten Gewichte und Cache-Daten gelesen werden. Diese Phase ist häufig stärker durch Speicherbandbreite und Latenz geprägt. Das erklärt, warum die Geschwindigkeit beim Einlesen eines langen Prompts und die sichtbare Token-pro-Sekunde-Rate während der Ausgabe unterschiedliche Leistungsmerkmale sind."
+    },
+    {
+      "title": "Multi-Query und Grouped-Query Attention sparen Cache-Speicher",
+      "body": "Klassische Multi-Head Attention kann für jeden Attention-Kopf eigene Keys und Values verwenden. Das macht den KV-Cache groß. Moderne LLM-Architekturen nutzen deshalb häufig Multi-Query Attention oder Grouped-Query Attention. Dabei teilen sich mehrere Query-Köpfe dieselben Key/Value-Köpfe. Das reduziert die Menge gespeicherter K/V-Daten, ohne die Anzahl der Query-Projektionen im gleichen Maß zu reduzieren. Der Trade-off besteht darin, Effizienz und Modellqualität auszubalancieren. Diese Architekturentscheidung ist ein gutes Beispiel dafür, dass moderne Modelloptimierung nicht nur „mehr Parameter“ bedeutet, sondern gezielt Speicherbewegungen und Laufzeitkosten reduziert."
+    },
+    {
+      "title": "Warum sehr lange Chats irgendwann teuer werden",
+      "body": "Wenn ein Chat immer länger wird, wächst nicht nur der Text, den ein Modell theoretisch berücksichtigen kann. Bei jeder weiteren Ausgabe müssen Attention-Operationen auf einen größeren Bestand früherer Keys und Values zugreifen. Selbst mit Cache steigt deshalb der Aufwand. Anwendungen begrenzen Kontexte, fassen ältere Teile zusammen oder lagern Informationen in externe Speicher- und Retrieval-Systeme aus. Ein Kontextfenster von hunderttausenden Tokens bedeutet also nicht, dass es immer sinnvoll oder kostenlos wäre, es vollständig zu füllen. Relevanz, Latenz und Speicher bleiben praktische Grenzen."
+    },
+    {
+      "title": "Paged Attention und Speicherverwaltung",
+      "body": "Ein weiterer Engpass entsteht durch unterschiedlich lange Anfragen. Würde ein Server für jeden Nutzer einen großen zusammenhängenden Speicherblock reservieren, bliebe viel VRAM ungenutzt. Serving-Systeme können den KV-Cache deshalb ähnlich wie virtuelle Speicherverwaltung in kleinere Blöcke oder Seiten organisieren. Unter dem Begriff Paged Attention sind Verfahren bekannt geworden, die Cache-Blöcke flexibler zuweisen und wiederverwenden. Das ändert nicht die mathematische Grundidee von Attention, verbessert aber die Auslastung der Hardware erheblich. In produktiven KI-Systemen entscheidet solche Systemsoftware mit darüber, wie viele Nutzer gleichzeitig bedient werden können."
+    },
+    {
+      "title": "Latenz und Durchsatz sind nicht dasselbe",
+      "body": "Bei einem einzelnen Nutzer zählt vor allem, wie schnell das erste Token erscheint und wie flüssig die folgenden Tokens eintreffen. Ein Serverbetreiber optimiert zusätzlich den Gesamtdurchsatz: Wie viele Tokens kann die Hardware über alle Nutzer hinweg pro Sekunde erzeugen? Batching fasst mehrere Anfragen zusammen, damit Recheneinheiten besser ausgelastet werden. Große Batches erhöhen aber den gemeinsamen Speicherbedarf für KV-Caches und können die Wartezeit einzelner Anfragen verschlechtern. Serving-Systeme planen deshalb laufend, welche Sequenzen gemeinsam verarbeitet werden, welche Cache-Blöcke noch benötigt werden und wann Speicher freigegeben werden kann. Die scheinbar einfache Aufgabe „Text fortsetzen“ wird im Rechenzentrum dadurch zu einem Problem aus Matrixrechnung, Speicherbandbreite und Scheduling."
+    },
+    {
+      "title": "Prompt-Caching ist verwandt, aber nicht identisch",
+      "body": "Manche Anwendungen senden wiederholt denselben langen Systemprompt oder dieselben Dokumentanfänge. Dann kann es sinnvoll sein, bereits berechnete Zustände für diesen identischen Präfix über mehrere Anfragen hinweg wiederzuverwenden. Das wird oft als Prompt- oder Prefix-Caching bezeichnet. Technisch können dabei ebenfalls KV-Zustände wiederverwendet werden, doch der Anwendungsfall unterscheidet sich vom normalen KV-Cache einer laufenden Antwort: Der gewöhnliche Cache gehört zunächst zu einer aktiven Sequenz; Prefix-Caching versucht, identische Anfangsbereiche zwischen Sequenzen erneut nutzbar zu machen. Das funktioniert nur, wenn Tokenfolge, Modell und relevante Berechnungsbedingungen exakt kompatibel sind. Diese Technik zeigt erneut, wie wertvoll bereits berechnete Attention-Zustände sind – und warum moderne KI-Infrastruktur so stark von effizientem Cache-Management abhängt."
+    },
+    {
+      "title": "Der Cache ist temporäres Rechengedächtnis, kein Langzeitwissen",
+      "body": "Der Begriff Cache kann leicht mit Erinnerung verwechselt werden. Der KV-Cache speichert jedoch keine dauerhaft gelernten Fakten und verändert nicht die Modellgewichte. Er ist ein temporärer Zustand für den aktuellen Kontext und wird verworfen, wenn die Sitzung endet oder der Server ihn freigibt. Langzeitgedächtnis in einer KI-Anwendung benötigt andere Mechanismen, etwa Datenbanken, Nutzerprofile oder Retrieval. Der KV-Cache macht die vorhandene Transformer-Berechnung effizienter; er macht das Modell nicht nachträglich schlauer. Diese Trennung zwischen Parametern, Kontext und Laufzeitcache ist zentral, um die Architektur moderner LLM-Systeme zu verstehen."
+    }
+  ],
+  "misconception": "Der KV-Cache ist kein dauerhaftes Gedächtnis und kein Ersatz für RAG. Er speichert temporäre Attention-Zwischenergebnisse des aktuellen Kontexts und wird normalerweise nach der Sitzung verworfen.",
+  "keyTakeaways": [
+    "Autoregressive LLMs erzeugen Text Token für Token; der KV-Cache verhindert unnötige Neuberechnung alter K/V-Zustände.",
+    "Der Cache wächst mit Kontextlänge, Schichten, K/V-Dimension, Parallelität und Präzision.",
+    "Prefill und Decode belasten Hardware unterschiedlich.",
+    "GQA/MQA reduzieren die Zahl gespeicherter Key/Value-Köpfe.",
+    "Paged-Cache-Verfahren verbessern die Speicherauslastung bei vielen unterschiedlich langen Anfragen."
+  ],
+  "questions": [
+    {
+      "id": "technology-ai-kv-cache-q1",
+      "prompt": "Was speichert ein KV-Cache hauptsächlich?",
+      "options": [
+        "Bereits berechnete Key- und Value-Repräsentationen früherer Tokens.",
+        "Die vollständigen Trainingsdaten des Modells.",
+        "Nur die zuletzt ausgegebene Textzeile."
+      ],
+      "correctIndex": 0,
+      "explanation": "Der Cache hält K/V-Zustände früherer Positionen für die Attention-Schichten bereit."
+    },
+    {
+      "id": "technology-ai-kv-cache-q2",
+      "prompt": "Warum verbraucht ein längerer Kontext typischerweise mehr Laufzeitspeicher?",
+      "options": [
+        "Weil für mehr Token zusätzliche Key/Value-Zustände im Cache gehalten werden.",
+        "Weil die Modellparameter bei jedem Token größer werden.",
+        "Weil Text in Bilder umgewandelt wird."
+      ],
+      "correctIndex": 0,
+      "explanation": "Die Gewichte bleiben gleich; der temporäre Kontextzustand wächst."
+    },
+    {
+      "id": "technology-ai-kv-cache-q3",
+      "prompt": "Welchen Zweck hat Grouped-Query Attention unter anderem?",
+      "options": [
+        "Mehrere Query-Köpfe teilen sich weniger Key/Value-Köpfe und reduzieren so Cache-Speicher.",
+        "Sie löscht alte Modellgewichte.",
+        "Sie ersetzt Attention vollständig durch eine Datenbank."
+      ],
+      "correctIndex": 0,
+      "explanation": "GQA reduziert K/V-Speicher, indem mehrere Query-Köpfe gemeinsame Key/Value-Köpfe nutzen."
+    }
+  ],
+  "recallPrompt": "Erkläre den Unterschied zwischen Modellgewichten, Kontext und KV-Cache.",
+  "recallAnswer": "Modellgewichte sind die dauerhaft trainierten Parameter. Der Kontext sind die aktuell eingegebenen und erzeugten Tokens. Der KV-Cache ist ein temporärer Laufzeitzustand, der für frühere Kontexttokens bereits berechnete Key/Value-Repräsentationen speichert, um weitere Generierung effizienter zu machen.",
+  "relatedLessonIds": [
+    "technology-ai-attention-qkv",
+    "technology-ai-quantization",
+    "technology-llm"
+  ],
+  "coverageWeight": 1.5,
+  "packId": "general-knowledge-basis"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "science-atoms",
+  "packId": "general-knowledge-basis",
+  "title": "Was ist ein Atom eigentlich?",
+  "durationMinutes": 5,
+  "categoryId": "science",
+  "path": [
+    "Chemie",
+    "Atomphysik"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Atom",
+    "Elektron",
+    "Proton",
+    "Neutron",
+    "Element",
+    "Periodensystem"
+  ],
+  "synonyms": [
+    "Atome",
+    "atomic structure"
+  ],
+  "summary": "Atome sind die Bausteine chemischer Elemente. Sie bestehen aus einem winzigen Kern aus Protonen und Neutronen sowie einer Elektronenhülle, deren Struktur chemische Eigenschaften bestimmt.",
+  "whyRelevant": "Vom Salz bis zum Smartphone beruhen Stoffeigenschaften auf dem Aufbau und der Bindung von Atomen. Das Atommodell ist deshalb eine gemeinsame Grundlage von Chemie, Materialwissenschaft und moderner Technik.",
+  "learningGoal": "Du kannst Kern und Elektronenhülle unterscheiden und erklären, warum die Protonenzahl festlegt, um welches Element es sich handelt.",
+  "sections": [
+    {
+      "title": "Fast die gesamte Masse sitzt im Kern",
+      "body": "Ein Atom ist extrem klein und zum größten Teil leerer Raum. Im Zentrum sitzt der Atomkern. Protonen tragen positive elektrische Ladung, Neutronen sind elektrisch neutral. Beide besitzen ungefähr dieselbe Masse und machen fast die gesamte Atommasse aus. Elektronen sind negativ geladen und sehr viel leichter. Sie halten sich nicht wie kleine Planeten auf festen Kreisbahnen auf, sondern werden in der Quantenphysik durch Aufenthaltswahrscheinlichkeiten und Energieniveaus beschrieben."
+    },
+    {
+      "title": "Die Protonenzahl definiert das Element",
+      "body": "Ein Wasserstoffatom besitzt ein Proton, Kohlenstoff sechs und Sauerstoff acht. Ändert sich die Zahl der Protonen, handelt es sich um ein anderes chemisches Element. Die Zahl der Neutronen kann dagegen variieren; solche Varianten heißen Isotope. Bei neutralen Atomen entspricht die Elektronenzahl der Protonenzahl. Gibt ein Atom Elektronen ab oder nimmt welche auf, wird es elektrisch geladen und heißt Ion."
+    },
+    {
+      "title": "Chemie geschieht vor allem in der Hülle",
+      "body": "Bei gewöhnlichen chemischen Reaktionen bleiben Atomkerne erhalten. Entscheidend sind die Elektronen, insbesondere die äußeren. Ihre Verteilung bestimmt, wie leicht ein Atom Bindungen mit anderen Atomen eingeht. Dadurch entstehen Moleküle, Kristalle und die enorme Vielfalt bekannter Stoffe. Kernreaktionen sind etwas anderes: Dort verändern sich Atomkerne selbst, etwa bei radioaktivem Zerfall oder Kernfusion."
+    }
+  ],
+  "misconception": "Elektronen kreisen nicht wie winzige Planeten auf exakt festgelegten Bahnen um den Kern. Dieses ältere Bild ist anschaulich, aber für moderne Atomphysik zu grob.",
+  "keyTakeaways": [
+    "Der Kern enthält Protonen und Neutronen und fast die gesamte Masse.",
+    "Die Anzahl der Protonen bestimmt das chemische Element.",
+    "Chemische Eigenschaften hängen stark von der Elektronenstruktur ab."
+  ],
+  "questions": [
+    {
+      "id": "science-atoms-q1",
+      "prompt": "Was würde aus einem Kohlenstoffatom werden, wenn sein Kern statt sechs sieben Protonen hätte?",
+      "options": [
+        "Ein Kohlenstoff-Isotop",
+        "Stickstoff",
+        "Ein negativ geladenes Kohlenstoff-Ion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Die Protonenzahl ist die Ordnungszahl. Sieben Protonen definieren Stickstoff."
+    }
+  ],
+  "recallPrompt": "Welche Teilchenzahl musst du kennen, um eindeutig zu wissen, um welches chemische Element es sich handelt?",
+  "recallAnswer": "Die Zahl der Protonen im Atomkern. Sie ist die Ordnungszahl und definiert das Element.",
+  "relatedLessonIds": []
+}

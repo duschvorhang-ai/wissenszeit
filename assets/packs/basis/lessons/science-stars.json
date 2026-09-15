@@ -1,0 +1,111 @@
+{
+  "id": "science-stars",
+  "packId": "general-knowledge-basis",
+  "title": "Wie entstehen, leben und sterben Sterne?",
+  "durationMinutes": 20,
+  "categoryId": "science",
+  "path": [
+    "Astronomie",
+    "Sterne"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "Sterne",
+    "Sonne",
+    "Kernfusion",
+    "Supernova",
+    "Weißer Zwerg",
+    "Neutronenstern",
+    "Schwarzes Loch"
+  ],
+  "synonyms": [
+    "stellar evolution",
+    "Sternentwicklung"
+  ],
+  "summary": "Sterne sind keine unveränderlichen Lichtpunkte. Sie entstehen aus Gaswolken, verbringen den größten Teil ihres Lebens mit Kernfusion und enden je nach Masse als Weißer Zwerg, Neutronenstern oder möglicherweise Schwarzes Loch.",
+  "whyRelevant": "Sterne erzeugen Licht, Wärme und viele chemische Elemente, aus denen Planeten und Lebewesen bestehen. Sternentwicklung verbindet Gravitation, Kernphysik und die chemische Geschichte des Universums.",
+  "learningGoal": "Du kannst den Lebenszyklus eines Sterns erklären, die Rolle der Masse einordnen und beschreiben, warum schwere Elemente mit Sternen verbunden sind.",
+  "sections": [
+    {
+      "title": "Geburt aus kaltem Gas und Gravitation",
+      "body": "Sterne entstehen in großen, kalten Wolken aus Gas und Staub, die überwiegend aus Wasserstoff bestehen. Wird ein Teil einer solchen Wolke ausreichend dicht, kann seine eigene Gravitation das Material weiter zusammenziehen. Dabei entstehen Verdichtungen, aus denen Protosterne werden. Beim Kollaps wird Gravitationsenergie in Wärme umgewandelt; das Zentrum wird immer heißer und dichter. Noch leuchtet der junge Stern nicht hauptsächlich durch Kernfusion. Erst wenn im Inneren Temperaturen von mehreren Millionen Grad erreicht sind, können Wasserstoffkerne trotz ihrer elektrischen Abstoßung nahe genug zusammenkommen, dass die starke Kernkraft wirksam wird. Kernfusion setzt Energie frei. Damit beginnt die stabile Hauptphase eines Sterns. Nicht jede Gasverdichtung schafft diesen Schritt: Objekte mit zu geringer Masse werden zu Braunen Zwergen, in deren Zentrum keine dauerhafte Wasserstofffusion wie in normalen Sternen stattfindet."
+    },
+    {
+      "title": "Hauptreihe: Gleichgewicht zwischen Gravitation und Druck",
+      "body": "Während eines großen Teils seines Lebens befindet sich ein Stern in einem bemerkenswerten Gleichgewicht. Gravitation zieht Materie nach innen. Die hohe Temperatur und der durch Fusionsenergie erzeugte Druck wirken nach außen. Dieses hydrostatische Gleichgewicht verhindert, dass der Stern einfach kollabiert oder auseinanderfliegt. Im Kern wird Wasserstoff überwiegend zu Helium fusioniert. Unsere Sonne befindet sich seit rund 4,6 Milliarden Jahren in dieser Hauptreihenphase und wird dort noch mehrere Milliarden Jahre bleiben. Die Masse bestimmt entscheidend, wie ein Stern lebt: Massereiche Sterne besitzen mehr Brennstoff, verbrauchen ihn aber sehr viel schneller, weil ihr Inneres heißer ist und Fusionsreaktionen rasanter ablaufen. Deshalb können kleine Sterne wesentlich länger leben als große. Ein riesiger Stern hat also trotz mehr Material häufig eine deutlich kürzere Lebensdauer."
+    },
+    {
+      "title": "Wenn der Wasserstoff im Kern knapp wird",
+      "body": "Irgendwann ist der Wasserstoff im Kern weitgehend zu Helium umgewandelt. Die bisherige Energiequelle nimmt ab und das Gleichgewicht verändert sich. Der Kern zieht sich zusammen und wird heißer, während äußere Schichten sich stark ausdehnen. Ein sonnenähnlicher Stern wird zum Roten Riesen. Bei ausreichender Temperatur kann Helium zu schwereren Elementen wie Kohlenstoff und Sauerstoff fusionieren. In massereicheren Sternen setzt sich dieser Prozess stufenweise fort: Sie können nacheinander schwerere Elemente erzeugen, bis im Kern Eisen entsteht. Eisen markiert eine wichtige Grenze, weil seine Fusion unter normalen stellaren Bedingungen keine Energie mehr freisetzt. Damit fehlt irgendwann eine Energiequelle, die den gravitativen Kollaps des Kerns aufhalten kann."
+    },
+    {
+      "title": "Das Ende sonnenähnlicher Sterne",
+      "body": "Unsere Sonne ist nicht massereich genug für eine Supernova. Als Roter Riese wird sie ihre äußeren Schichten abstoßen. Das heiße freigelegte Zentrum bleibt als Weißer Zwerg zurück. Ein Weißer Zwerg besitzt ungefähr die Masse eines Sterns, ist aber nur etwa so groß wie die Erde. Er erzeugt keine neue Energie mehr durch normale Kernfusion und kühlt über enorme Zeiträume langsam aus. Dass er nicht weiter kollabiert, hängt mit quantenmechanischen Eigenschaften der Elektronen zusammen, dem sogenannten Entartungsdruck. Die abgestoßenen Gashüllen können als planetarischer Nebel sichtbar werden. Der Name ist historisch irreführend: Mit Planeten hat dieser Nebel nichts zu tun. Dieser vergleichsweise ruhige Endweg ist typisch für Sterne mit niedriger bis mittlerer Ausgangsmasse."
+    },
+    {
+      "title": "Massereiche Sterne, Supernovae und kompakte Reste",
+      "body": "Bei einem massereichen Stern kann der Eisenkern am Ende sehr schnell kollabieren. Unter bestimmten Bedingungen führt dieser Kollaps zu einer gewaltigen Supernovaexplosion. Dabei werden große Mengen Materie ins All geschleudert und Elemente verteilt, die zuvor im Stern entstanden sind; weitere schwere Elemente können in explosiven Prozessen und auch bei Verschmelzungen von Neutronensternen entstehen. Zurück bleibt ein extrem kompakter Rest. Ist der Kern nicht zu massereich, entsteht ein Neutronenstern: Materie wird so stark verdichtet, dass ein teelöffelgroßes Volumen auf der Erde eine unvorstellbar große Masse hätte. Bei noch größeren Restmassen kann der Kollaps zu einem Schwarzen Loch führen, aus dessen Ereignishorizont selbst Licht nicht mehr entkommt. Sternentod ist damit zugleich kosmisches Recycling: Material früherer Sterne wird Bestandteil neuer Gaswolken, Sterne, Planeten und letztlich auch unseres Körpers."
+    },
+    {
+      "title": "Sterne als chemische Fabriken",
+      "body": "Der frühe Kosmos bestand überwiegend aus Wasserstoff und Helium sowie Spuren leichter Elemente. Viele schwerere Elemente entstanden erst in Sternen. Während der Fusion werden in unterschiedlichen Sternphasen unter anderem Kohlenstoff, Sauerstoff, Neon und weitere Kerne aufgebaut. Sehr schwere Elemente benötigen zusätzliche Prozesse, etwa explosive Sternereignisse oder die Verschmelzung von Neutronensternen. Werden diese Materialien ins All ausgestoßen, reichern sie Gaswolken an, aus denen neue Sterne und Planetensysteme entstehen. Die Erde enthält daher Atome, die Teil früherer Sterngenerationen waren. Der populäre Satz, wir bestünden aus „Sternenstaub“, ist poetisch, besitzt aber einen realen astrophysikalischen Kern."
+    },
+    {
+      "title": "Wie Astronomen Sternentwicklung überhaupt kennen",
+      "body": "Kein Mensch kann einen sonnenähnlichen Stern über Milliarden Jahre beobachten. Astronomie rekonstruiert Entwicklung daher aus vielen Sternen verschiedener Massen und Altersstufen. Spektren verraten Temperatur und chemische Zusammensetzung; Helligkeit und Entfernung erlauben Rückschlüsse auf Energieabgabe. Sternhaufen sind besonders wertvoll, weil ihre Sterne ungefähr gleichzeitig entstanden, aber unterschiedliche Massen besitzen. Modelle der Kernphysik und Gravitation sagen voraus, wie Sterne sich entwickeln sollten, und lassen sich mit solchen Beobachtungen vergleichen. Der Lebenszyklus eines Sterns ist deshalb kein Zeitrafferfilm eines einzelnen Objekts, sondern ein aus Physik und vielen Beobachtungen zusammengesetztes Modell."
+    },
+    {
+      "title": "Transfer: Unsere Sonne als konkreter Stern",
+      "body": "Die Sonne macht Sternentwicklung greifbar. Sie besitzt etwa eine Sonnenmasse – per Definition unser Vergleichsmaß – und befindet sich stabil auf der Hauptreihe. In ihrem Kern verschmilzt Wasserstoff überwiegend über die Proton-Proton-Kette zu Helium. Weil sich Helium ansammelt, verändert sich der Kern sehr langsam; die Leuchtkraft der Sonne nimmt über geologische Zeiträume zu. In einigen Milliarden Jahren wird der Wasserstoff im Kern knapp, der Kern zieht sich zusammen und die äußeren Schichten dehnen sich zum Roten Riesen aus. Später stößt die Sonne äußere Hüllen ab und hinterlässt einen Weißen Zwerg. Sie wird nicht als Supernova explodieren. Dieses Beispiel zeigt, wie stark die Anfangsmasse den gesamten Entwicklungsweg vorgibt."
+    }
+  ],
+  "misconception": "Massereiche Sterne leben nicht länger, obwohl sie mehr Brennstoff besitzen. Ihre höheren Kerntemperaturen führen zu so viel schnellerer Fusion, dass sie ihren Brennstoff in deutlich kürzerer Zeit verbrauchen.",
+  "keyTakeaways": [
+    "Sterne entstehen durch gravitativen Kollaps von Gas und beginnen zu leuchten, wenn Kernfusion einsetzt.",
+    "Während der Hauptreihe halten sich Gravitation und innerer Druck ungefähr im Gleichgewicht.",
+    "Die Masse bestimmt Lebensdauer und Endzustand eines Sterns.",
+    "Sonnenähnliche Sterne enden als Weiße Zwerge; massereiche Sterne können als Supernova explodieren und Neutronensterne oder Schwarze Löcher hinterlassen.",
+    "Sterne erzeugen und verteilen viele Elemente, aus denen spätere Planetensysteme bestehen."
+  ],
+  "questions": [
+    {
+      "id": "science-stars-q1",
+      "prompt": "Warum leben sehr massereiche Sterne kürzer als kleinere?",
+      "options": [
+        "Sie besitzen weniger Wasserstoff",
+        "Sie fusionieren ihren Brennstoff wegen höherer Kerntemperaturen viel schneller",
+        "Ihre Gravitation verhindert Kernfusion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mehr Masse erhöht Druck und Temperatur im Inneren und beschleunigt die Fusionsreaktionen stark."
+    },
+    {
+      "id": "science-stars-q2",
+      "prompt": "Was bleibt von einem sonnenähnlichen Stern typischerweise zurück?",
+      "options": [
+        "Ein Weißer Zwerg",
+        "Immer ein Schwarzes Loch",
+        "Ein neuer Planet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Die Sonne ist nicht massereich genug für eine Kernkollaps-Supernova und endet voraussichtlich als Weißer Zwerg."
+    },
+    {
+      "id": "science-stars-q3",
+      "prompt": "Warum ist Eisen im Kern eines massereichen Sterns besonders bedeutsam?",
+      "options": [
+        "Weil Eisen besonders leicht verdampft",
+        "Weil weitere Fusion von Eisen unter stellaren Bedingungen keine Energie zur Stabilisierung liefert",
+        "Weil Eisen keine Protonen besitzt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mit Eisen endet die energetisch günstige Fusionskette im Kern; dadurch kann der gravitative Kollaps einsetzen."
+    }
+  ],
+  "recallPrompt": "Erkläre den Lebenszyklus eines Sterns in einer Kette von vier bis fünf Schritten.",
+  "recallAnswer": "Gaswolke kollabiert durch Gravitation → ein Protostern wird heiß genug für Kernfusion → der Stern verbringt den Großteil seines Lebens in stabilem Gleichgewicht → nach Erschöpfung des Kernbrennstoffs bläht er sich auf und fusioniert gegebenenfalls schwerere Elemente → je nach Masse endet er als Weißer Zwerg oder nach einer Supernova als Neutronenstern beziehungsweise Schwarzes Loch.",
+  "relatedLessonIds": [
+    "science-blue-sky",
+    "science-atoms"
+  ]
+}

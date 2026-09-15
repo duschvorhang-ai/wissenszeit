@@ -1,0 +1,116 @@
+{
+  "id": "technology-llm",
+  "packId": "general-knowledge-basis",
+  "title": "Wie funktionieren moderne Sprachmodelle?",
+  "durationMinutes": 20,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Künstliche Intelligenz",
+    "Sprachmodelle"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "KI",
+    "LLM",
+    "Sprachmodell",
+    "Transformer",
+    "Token",
+    "Training",
+    "Inference",
+    "Halluzination",
+    "Attention"
+  ],
+  "synonyms": [
+    "AI",
+    "Large Language Model",
+    "generative KI",
+    "ChatGPT"
+  ],
+  "summary": "Große Sprachmodelle zerlegen Text in Tokens, verarbeiten deren Kontext mit Transformer-Netzen und lernen im Training, wahrscheinliche Fortsetzungen vorherzusagen. Aus dieser einfachen Trainingsidee entstehen vielfältige Fähigkeiten – aber auch charakteristische Grenzen.",
+  "whyRelevant": "Sprachmodelle sind zu einer wichtigen digitalen Basistechnologie geworden. Ein Verständnis ihrer Funktionsweise hilft, Fähigkeiten realistisch einzuschätzen, Halluzinationen einzuordnen und Begriffe wie Token, Kontextfenster oder RAG zu verstehen.",
+  "learningGoal": "Du kannst den Weg von Tokens über Transformer-Training bis zur Textgenerierung erklären und begründen, warum ein Sprachmodell zugleich sehr leistungsfähig und faktisch unzuverlässig sein kann.",
+  "sections": [
+    {
+      "title": "Text wird zu Tokens und Zahlen",
+      "body": "Ein Sprachmodell verarbeitet nicht direkt Wörter in ihrer alltäglichen Bedeutung. Zunächst wird Text in Tokens zerlegt. Ein Token kann ein ganzes kurzes Wort, ein Wortteil, ein Satzzeichen oder eine andere häufige Zeichenfolge sein. Dadurch kann ein Modell auch seltene und neue Wörter aus bekannten Bestandteilen darstellen. Jedem Token wird eine numerische Repräsentation zugeordnet, ein Vektor. Während der Verarbeitung werden diese Repräsentationen kontextabhängig verändert. Das Wort „Bank“ erhält in „auf der Bank sitzen“ einen anderen Kontext als in „Geld bei der Bank“. Diese Vektoren sind keine kleinen Wörterbücher mit fest codierten Definitionen; ihre Bedeutung entsteht aus den Beziehungen, die das Modell während des Trainings in sehr vielen Textbeispielen lernt. Die Menge an Tokens beeinflusst außerdem Kosten und Kontextlänge moderner Systeme."
+    },
+    {
+      "title": "Der Transformer verbindet Informationen im Kontext",
+      "body": "Die heute dominierende Architektur großer Sprachmodelle ist der Transformer. Ein zentrales Prinzip heißt Attention. Vereinfacht berechnet das Modell für jedes Token, welche anderen Tokens im vorhandenen Kontext für seine aktuelle Verarbeitung besonders relevant sind. Dadurch kann es Beziehungen über größere Textabstände modellieren – etwa, auf welches Subjekt sich ein Pronomen bezieht oder welche Information aus einer früheren Passage für eine spätere Frage wichtig ist. Transformer bestehen aus vielen Schichten und sehr vielen trainierbaren Parametern. In jeder Schicht werden Repräsentationen weiterverarbeitet. Das Modell speichert dabei keine vollständige Datenbank aller Trainingssätze. Vielmehr werden statistische Regelmäßigkeiten in den Parametern komprimiert. Dennoch können Modelle Textpassagen memorisieren, insbesondere wenn Inhalte häufig oder ungewöhnlich sind. Das ist ein Grund, warum Datenschutz und Trainingsdaten sorgfältig betrachtet werden müssen."
+    },
+    {
+      "title": "Training: das nächste Token vorhersagen",
+      "body": "Beim grundlegenden Vortraining bekommt das Modell sehr große Textmengen und soll wiederholt das nächste Token vorhersagen. Wenn der tatsächliche Text etwa „Berlin ist die Hauptstadt von ...“ enthält, soll das Modell Wahrscheinlichkeiten für mögliche Fortsetzungen berechnen. Ein Optimierungsverfahren verändert die Parameter so, dass richtige Fortsetzungen künftig wahrscheinlicher werden. Diese Aufgabe wirkt überraschend simpel. Um sie über viele Arten von Text gut zu lösen, muss das Modell jedoch Grammatik, Stil, typische Fakten, Argumentationsmuster und zahlreiche Beziehungen in seinen Parametern abbilden. Nach dem Vortraining folgen häufig weitere Schritte: Instruction Tuning trainiert das Modell auf Aufgaben und Dialogformate; menschliche oder KI-basierte Präferenzdaten können Antworten hilfreicher und sicherer machen. Das Grundprinzip bleibt dennoch probabilistisch: Das Modell erzeugt Ausgaben, indem es schrittweise Wahrscheinlichkeiten für nächste Tokens berechnet."
+    },
+    {
+      "title": "Warum Halluzinationen kein einfacher Softwarefehler sind",
+      "body": "Ein Sprachmodell optimiert zunächst darauf, plausible Fortsetzungen zu erzeugen – nicht darauf, jede Aussage gegen eine verlässliche Wissensdatenbank zu prüfen. Viele Fakten sind im Modell statistisch gut repräsentiert, sodass korrekte Antworten entstehen. Fehlen Informationen oder sind Muster uneindeutig, kann das Modell dennoch eine sprachlich überzeugende Fortsetzung erzeugen. Das wird als Halluzination bezeichnet. Die Wahrscheinlichkeit lässt sich durch bessere Modelle, gute Prompts, Werkzeugnutzung und externe Quellen reduzieren, aber nicht allein dadurch beseitigen, dass man das Modell bittet, „nur Wahres“ zu sagen. Retrieval-Augmented Generation, kurz RAG, stellt dem Modell gezielt externe Dokumente bereit. Tools können Berechnungen oder Datenbankabfragen übernehmen. Dadurch wird aus dem reinen Sprachmodell ein System, das Informationen nachschlagen kann. Trotzdem muss die Anwendung sicherstellen, dass Quellen relevant sind und das Modell sie korrekt verwendet."
+    },
+    {
+      "title": "Fähigkeiten entstehen im System, nicht durch Bewusstsein",
+      "body": "Große Modelle können übersetzen, programmieren, Texte zusammenfassen, Fragen beantworten und komplexe Muster kombinieren. Mit wachsender Modellgröße und besserem Training treten Fähigkeiten auf, die nicht für jede einzelne Aufgabe explizit programmiert wurden. Das kann leicht den Eindruck eines menschlichen inneren Verständnisses erzeugen. Technisch genügt dieser Eindruck aber nicht, um Bewusstsein oder menschliche Denkprozesse nachzuweisen. Ein LLM besitzt auch ohne zusätzliche Systeme kein dauerhaftes persönliches Gedächtnis, keinen direkten Zugang zur aktuellen Welt und keine Garantie dafür, eigene Unsicherheit korrekt einzuschätzen. Moderne KI-Anwendungen ergänzen Sprachmodelle deshalb um Speicher, Suchsysteme, Werkzeuge oder Agentenlogik. Die praktische Leistungsfähigkeit entsteht zunehmend aus dem Zusammenspiel dieser Komponenten und nicht allein aus der Größe eines Modells."
+    },
+    {
+      "title": "Kontextfenster, Gedächtnis und externe Systeme",
+      "body": "Ein Sprachmodell kann bei einer einzelnen Anfrage nur eine begrenzte Menge an Tokens direkt berücksichtigen – das Kontextfenster. Moderne Systeme verarbeiten sehr große Kontexte, aber auch diese sind endlich, und mehr Kontext ist nicht automatisch besser. Relevante Information kann in einer langen Eingabe untergehen. Dauerhaftes persönliches Gedächtnis ist deshalb eine zusätzliche Systemfunktion: Informationen werden außerhalb des Modells gespeichert und bei Bedarf wieder in den Kontext geholt. Dasselbe gilt für Datenbanken, Dateisuchen oder Webzugriff. Für eine Anwendung ist diese Architektur wichtig, weil sie trennt, was im Modell gelernt wurde, was aktuell im Kontext steht und was aus externen Quellen abgerufen wird."
+    },
+    {
+      "title": "Warum Modellqualität mehr als Größe ist",
+      "body": "Größere Modelle besitzen oft mehr Kapazität, doch Leistung hängt auch von Datenqualität, Trainingsverfahren, Architektur und Nachtraining ab. Für viele Aufgaben kann ein kleineres spezialisiertes Modell günstiger und ausreichend sein. Außerdem spielen Inferenzverfahren eine Rolle: Wie viele Rechenschritte darf ein Modell verwenden, welche Werkzeuge stehen zur Verfügung und wie wird die Ausgabe geprüft? Moderne KI-Systeme sollten deshalb nicht nur nach „welches Modell ist am größten?“ bewertet werden. Für einen konkreten Einsatz zählen Genauigkeit, Geschwindigkeit, Kosten, Datenschutz, Quellenbezug und Fehlerfolgen. Diese Systemperspektive ist besonders wichtig, wenn KI nicht nur Texte formuliert, sondern reale Prozesse unterstützt."
+    },
+    {
+      "title": "Transfer: Ein LLM als Baustein einer Anwendung",
+      "body": "Stell dir eine App vor, die eingehende Dokumente prüfen soll. Ein reines Sprachmodell könnte Text klassifizieren und zusammenfassen, kennt aber nicht automatisch die richtige Akte, aktuelle Regeln oder den Status eines Vorgangs. Eine robuste Anwendung ergänzt deshalb weitere Komponenten: Textextraktion liefert den Inhalt, Retrieval stellt relevante Richtlinien bereit, strukturierte Ausgabe erzwingt ein maschinenlesbares Format, Fachlogik prüft Pflichtfelder und ein Workflow entscheidet über den nächsten Schritt. Kritische Ergebnisse können einem Menschen vorgelegt werden. Dieses Beispiel verdeutlicht einen wichtigen Architekturgedanken: Die eigentliche Intelligenz eines Systems liegt oft in der Kombination aus Modell, Kontext, Werkzeugen, Regeln und Prozesssteuerung. Ein stärkeres Modell allein löst nicht jedes Zuverlässigkeitsproblem."
+    }
+  ],
+  "misconception": "„Ein LLM sagt nur das statistisch häufigste nächste Wort voraus“ ist zu grob. Es berechnet Wahrscheinlichkeiten für Tokens auf Basis hochdimensionaler, kontextabhängiger Repräsentationen. Trotzdem ist die nächste-Token-Vorhersage tatsächlich das grundlegende Trainings- und Generationsprinzip vieler Modelle.",
+  "keyTakeaways": [
+    "Text wird in Tokens und numerische Repräsentationen übersetzt.",
+    "Transformer nutzen Attention, um Beziehungen im Kontext zu modellieren.",
+    "Vortraining optimiert die Vorhersage des nächsten Tokens über sehr große Textmengen.",
+    "Halluzinationen entstehen, weil plausible Sprachfortsetzung nicht identisch mit verifizierter Wahrheit ist.",
+    "RAG, Tools und Speicher erweitern Sprachmodelle zu verlässlicheren Anwendungssystemen."
+  ],
+  "questions": [
+    {
+      "id": "technology-llm-q1",
+      "prompt": "Was geschieht beim grundlegenden Vortraining eines Sprachmodells?",
+      "options": [
+        "Das Modell erhält für jede mögliche Frage eine manuell programmierte Antwort",
+        "Das Modell lernt durch wiederholte Vorhersage fehlender beziehungsweise nächster Tokens in großen Textmengen",
+        "Das Modell durchsucht während jeder Antwort automatisch das Internet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Das Vortraining basiert typischerweise auf Tokenvorhersage. Websuche oder Datenbanken sind separate Werkzeuge."
+    },
+    {
+      "id": "technology-llm-q2",
+      "prompt": "Warum können LLMs falsche Fakten überzeugend formulieren?",
+      "options": [
+        "Weil ihr Kernziel plausible Tokenfolgen erzeugt und keine automatische Faktenprüfung garantiert",
+        "Weil sie ausschließlich zufällige Wörter auswählen",
+        "Weil Transformer keine Grammatik verarbeiten können"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sprachliche Plausibilität und faktische Verifikation sind unterschiedliche Ziele."
+    },
+    {
+      "id": "technology-llm-q3",
+      "prompt": "Was leistet RAG?",
+      "options": [
+        "Es löscht alle Modellparameter nach jeder Anfrage",
+        "Es stellt dem Modell zur Laufzeit relevante externe Inhalte als Kontext bereit",
+        "Es ersetzt Text durch Bilder"
+      ],
+      "correctIndex": 1,
+      "explanation": "RAG verbindet Retrieval mit Generierung, damit Antworten auf gezielt bereitgestellte Quellen gestützt werden können."
+    }
+  ],
+  "recallPrompt": "Erkläre in vier Schritten, wie aus einer Nutzereingabe eine Antwort eines Sprachmodells entsteht.",
+  "recallAnswer": "Die Eingabe wird in Tokens zerlegt und in numerische Repräsentationen übersetzt. Transformer-Schichten verarbeiten den Kontext mit Attention. Aus dem resultierenden Zustand berechnet das Modell Wahrscheinlichkeiten für das nächste Token. Das ausgewählte Token wird an den Kontext angehängt und der Prozess wiederholt, bis die Antwort fertig ist.",
+  "relatedLessonIds": [
+    "technology-ai-basics",
+    "technology-internet-packets"
+  ]
+}

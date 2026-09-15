@@ -1,0 +1,62 @@
+{
+  "id": "language-metaphor",
+  "packId": "general-knowledge-basis",
+  "title": "Warum sind Metaphern mehr als Schmuck?",
+  "durationMinutes": 5,
+  "categoryId": "language",
+  "path": [
+    "Sprache",
+    "Rhetorik"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Metapher",
+    "Sprache",
+    "Rhetorik",
+    "Framing",
+    "Kommunikation"
+  ],
+  "synonyms": [
+    "Bildsprache",
+    "metaphor"
+  ],
+  "summary": "Metaphern übertragen Strukturen aus einem bekannten Bereich auf einen anderen. Dadurch machen sie Abstraktes anschaulich – und können zugleich beeinflussen, wie wir über ein Thema denken.",
+  "whyRelevant": "Politik, Wissenschaft, Werbung und Alltagssprache sind voller Metaphern. Wer sie erkennt, versteht besser, wie Sprache nicht nur beschreibt, sondern Aufmerksamkeit und Deutung lenkt.",
+  "learningGoal": "Du kannst erklären, wie Metaphern Bedeutung übertragen und warum unterschiedliche Bilder unterschiedliche Schlussfolgerungen nahelegen.",
+  "sections": [
+    {
+      "title": "Ein Bild schafft Struktur",
+      "body": "In „Zeit ist Geld“ wird Zeit mit einer knappen wirtschaftlichen Ressource verbunden. Daraus entstehen weitere Formulierungen: Zeit sparen, verschwenden oder investieren. Die Metapher ist so alltäglich, dass sie kaum noch wie ein sprachliches Bild wirkt. Trotzdem strukturiert sie Denken: Wer Zeit als Ressource betrachtet, fragt nach Effizienz und Nutzen. Andere Aspekte von Zeit geraten dadurch leichter in den Hintergrund."
+    },
+    {
+      "title": "Metaphern lenken Aufmerksamkeit",
+      "body": "Wenn Kriminalität als „Welle“ beschrieben wird, klingt sie wie eine Naturkraft, die über eine Gesellschaft hereinbricht. Wird sie als „Krankheit“ bezeichnet, erscheinen Prävention und Ursachenbekämpfung plausibler. Keine Metapher bildet ein komplexes Thema vollständig ab. Sie hebt bestimmte Beziehungen hervor und verdeckt andere. Deshalb ist es sinnvoll, bei emotionalen Debatten zu fragen: Welches Bild wird verwendet und welche Lösung wirkt dadurch selbstverständlich?"
+    },
+    {
+      "title": "Auch Wissenschaft braucht Bilder",
+      "body": "Begriffe wie genetischer „Code“, elektrische „Ströme“ oder Computer-„Speicher“ sind metaphorisch geprägt. Solche Bilder können Verständnis enorm erleichtern, solange ihre Grenzen klar bleiben. DNA ist nicht in jeder Hinsicht wie Softwarecode und elektrischer Strom fließt nicht exakt wie Wasser in einem Rohr. Gute Erklärung nutzt Metaphern als Brücke und löst sie dort auf, wo sie falsche Vorstellungen erzeugen würde."
+    }
+  ],
+  "misconception": "Metaphern sind nicht automatisch Manipulation. Sie sind ein normaler Bestandteil menschlicher Sprache und oft unverzichtbar für abstraktes Denken. Problematisch werden sie, wenn ihre Begrenztheit unsichtbar bleibt.",
+  "keyTakeaways": [
+    "Metaphern übertragen Strukturen zwischen Bedeutungsbereichen.",
+    "Sie machen Abstraktes verständlich, lenken aber zugleich Aufmerksamkeit.",
+    "Jede Metapher hat Grenzen und kann bestimmte Aspekte eines Problems verdecken."
+  ],
+  "questions": [
+    {
+      "id": "language-metaphor-q1",
+      "prompt": "Warum lohnt es sich, politische Metaphern zu hinterfragen?",
+      "options": [
+        "Weil jede Metapher eine Lüge ist",
+        "Weil das verwendete Bild bestimmte Ursachen und Lösungen plausibler erscheinen lassen kann",
+        "Weil Politik ohne bildhafte Sprache auskommen muss"
+      ],
+      "correctIndex": 1,
+      "explanation": "Metaphern rahmen ein Thema und beeinflussen dadurch, welche Aspekte hervortreten."
+    }
+  ],
+  "recallPrompt": "Was ist die wichtigste Stärke und zugleich die wichtigste Gefahr einer Metapher?",
+  "recallAnswer": "Sie macht komplexe oder abstrakte Zusammenhänge schnell verständlich, kann aber zugleich dazu verleiten, Eigenschaften des Bildes fälschlich auf den beschriebenen Sachverhalt zu übertragen.",
+  "relatedLessonIds": []
+}

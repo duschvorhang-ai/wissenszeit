@@ -1,0 +1,62 @@
+{
+  "id": "culture-perspective",
+  "packId": "general-knowledge-basis",
+  "title": "Warum veränderte die Perspektive die Renaissance-Malerei?",
+  "durationMinutes": 5,
+  "categoryId": "culture",
+  "path": [
+    "Kunst",
+    "Renaissance"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Renaissance",
+    "Perspektive",
+    "Malerei",
+    "Fluchtpunkt",
+    "Kunstgeschichte"
+  ],
+  "synonyms": [
+    "Zentralperspektive",
+    "linear perspective"
+  ],
+  "summary": "Die mathematische Zentralperspektive ermöglichte Künstlern der Renaissance, räumliche Tiefe systematisch auf einer flachen Fläche zu konstruieren. Sie verband Kunst mit Geometrie und einem neuen Interesse an beobachtbarer Welt.",
+  "whyRelevant": "Perspektive ist mehr als ein Zeichentrick. Sie zeigt, wie technische Verfahren und kulturelle Ideen gemeinsam den Stil einer Epoche prägen können.",
+  "learningGoal": "Du kannst erklären, wie Fluchtpunkt und Horizont räumliche Tiefe erzeugen und warum das Verfahren für die Renaissance bedeutsam war.",
+  "sections": [
+    {
+      "title": "Parallele Linien treffen sich im Bild",
+      "body": "In der Zentralperspektive erscheinen Linien, die im realen Raum parallel in die Tiefe verlaufen, so, als würden sie sich an einem Fluchtpunkt treffen. Ein klassisches Beispiel sind Bahngleise, die am Horizont zusammenzulaufen scheinen. Der Horizont entspricht ungefähr der Augenhöhe des Betrachters. Mit diesen Regeln lassen sich Architektur und Räume konsistent verkleinern, sodass das Bild für einen bestimmten Blickpunkt räumlich plausibel wirkt."
+    },
+    {
+      "title": "Geometrie wird zum Werkzeug der Kunst",
+      "body": "Im frühen 15. Jahrhundert wurden Perspektivregeln in Italien systematisch untersucht und beschrieben. Filippo Brunelleschi wird mit frühen Demonstrationen verbunden; Leon Battista Alberti formulierte theoretische Grundlagen. Maler wie Masaccio nutzten das Verfahren, um Figuren in überzeugend konstruierten Räumen zu platzieren. Kunst wurde dadurch nicht automatisch „besser“, aber räumliche Illusion ließ sich kontrollierter erzeugen."
+    },
+    {
+      "title": "Warum es zur Renaissance passt",
+      "body": "Die Renaissance war von erneuter Beschäftigung mit antiker Kunst, menschlicher Beobachtung, Geometrie und Proportion geprägt. Perspektive passte in dieses Umfeld, weil sie sichtbare Welt mathematisch ordnete. Mittelalterliche Bilder verwendeten oft bewusst andere Raumkonzepte und Größenhierarchien. Deshalb wäre es falsch, ältere Kunst als bloß unfähig zur Perspektive abzuwerten; sie verfolgte teilweise andere bildnerische Ziele."
+    }
+  ],
+  "misconception": "Zentralperspektive ist keine universell „richtige“ Art, Raum darzustellen. Sie erzeugt eine überzeugende Illusion für einen bestimmten Blickpunkt. Andere Kulturen und Kunstepochen nutzen bewusst andere Raumkonzepte.",
+  "keyTakeaways": [
+    "Fluchtpunkt und Horizont organisieren die räumliche Illusion der Zentralperspektive.",
+    "Die Renaissance verband künstlerische Praxis eng mit Geometrie und Beobachtung.",
+    "Ältere oder andere Raumdarstellungen sind nicht einfach technische Fehler, sondern können andere Ziele verfolgen."
+  ],
+  "questions": [
+    {
+      "id": "culture-perspective-q1",
+      "prompt": "Was geschieht mit parallelen Linien, die in die Bildtiefe führen?",
+      "options": [
+        "Sie erscheinen, als liefen sie auf einen Fluchtpunkt zu",
+        "Sie müssen immer horizontal bleiben",
+        "Sie werden automatisch farblos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Das scheinbare Zusammenlaufen am Fluchtpunkt ist ein Grundprinzip linearer Perspektive."
+    }
+  ],
+  "recallPrompt": "Warum war Zentralperspektive nicht nur ein neuer Malstil, sondern auch eine technische Methode?",
+  "recallAnswer": "Weil räumliche Tiefe mit geometrischen Regeln wie Horizont, Fluchtpunkt und proportionaler Verkleinerung planbar konstruiert werden konnte.",
+  "relatedLessonIds": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "history-french-revolution-causes",
+  "packId": "general-knowledge-basis",
+  "title": "Was löste die Französische Revolution aus?",
+  "durationMinutes": 5,
+  "categoryId": "history",
+  "path": [
+    "Neuzeit",
+    "Französische Revolution"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Französische Revolution",
+    "1789",
+    "Absolutismus",
+    "Aufklärung",
+    "Ständegesellschaft"
+  ],
+  "synonyms": [
+    "Revolution Frankreich",
+    "Bastille"
+  ],
+  "summary": "Die Revolution von 1789 hatte keinen einzelnen Auslöser. Finanzkrise, soziale Ungleichheit, politische Blockaden und neue Ideen verstärkten sich gegenseitig.",
+  "whyRelevant": "Die Französische Revolution veränderte Vorstellungen von Staat, Bürgerrechten und politischer Gleichheit weit über Frankreich hinaus. Ihre Ursachen zeigen, wie wirtschaftliche, soziale und ideelle Krisen zusammenwirken können.",
+  "learningGoal": "Du kannst erklären, warum 1789 mehrere langfristige Probleme gleichzeitig eskalierten.",
+  "sections": [
+    {
+      "title": "Ein Staat in der Schuldenfalle",
+      "body": "Frankreich war Ende des 18. Jahrhunderts hoch verschuldet. Kriege, darunter die Unterstützung der amerikanischen Unabhängigkeitsbewegung, hatten enorme Kosten verursacht. Gleichzeitig war das Steuersystem ineffizient und ungleich: Privilegierte Gruppen wie Adel und Klerus waren von wichtigen Abgaben weitgehend befreit. Reformversuche scheiterten am Widerstand derjenigen, die ihre Privilegien verloren hätten. Damit wurde aus einem Finanzproblem eine politische Krise."
+    },
+    {
+      "title": "Ungleichheit und steigende Brotpreise",
+      "body": "Die Gesellschaft war formal in drei Stände gegliedert. Der Dritte Stand umfasste die große Mehrheit der Bevölkerung, von wohlhabenden Bürgern bis zu Bauern und städtischen Arbeitern. Er trug einen großen Teil der Steuerlast, hatte aber politisch weniger Einfluss. Schlechte Ernten ließen zudem die Getreide- und Brotpreise steigen. Für ärmere Haushalte, die einen großen Teil ihres Einkommens für Nahrung ausgaben, wurde die Krise unmittelbar spürbar."
+    },
+    {
+      "title": "Neue Ideen treffen auf politische Blockade",
+      "body": "Die Aufklärung stellte traditionelle Herrschaft infrage. Autoren wie Montesquieu und Rousseau diskutierten Gewaltenteilung, Volkssouveränität und politische Rechte. Solche Ideen allein hätten keine Revolution ausgelöst. Entscheidend war, dass sie auf einen Staat trafen, der seine Finanzprobleme nicht mehr lösen konnte. Als Ludwig XVI. 1789 die Generalstände einberief, entstand ein politischer Raum, in dem der Dritte Stand grundlegende Veränderungen fordern konnte."
+    }
+  ],
+  "misconception": "Die Bastille war ein starkes Symbol, aber nicht die eigentliche Ursache der Revolution. Der Sturm am 14. Juli 1789 war bereits ein Ereignis innerhalb einer tiefen politischen und sozialen Krise.",
+  "keyTakeaways": [
+    "Frankreich war finanziell kaum noch handlungsfähig.",
+    "Soziale Privilegien und hohe Lebensmittelpreise verschärften die Unzufriedenheit.",
+    "Ideen der Aufklärung boten eine Sprache für politische Alternativen."
+  ],
+  "questions": [
+    {
+      "id": "history-french-revolution-causes-q1",
+      "prompt": "Warum wurde die Finanzkrise Frankreichs zugleich zu einer politischen Krise?",
+      "options": [
+        "Weil Frankreich keine Münzen mehr herstellen konnte",
+        "Weil Steuerreformen an Privilegien und politischen Blockaden scheiterten",
+        "Weil die Bevölkerung keine Steuern kannte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Der Staat brauchte neue Einnahmen, konnte das privilegienbasierte Steuersystem aber politisch kaum reformieren."
+    }
+  ],
+  "recallPrompt": "Warum ist es zu einfach zu sagen, die Französische Revolution sei nur wegen Armut ausgebrochen?",
+  "recallAnswer": "Weil wirtschaftliche Not mit sozialer Ungleichheit, einer staatlichen Finanzkrise, politischen Blockaden und neuen Ideen über Rechte und Herrschaft zusammenkam.",
+  "relatedLessonIds": [
+    "history-rome-fall"
+  ]
+}

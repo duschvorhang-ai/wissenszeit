@@ -1,0 +1,124 @@
+{
+  "id": "technology-ai-attention-qkv",
+  "title": "Attention verstehen: Query, Key und Value ohne Magie",
+  "durationMinutes": 20,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Künstliche Intelligenz",
+    "Transformer"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "KI",
+    "Transformer",
+    "Attention",
+    "Self-Attention",
+    "Query",
+    "Key",
+    "Value",
+    "QKV",
+    "Softmax",
+    "Multi-Head Attention",
+    "Causal Mask"
+  ],
+  "synonyms": [
+    "Scaled Dot Product Attention",
+    "Self Attention",
+    "Q K V",
+    "Multihead Attention"
+  ],
+  "summary": "Self-Attention ist der Kernmechanismus des Transformers. Sie berechnet für jede Tokenposition, welche anderen Positionen für die aktuelle Repräsentation relevant sind, und kombiniert deren Informationen gewichtet.",
+  "whyRelevant": "Begriffe wie Q, K, V oder Multi-Head Attention tauchen in fast jeder technischen Erklärung moderner LLMs auf. Wer sie wirklich versteht, kann Transformer jenseits von Schlagworten einordnen.",
+  "learningGoal": "Du kannst den Rechenweg von Query-Key-Vergleich über Softmax bis zur gewichteten Value-Kombination erklären und einordnen, warum Position, Maskierung und mehrere Köpfe nötig sind.",
+  "sections": [
+    {
+      "title": "Warum ein Modell Beziehungen im Satz braucht",
+      "body": "Sprachverarbeitung ist mehr als das Erkennen einzelner Wörter. In dem Satz „Der Roboter legte den Schlüssel auf den Tisch, weil er schwer war“ hängt die Bedeutung von „er“ davon ab, welche anderen Wörter ein Modell miteinander in Beziehung setzt. Ähnliche Abhängigkeiten können über viele Sätze reichen: Eine Frage am Ende eines Dokuments kann sich auf eine Definition ganz am Anfang beziehen. Frühere neuronale Architekturen verarbeiteten Sequenzen oft schrittweise. Das erschwerte sowohl das Training auf langen Texten als auch die Modellierung weit entfernter Beziehungen. Transformer lösen dieses Problem mit Attention: Jedes Token kann bei seiner Verarbeitung Informationen aus anderen relevanten Tokenpositionen gewichten. „Attention“ bedeutet dabei nicht menschliche Aufmerksamkeit, sondern eine mathematische Operation, die festlegt, welche Repräsentationen wie stark in eine neue Repräsentation eingehen."
+    },
+    {
+      "title": "Query, Key und Value: drei Rollen derselben Information",
+      "body": "Für Self-Attention wird aus jeder Tokenrepräsentation durch gelernte lineare Transformationen typischerweise ein Query-, ein Key- und ein Value-Vektor erzeugt. Eine hilfreiche Analogie ist eine Suche: Der Query beschreibt, wonach die aktuelle Position sucht; Keys beschreiben, welche Information andere Positionen anbieten; Values enthalten die Information, die bei einem Treffer übernommen werden kann. Mathematisch werden Query und Keys miteinander verglichen. Ein hoher Ähnlichkeitswert bedeutet: Diese Position könnte für die aktuelle Berechnung relevant sein. Danach werden die zugehörigen Values entsprechend gewichtet zusammengeführt. Wichtig ist, dass Q, K und V keine festen Wörterbuchfelder sind. Das Modell lernt während des Trainings selbst, welche Projektionen für die Aufgabe nützlich sind. Dieselbe Ausgangsrepräsentation kann deshalb in den drei Rollen ganz unterschiedliche Aspekte hervorheben."
+    },
+    {
+      "title": "Aus Scores werden Attention-Gewichte",
+      "body": "Der Vergleich zwischen Query und Key geschieht häufig über ein Skalarprodukt. Große positive Werte zeigen eine starke Ausrichtung, kleinere Werte eine schwächere. Damit die Zahlen stabil bleiben, wird der Score bei der sogenannten Scaled Dot-Product Attention durch die Quadratwurzel der Key-Dimension geteilt. Danach erzeugt eine Softmax-Funktion daraus Gewichte, die sich über die betrachteten Positionen zu eins summieren. Der neue Zustandsvektor einer Position ist dann eine gewichtete Kombination der Value-Vektoren. Dadurch entsteht keine harte Entscheidung „dieses Wort ist wichtig, alle anderen sind egal“, sondern eine verteilte Mischung. Schon in einer einzigen Attention-Schicht kann ein Token Informationen aus mehreren Stellen zusammenführen. In tieferen Schichten werden diese bereits angereicherten Repräsentationen erneut verarbeitet, sodass komplexere Beziehungen entstehen."
+    },
+    {
+      "title": "Warum es mehrere Attention-Köpfe gibt",
+      "body": "Transformer verwenden meist Multi-Head Attention. Statt nur einen einzigen Attention-Mechanismus zu berechnen, wird der Repräsentationsraum in mehrere Köpfe aufgeteilt. Verschiedene Köpfe können unterschiedliche Beziehungsmuster lernen: Einer kann beispielsweise lokale syntaktische Beziehungen stark gewichten, ein anderer längere Bezüge, ein dritter bestimmte Positionsmuster. Diese Interpretationen sind allerdings nur grobe Beobachtungen; einzelne Köpfe besitzen nicht zuverlässig eine fest benennbare menschliche Funktion. Die Ergebnisse der Köpfe werden zusammengeführt und weiter transformiert. Multi-Head Attention erhöht damit die Ausdrucksfähigkeit des Modells: Eine Position kann gleichzeitig verschiedene Arten von Information aus dem Kontext aufnehmen, statt alles in einer einzigen Gewichtungsverteilung unterbringen zu müssen."
+    },
+    {
+      "title": "Reihenfolge muss zusätzlich codiert werden",
+      "body": "Attention allein kennt zunächst keine natürliche Reihenfolge. Würde man nur eine Menge von Tokenvektoren betrachten, wäre „Hund beißt Mann“ mathematisch nicht automatisch etwas anderes als „Mann beißt Hund“. Transformer benötigen deshalb Positionsinformation. Klassische Modelle verwendeten feste sinusförmige Positionskodierungen; moderne Architekturen nutzen häufig gelernte oder rotierende Verfahren wie Rotary Position Embeddings. Das Ziel bleibt gleich: Das Modell muss erkennen können, wo ein Token relativ zu anderen steht. Positionsinformation beeinflusst dadurch auch, wie gut ein Modell mit sehr langen Kontexten umgehen kann. Eine Architektur, die für eine bestimmte Kontextlänge trainiert wurde, kann nicht zwangsläufig ohne Qualitätsverlust auf beliebig größere Sequenzen erweitert werden."
+    },
+    {
+      "title": "Causal Attention verhindert den Blick in die Zukunft",
+      "body": "Autoregressive Sprachmodelle sollen das nächste Token aus den bereits vorhandenen Tokens vorhersagen. Während des Trainings liegt der gesamte Satz zwar technisch im Speicher, das Modell darf für die Vorhersage an Position 20 aber nicht Token 21 oder 22 verwenden. Dafür wird eine kausale Maske eingesetzt. Attention-Scores zu zukünftigen Positionen werden so blockiert, dass jede Position nur auf sich selbst und frühere Positionen zugreifen kann. Dadurch entspricht die Trainingsaufgabe der späteren Generierung: Beim Schreiben einer Antwort kennt das Modell immer nur den bisher erzeugten Text. Encoder-Modelle für andere Aufgaben können dagegen bidirektionale Attention verwenden, weil sie keine autoregressive Fortsetzung simulieren müssen."
+    },
+    {
+      "title": "Attention ist leistungsfähig, aber teuer",
+      "body": "Bei vollständiger Self-Attention wird jede Position mit vielen anderen Positionen verglichen. Bei einer Sequenzlänge n wächst die Zahl dieser Paarbeziehungen klassisch ungefähr quadratisch mit n. Verdoppelt man den Kontext, steigt der Aufwand dieser Komponente deshalb deutlich stärker als linear. Moderne Systeme nutzen optimierte Kernel, sparsamere Attention-Varianten, Gruppierungen oder andere Tricks, um Speicher- und Rechenaufwand zu reduzieren. Trotzdem erklärt die Struktur, warum sehr lange Kontexte technisch anspruchsvoll sind. Zusätzlich garantiert ein großes Kontextfenster nicht, dass jede enthaltene Information gleich zuverlässig genutzt wird. Modelle können relevante Details übersehen oder in langen Kontexten unterschiedlich gut gewichten."
+    },
+    {
+      "title": "Attention ist nur ein Teil des Transformer-Blocks",
+      "body": "Ein häufiger Denkfehler ist, Transformer praktisch mit Attention gleichzusetzen. Nach einer Attention-Operation folgen in einem typischen Block weitere wichtige Schritte. Residualverbindungen addieren frühere Repräsentationen wieder hinzu und helfen dabei, Information durch viele Schichten zu transportieren. Normalisierung stabilisiert die Verarbeitung. Außerdem besitzt jeder Block ein Feed-Forward-Netz, das die Repräsentation jeder Position nichtlinear weiterverarbeitet. Man kann sich Attention deshalb als Kommunikationsschritt zwischen Tokenpositionen vorstellen: Informationen werden ausgewählt und ausgetauscht. Das Feed-Forward-Netz verarbeitet anschließend, was an einer einzelnen Position daraus geworden ist. Erst das wiederholte Zusammenspiel vieler solcher Blöcke erzeugt die tiefen kontextabhängigen Repräsentationen eines großen Sprachmodells. Diese Unterscheidung ist wichtig, weil technische Diskussionen sonst leicht den Eindruck erwecken, sämtliche Fähigkeiten eines Transformers ließen sich allein aus einer Attention-Matrix ablesen."
+    },
+    {
+      "title": "Was Attention nicht bedeutet",
+      "body": "Attention-Gewichte wirken anschaulich und werden deshalb gern als direkte Erklärung dessen interpretiert, „worauf das Modell denkt“. Das ist zu einfach. Die endgültige Ausgabe entsteht aus vielen Schichten, Residualverbindungen, Feed-Forward-Netzen und weiteren Operationen. Ein einzelner Attention-Head oder eine einzelne Gewichtsverteilung erklärt die Entscheidung eines großen Modells nur unvollständig. Trotzdem ist Attention der zentrale Mechanismus, durch den Transformer kontextabhängige Informationen flexibel zusammenführen. Wer Query, Key, Value, Gewichtung und Maskierung verstanden hat, besitzt deshalb einen guten technischen Rahmen, um viele weitere Begriffe moderner Sprachmodelle einzuordnen."
+    }
+  ],
+  "misconception": "Attention ist keine menschenähnliche Aufmerksamkeit und ihre Gewichte sind keine vollständige Erklärung des „Gedankengangs“ eines Modells. Sie sind eine mathematische Gewichtung innerhalb vieler aufeinanderfolgender Rechenschritte.",
+  "keyTakeaways": [
+    "Query und Key bestimmen, wie stark Positionen miteinander in Beziehung gesetzt werden.",
+    "Die zugehörigen Values werden gemäß den Attention-Gewichten zu neuen Repräsentationen kombiniert.",
+    "Multi-Head Attention erlaubt mehrere parallele Beziehungsmuster.",
+    "Positionsinformation und kausale Masken ergänzen Self-Attention um Reihenfolge und autoregressive Beschränkung.",
+    "Vollständige Attention wird bei langen Sequenzen rechen- und speicherintensiv."
+  ],
+  "questions": [
+    {
+      "id": "technology-ai-attention-q1",
+      "prompt": "Welche Rolle hat ein Value-Vektor in Self-Attention?",
+      "options": [
+        "Er enthält die Information, die entsprechend der Attention-Gewichtung in die neue Repräsentation einfließt.",
+        "Er legt ausschließlich die Position des Tokens fest.",
+        "Er entscheidet, wie viele Layer das Modell besitzt."
+      ],
+      "correctIndex": 0,
+      "explanation": "Queries und Keys bestimmen die Gewichtung; Values liefern die Inhalte, die gewichtet kombiniert werden."
+    },
+    {
+      "id": "technology-ai-attention-q2",
+      "prompt": "Warum braucht ein autoregressives Sprachmodell eine kausale Attention-Maske?",
+      "options": [
+        "Damit eine Position beim Training keine zukünftigen Tokens für ihre Vorhersage verwenden kann.",
+        "Damit alle Tokens exakt gleich gewichtet werden.",
+        "Damit das Modell keine Satzzeichen erzeugt."
+      ],
+      "correctIndex": 0,
+      "explanation": "Die Maske stellt sicher, dass das Modell nur bereits vorhandenen Kontext nutzen kann – wie später bei der Generierung."
+    },
+    {
+      "id": "technology-ai-attention-q3",
+      "prompt": "Warum verwendet ein Transformer mehrere Attention-Köpfe?",
+      "options": [
+        "Damit unterschiedliche Projektionen parallel verschiedene Beziehungsmuster modellieren können.",
+        "Damit jeder Kopf ein vollständiges separates Sprachmodell ist.",
+        "Nur um den Modellnamen länger zu machen."
+      ],
+      "correctIndex": 0,
+      "explanation": "Mehrere Köpfe ermöglichen parallele Attention-Berechnungen mit unterschiedlichen gelernten Projektionen."
+    }
+  ],
+  "recallPrompt": "Erkläre Query, Key und Value mit einer Such-Analogie und ergänze, wozu die Softmax-Gewichtung dient.",
+  "recallAnswer": "Der Query beschreibt vereinfacht, welche Information die aktuelle Position sucht. Keys beschreiben, was andere Positionen anbieten; aus Query-Key-Vergleichen entstehen Scores. Softmax macht daraus relative Gewichte. Die zu den Keys gehörenden Values werden mit diesen Gewichten kombiniert und bilden die neue, kontextabhängige Repräsentation.",
+  "relatedLessonIds": [
+    "technology-llm",
+    "technology-ai-kv-cache",
+    "technology-ai-embeddings"
+  ],
+  "coverageWeight": 1.5,
+  "packId": "general-knowledge-basis"
+}

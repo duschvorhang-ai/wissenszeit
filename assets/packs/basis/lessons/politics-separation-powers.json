@@ -1,0 +1,63 @@
+{
+  "id": "politics-separation-powers",
+  "packId": "general-knowledge-basis",
+  "title": "Warum gibt es Gewaltenteilung?",
+  "durationMinutes": 5,
+  "categoryId": "politics",
+  "path": [
+    "Staat und Demokratie",
+    "Verfassungsprinzipien"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Gewaltenteilung",
+    "Demokratie",
+    "Legislative",
+    "Exekutive",
+    "Judikative",
+    "Rechtsstaat"
+  ],
+  "synonyms": [
+    "separation of powers",
+    "checks and balances"
+  ],
+  "summary": "Gewaltenteilung verteilt staatliche Macht auf verschiedene Institutionen. Ihr Zweck ist nicht maximale Geschwindigkeit, sondern Kontrolle, Begrenzung von Macht und Schutz vor Willkür.",
+  "whyRelevant": "Wer politische Nachrichten verstehen will, muss wissen, warum Parlamente, Regierungen und Gerichte unterschiedliche Rollen haben und sich gegenseitig begrenzen.",
+  "learningGoal": "Du kannst die drei klassischen Staatsgewalten unterscheiden und erklären, warum ihre Trennung demokratische Freiheit schützt.",
+  "sections": [
+    {
+      "title": "Drei Funktionen staatlicher Macht",
+      "body": "Die klassische Gewaltenteilung unterscheidet Legislative, Exekutive und Judikative. Die Legislative beschließt allgemeine Regeln und Gesetze, die Exekutive setzt sie um und führt die laufenden Staatsgeschäfte, die Judikative entscheidet Streitfälle und kontrolliert die Anwendung des Rechts. In Deutschland gehören Bundestag und Bundesrat zur Gesetzgebung, Bundesregierung und Verwaltung zur vollziehenden Gewalt und unabhängige Gerichte zur Rechtsprechung. Die Trennung ist allerdings nicht absolut: Eine parlamentarische Regierung wird aus der Mehrheit des Bundestages getragen und ist deshalb eng mit dem Parlament verbunden."
+    },
+    {
+      "title": "Warum Macht Kontrolle braucht",
+      "body": "Wenn dieselbe Stelle Gesetze erlassen, sie ausführen und über Verstöße urteilen könnte, gäbe es kaum wirksame Grenzen ihrer Macht. Gewaltenteilung schafft Gegenkräfte. Parlamente kontrollieren Regierungen, Gerichte können staatliche Entscheidungen auf ihre Rechtmäßigkeit prüfen und Verfassungsgerichte können Gesetze verwerfen, wenn sie gegen die Verfassung verstoßen. Die Idee dahinter lautet nicht, dass staatliche Akteure grundsätzlich schlecht handeln, sondern dass Institutionen auch dann funktionieren müssen, wenn einzelne Personen Macht missbrauchen wollen."
+    },
+    {
+      "title": "Kontrolle kann absichtlich langsam sein",
+      "body": "Demokratische Systeme wirken manchmal schwerfällig: Gesetze brauchen mehrere Beratungen, Gerichte können Entscheidungen stoppen und föderale Ebenen müssen sich abstimmen. Diese Reibung ist teilweise gewollt. Schnelligkeit ist nur ein politisches Ziel unter mehreren. Ebenso wichtig sind Rechtssicherheit, Beteiligung und Schutz von Minderheiten. Ein System, das jede Mehrheitsentscheidung sofort und ohne Kontrolle umsetzt, wäre effizienter, aber anfälliger für Machtmissbrauch."
+    }
+  ],
+  "misconception": "Gewaltenteilung bedeutet nicht, dass staatliche Institutionen niemals zusammenarbeiten dürfen. Moderne Demokratien nutzen eine Mischung aus Trennung, gegenseitiger Kontrolle und bewusst gesetzten Überschneidungen.",
+  "keyTakeaways": [
+    "Legislative macht Gesetze, Exekutive setzt sie um, Judikative spricht Recht.",
+    "Gewaltenteilung soll Macht kontrollierbar machen und Willkür erschweren.",
+    "Demokratische Reibung und langsamere Verfahren können ein Schutzmechanismus sein."
+  ],
+  "questions": [
+    {
+      "id": "politics-separation-powers-q1",
+      "prompt": "Was ist der wichtigste Zweck der Gewaltenteilung?",
+      "options": [
+        "Staatliche Entscheidungen immer schneller zu machen",
+        "Macht zu verteilen und gegenseitige Kontrolle zu ermöglichen",
+        "Gerichte über Parlamente zu stellen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gewaltenteilung verteilt Macht und schafft Kontrollmechanismen, damit keine Institution unbeschränkt handeln kann."
+    }
+  ],
+  "recallPrompt": "Warum kann ein demokratisches System gerade dann gut funktionieren, wenn Entscheidungen manchmal länger dauern?",
+  "recallAnswer": "Weil Beratungen, Zuständigkeiten und Kontrollen Macht begrenzen, Fehler sichtbar machen und Rechte schützen können; Geschwindigkeit ist nicht das einzige Kriterium guter Politik.",
+  "relatedLessonIds": []
+}

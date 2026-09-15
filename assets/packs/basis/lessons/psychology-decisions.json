@@ -1,0 +1,110 @@
+{
+  "id": "psychology-decisions",
+  "packId": "general-knowledge-basis",
+  "title": "Warum treffen kluge Menschen systematisch schlechte Entscheidungen?",
+  "durationMinutes": 20,
+  "categoryId": "psychology",
+  "path": [
+    "Denken und Entscheiden",
+    "Kognitive Verzerrungen"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "Bias",
+    "Heuristik",
+    "Entscheidung",
+    "Ankereffekt",
+    "Verlustaversion",
+    "Verfügbarkeit",
+    "Overconfidence"
+  ],
+  "synonyms": [
+    "decision making",
+    "kognitive Verzerrungen"
+  ],
+  "summary": "Menschen nutzen mentale Abkürzungen, weil Zeit und Aufmerksamkeit begrenzt sind. Diese Heuristiken funktionieren oft gut, erzeugen aber vorhersehbare Fehler – auch bei intelligenten und erfahrenen Personen.",
+  "whyRelevant": "Fehlentscheidungen entstehen nicht nur aus fehlendem Wissen. Wer typische Verzerrungen und gute Entscheidungsverfahren kennt, kann Urteile in Finanzen, Arbeit und Alltag robuster machen.",
+  "learningGoal": "Du kannst mehrere wichtige Biases erklären, verstehen, warum Intelligenz nicht automatisch schützt, und einfache Verfahren zur Verbesserung von Entscheidungen anwenden.",
+  "sections": [
+    {
+      "title": "Heuristiken sind zunächst eine Stärke",
+      "body": "Menschen können nicht für jede Entscheidung alle Möglichkeiten vollständig berechnen. Das Gehirn nutzt deshalb Heuristiken – schnelle Faustregeln, die unter vielen Bedingungen erstaunlich gut funktionieren. Wenn wir eine dunkle Wolke sehen, brauchen wir kein meteorologisches Modell, um einen Regenschirm einzupacken. Probleme entstehen, wenn eine nützliche Abkürzung in einer Situation systematisch in die falsche Richtung führt. Kognitive Verzerrungen sind daher nicht einfach „Dummheit“, sondern Nebenwirkungen effizienter Informationsverarbeitung. Expertise kann bestimmte Fehler reduzieren, schützt aber nicht grundsätzlich. Erfahrene Menschen haben oft stärkere Intuitionen – und können dadurch in vertrauten Situationen hervorragend, in ungewohnten Situationen aber selbstbewusst falsch entscheiden."
+    },
+    {
+      "title": "Verfügbarkeit und Anker: Was zuerst im Kopf ist, zählt zu stark",
+      "body": "Bei der Verfügbarkeitsheuristik schätzen Menschen Ereignisse leichter als häufig oder wahrscheinlich ein, wenn passende Beispiele schnell in den Sinn kommen. Spektakuläre Flugzeugunglücke können das wahrgenommene Flugrisiko stärker erhöhen als nüchterne Unfallstatistiken. Medienpräsenz verändert daher Risikogefühl. Der Ankereffekt wirkt anders: Eine zuerst genannte Zahl beeinflusst spätere Schätzungen, selbst wenn sie sachlich wenig relevant ist. Ein hoher ursprünglicher Verkaufspreis kann einen Rabatt attraktiver wirken lassen; eine erste Gehaltszahl kann Verhandlungen verschieben. Menschen korrigieren vom Anker aus häufig nicht weit genug. Das macht Reihenfolge von Informationen zu einem echten Entscheidungsfaktor."
+    },
+    {
+      "title": "Verlustaversion und Sunk Costs",
+      "body": "Verluste fühlen sich für viele Menschen stärker an als gleich große Gewinne. Diese Verlustaversion kann erklären, warum Anleger verlustreiche Positionen zu lange halten oder warum Menschen Status quo bevorzugen. Eng verwandt ist der Sunk-Cost-Fehler. Bereits investierte Zeit oder Geld sind für eine zukünftige Entscheidung eigentlich irrelevant, wenn sie nicht zurückgewonnen werden können. Trotzdem denken wir: „Jetzt habe ich schon so viel investiert, also muss ich weitermachen.“ Rational wäre die Frage: Welche Option ist ab jetzt am besten? Ein schlechtes Projekt kann dadurch länger fortgesetzt werden, weil das Beenden psychologisch wie das Eingeständnis eines Verlusts wirkt."
+    },
+    {
+      "title": "Overconfidence und die Illusion der Erklärung",
+      "body": "Menschen überschätzen häufig die Genauigkeit ihres Wissens und die Fähigkeit, komplexe Entwicklungen vorherzusagen. Besonders tückisch ist, dass gute sprachliche Erklärungen im Nachhinein Ereignisse zwangsläufig erscheinen lassen. Nach einer Wahl, einem Börsencrash oder einem Projekterfolg finden sich schnell plausible Geschichten, warum das Ergebnis „eigentlich klar“ war. Diese Rückschauverzerrung erschwert Lernen, weil wir unsere ursprüngliche Unsicherheit vergessen. Entscheidungstagebücher sind deshalb nützlich: Man notiert vor einer wichtigen Entscheidung Annahmen, Wahrscheinlichkeiten und erwartete Ergebnisse. Später kann man prüfen, ob die damalige Einschätzung wirklich so gut war, wie sie sich im Nachhinein anfühlt."
+    },
+    {
+      "title": "Gute Prozesse schlagen gute Vorsätze",
+      "body": "Der Satz „Ich werde künftig objektiver denken“ reicht selten. Robuste Entscheidungen brauchen Verfahren. Erstens: wichtige Kriterien vor dem Ergebnis festlegen. Zweitens: Alternativen ausdrücklich vergleichen, statt nur die Lieblingsoption zu prüfen. Drittens: eine Pre-Mortem-Analyse durchführen – sich vorstellen, die Entscheidung sei gescheitert, und mögliche Ursachen sammeln. Viertens: bei wiederkehrenden Entscheidungen Daten und Checklisten verwenden. Fünftens: Unsicherheit als Wahrscheinlichkeit ausdrücken, etwa 60 statt 100 Prozent Sicherheit. Gruppen können zusätzliche Perspektiven bringen, aber auch Gruppendenken erzeugen. Deshalb kann es sinnvoll sein, erste Einschätzungen unabhängig voneinander abzugeben, bevor diskutiert wird. Das Ziel ist nicht perfekte Rationalität, sondern ein Prozess, der typische Fehler weniger wahrscheinlich macht."
+    },
+    {
+      "title": "Basisraten: Warum Einzelfälle uns verführen",
+      "body": "Menschen gewichten anschauliche Einzelfälle oft stärker als statistische Grundhäufigkeiten. Angenommen, ein medizinischer Test ist sehr genau, aber die gesuchte Krankheit extrem selten. Dann kann unter den positiven Ergebnissen trotzdem ein überraschend großer Anteil falsch-positiv sein. Ohne die Basisrate – also wie häufig die Krankheit überhaupt vorkommt – lässt sich das Testergebnis nicht sinnvoll einordnen. Ähnliches gilt für Personalauswahl, Betrugserkennung oder Investitionen. Eine eindrucksvolle Geschichte über einen erfolgreichen Gründer ersetzt keine Information darüber, wie häufig vergleichbare Gründungen scheitern. Gute Entscheidungen fragen deshalb zuerst: Wie sieht die Ausgangswahrscheinlichkeit aus, bevor ich den speziellen Hinweis berücksichtige?"
+    },
+    {
+      "title": "Incentives und Umgebung formen Entscheidungen",
+      "body": "Nicht jeder Fehler liegt im Kopf einer einzelnen Person. Entscheidungsumgebungen beeinflussen, welche Optionen sichtbar, bequem oder sozial erwünscht sind. Standardoptionen – Defaults – wirken stark, weil viele Menschen sie beibehalten. Unternehmen und Behörden nutzen das etwa bei Altersvorsorge, Datenschutz oder Organspende. Anreize können Verhalten ebenfalls verschieben, manchmal mit unbeabsichtigten Nebenwirkungen. Wer Entscheidungsqualität verbessern will, sollte deshalb sowohl individuelle Biases als auch das Design der Situation betrachten. Ein gutes System macht gewünschtes Verhalten einfach, wichtige Konsequenzen sichtbar und lässt dennoch Wahlfreiheit. Das ist häufig wirksamer, als von jedem Menschen permanente maximale Selbstkontrolle zu verlangen."
+    },
+    {
+      "title": "Transfer: Eine robuste Entscheidung in fünf Minuten",
+      "body": "Bei einer wichtigen, aber zeitlich begrenzten Entscheidung kann eine kurze Checkliste viel bewirken. Notiere zunächst das eigentliche Ziel in einem Satz. Lege dann drei Kriterien fest, bevor du Angebote oder Meinungen vergleichst. Frage nach der Basisrate: Wie häufig gelingt so etwas normalerweise? Suche anschließend bewusst nach einem Grund, warum dein aktueller Favorit scheitern könnte. Zum Schluss gib deiner Einschätzung eine Wahrscheinlichkeit statt eines absoluten Urteils, etwa „Ich bin zu 70 Prozent überzeugt“. Dieses kleine Verfahren beseitigt keine Biases, zwingt aber dazu, Anker, Verfügbarkeit und Selbstüberschätzung kurz zu unterbrechen. Besonders wirksam wird es, wenn du später überprüfst, ob deine Einschätzung tatsächlich gut kalibriert war. Gruppenentscheidungen verdienen besondere Aufmerksamkeit. Teams können Wissen bündeln, aber Hierarchie und sozialer Druck führen leicht dazu, dass abweichende Informationen nicht ausgesprochen werden. Ein einfaches Gegenmittel ist, Einschätzungen zunächst unabhängig zu sammeln und erst danach zu diskutieren. So beeinflusst die erste dominante Meinung die anderen weniger. Bei sicherheitskritischen Entscheidungen können explizite Gegenrollen oder Red Teams sinnvoll sein, deren Aufgabe gerade darin besteht, Schwachstellen einer bevorzugten Lösung zu suchen. Gute Organisationen machen Widerspruch damit zu einem Prozess statt zu einer Frage persönlicher Courage. Schließlich hilft die Trennung zwischen Entscheidungsqualität und Ergebnisqualität. Eine sorgfältige Entscheidung kann wegen Pech schlecht ausgehen; eine fahrlässige Entscheidung kann zufällig Erfolg haben. Wer nur Ergebnisse bewertet, lernt die falschen Lektionen. Gute Reflexion fragt deshalb, ob der damalige Prozess angesichts der damals verfügbaren Informationen vernünftig war. Diese Sicht schützt vor Ergebnisverzerrung und belohnt langfristig bessere Prozesse statt bloß kurzfristiges Glück."
+    }
+  ],
+  "misconception": "Kognitive Biases bedeuten nicht, dass Menschen irrational und unberechenbar sind. Gerade weil viele Verzerrungen systematisch auftreten, kann man Entscheidungsprozesse so gestalten, dass sie ihren Einfluss reduzieren.",
+  "keyTakeaways": [
+    "Heuristiken sparen Denkarbeit, können aber in bestimmten Situationen systematische Fehler erzeugen.",
+    "Verfügbarkeit, Anker, Verlustaversion und Overconfidence verzerren unterschiedliche Teile einer Entscheidung.",
+    "Bereits versunkene Kosten sollten zukünftige Entscheidungen nicht bestimmen.",
+    "Gute Entscheidungsprozesse nutzen Gegenargumente, Pre-Mortems, Daten und explizite Unsicherheit."
+  ],
+  "questions": [
+    {
+      "id": "psychology-decisions-q1",
+      "prompt": "Was ist der Sunk-Cost-Fehler?",
+      "options": [
+        "Zukünftige Kosten werden ignoriert",
+        "Bereits unwiederbringlich investierte Ressourcen beeinflussen die Entscheidung zu stark",
+        "Menschen sparen grundsätzlich zu wenig"
+      ],
+      "correctIndex": 1,
+      "explanation": "Versunkene Kosten sind bereits entstanden und sollten die Wahl zwischen zukünftigen Optionen nicht dominieren."
+    },
+    {
+      "id": "psychology-decisions-q2",
+      "prompt": "Wie reduziert ein Entscheidungstagebuch Rückschauverzerrung?",
+      "options": [
+        "Es verändert nachträglich die Fakten",
+        "Es dokumentiert vorherige Erwartungen und Unsicherheiten, bevor das Ergebnis bekannt ist",
+        "Es verhindert jede falsche Entscheidung"
+      ],
+      "correctIndex": 1,
+      "explanation": "Die ursprüngliche Einschätzung bleibt festgehalten und kann später ehrlich mit dem Ergebnis verglichen werden."
+    },
+    {
+      "id": "psychology-decisions-q3",
+      "prompt": "Warum kann eine Pre-Mortem-Analyse helfen?",
+      "options": [
+        "Sie nimmt an, dass ein Vorhaben bereits gescheitert ist, und sucht mögliche Ursachen",
+        "Sie ersetzt alle Daten durch Intuition",
+        "Sie sorgt dafür, dass nur optimistische Personen entscheiden"
+      ],
+      "correctIndex": 0,
+      "explanation": "Die gedankliche Perspektive des Scheiterns erleichtert es, Risiken zu benennen, die sonst ausgeblendet werden."
+    }
+  ],
+  "recallPrompt": "Nenne ein einfaches Entscheidungsverfahren, das du bei einer teuren privaten Anschaffung anwenden könntest.",
+  "recallAnswer": "Ich würde vor der Recherche drei bis fünf Kriterien und ihre Gewichtung festlegen, mehrere Alternativen anhand derselben Kriterien vergleichen und bewusst nach einem starken Gegenargument gegen meinen Favoriten suchen. So reduziere ich Anker- und Bestätigungsfehler.",
+  "relatedLessonIds": [
+    "psychology-confirmation-bias",
+    "psychology-memory"
+  ]
+}

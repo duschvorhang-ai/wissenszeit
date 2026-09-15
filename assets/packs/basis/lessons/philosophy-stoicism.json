@@ -1,0 +1,63 @@
+{
+  "id": "philosophy-stoicism",
+  "packId": "general-knowledge-basis",
+  "title": "Was wollten die Stoiker wirklich?",
+  "durationMinutes": 5,
+  "categoryId": "philosophy",
+  "path": [
+    "Philosophie",
+    "Antike"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Stoizismus",
+    "Epiktet",
+    "Seneca",
+    "Marc Aurel",
+    "Tugend",
+    "Kontrolle"
+  ],
+  "synonyms": [
+    "Stoiker",
+    "stoicism"
+  ],
+  "summary": "Stoizismus lehrt nicht Gefühllosigkeit. Im Zentrum steht die Unterscheidung zwischen Dingen, die von unserem Urteil und Handeln abhängen, und Dingen, die wir nicht kontrollieren können.",
+  "whyRelevant": "Stoische Ideen sind in moderner Selbsthilfe sehr populär. Ein Blick auf den ursprünglichen philosophischen Kern verhindert, dass daraus nur „reiß dich zusammen“ wird.",
+  "learningGoal": "Du kannst die Kontrollunterscheidung und die Bedeutung von Tugend im Stoizismus erklären.",
+  "sections": [
+    {
+      "title": "Was liegt in unserer Macht?",
+      "body": "Epiktet beginnt seine Lehre mit einer Unterscheidung: Manche Dinge hängen von uns ab – etwa Urteile, Entscheidungen und Absichten – andere nicht vollständig, etwa Gesundheit, gesellschaftliches Ansehen oder das Verhalten anderer Menschen. Stoische Praxis richtet Aufmerksamkeit auf den eigenen Handlungsspielraum. Das bedeutet nicht, äußere Dinge für unwichtig zu halten. Man kann Gesundheit bevorzugen und sich dafür einsetzen, ohne zu glauben, sie vollständig kontrollieren zu können."
+    },
+    {
+      "title": "Tugend statt bloßer Gelassenheit",
+      "body": "Für die Stoiker war ein gutes Leben vor allem ein tugendhaftes Leben: vernünftig, gerecht, mutig und maßvoll handeln. Gelassenheit ist eher eine Folge dieser Haltung als das einzige Ziel. Wenn äußere Erfolge nicht das höchste Gut sind, hängt das eigene moralische Selbstverständnis weniger davon ab, ob ein Projekt gelingt, andere zustimmen oder Zufall günstig ausfällt."
+    },
+    {
+      "title": "Gefühle prüfen statt unterdrücken",
+      "body": "Stoiker wollten nicht zu emotionslosen Steinen werden. Sie untersuchten, welche Bewertungen hinter belastenden Emotionen stehen. Wenn Ärger aus der Annahme entsteht, jemand dürfe sich keinesfalls so verhalten, kann man diese Bewertung prüfen. Trauer über Verlust wird dadurch nicht einfach abgeschaltet. Ziel ist vielmehr, zwischen unvermeidlichem ersten Erleben und Urteilen zu unterscheiden, die zusätzliches Leiden erzeugen."
+    }
+  ],
+  "misconception": "„Stoisch“ bedeutet im Alltag oft, Gefühle nicht zu zeigen. Der philosophische Stoizismus fordert jedoch eher, Urteile und Reaktionen vernünftig zu prüfen und tugendhaft zu handeln – nicht Emotionen gewaltsam zu unterdrücken.",
+  "keyTakeaways": [
+    "Unterscheide zwischen eigenem Handlungsspielraum und nicht vollständig kontrollierbaren Ergebnissen.",
+    "Tugend ist für Stoiker wichtiger als äußerer Erfolg.",
+    "Stoische Praxis prüft Bewertungen hinter Emotionen statt bloß Gefühle zu verdrängen."
+  ],
+  "questions": [
+    {
+      "id": "philosophy-stoicism-q1",
+      "prompt": "Welche Aussage passt am besten zum Stoizismus?",
+      "options": [
+        "Ich kann alle Ergebnisse kontrollieren, wenn ich mich genug anstrenge",
+        "Ich konzentriere mich auf Urteil und Handeln, ohne äußere Ergebnisse vollständig kontrollieren zu wollen",
+        "Gefühle sind grundsätzlich moralisch falsch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Die Kontrollunterscheidung richtet Aufmerksamkeit auf das eigene Urteil und Handeln, nicht auf totale Kontrolle der Welt."
+    }
+  ],
+  "recallPrompt": "Wie könnte ein Stoiker mit einem wichtigen Bewerbungsgespräch umgehen?",
+  "recallAnswer": "Er würde sich gründlich vorbereiten und sein Verhalten bewusst gestalten, zugleich aber akzeptieren, dass die endgültige Entscheidung des Arbeitgebers nicht vollständig in seiner Kontrolle liegt.",
+  "relatedLessonIds": []
+}

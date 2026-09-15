@@ -1,0 +1,63 @@
+{
+  "id": "economy-inflation",
+  "packId": "general-knowledge-basis",
+  "title": "Warum steigen bei Inflation die Preise?",
+  "durationMinutes": 5,
+  "categoryId": "economy",
+  "path": [
+    "Volkswirtschaft",
+    "Geld und Preise"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Inflation",
+    "Preise",
+    "Kaufkraft",
+    "Geld",
+    "Nachfrage",
+    "Angebot"
+  ],
+  "synonyms": [
+    "Teuerung",
+    "Preissteigerung"
+  ],
+  "summary": "Inflation beschreibt einen anhaltenden Anstieg des allgemeinen Preisniveaus. Sie kann aus hoher Nachfrage, steigenden Kosten, Erwartungen und geldwirtschaftlichen Bedingungen entstehen.",
+  "whyRelevant": "Inflation betrifft Löhne, Ersparnisse, Kredite und politische Entscheidungen. Wer den Mechanismus versteht, kann besser unterscheiden, ob nur einzelne Produkte teurer werden oder die Kaufkraft des Geldes insgesamt sinkt.",
+  "learningGoal": "Du kannst erklären, was Inflation bedeutet und warum sie nicht mit einer einzelnen Preissteigerung gleichzusetzen ist.",
+  "sections": [
+    {
+      "title": "Ein Preis ist noch keine Inflation",
+      "body": "Wenn Kaffee nach einer schlechten Ernte teurer wird, ist das zunächst eine Preisänderung bei einem Produkt. Von Inflation spricht man, wenn das durchschnittliche Preisniveau vieler Güter und Dienstleistungen über längere Zeit steigt. Gemessen wird das mit Preisindizes, die einen typischen Warenkorb abbilden. Persönlich kann sich Inflation trotzdem anders anfühlen, weil Haushalte unterschiedliche Dinge kaufen. Wer viel Energie verbraucht, erlebt einen Energiepreisschock stärker als jemand mit geringem Verbrauch."
+    },
+    {
+      "title": "Nachfrage kann schneller wachsen als Angebot",
+      "body": "Wenn Haushalte, Unternehmen oder Staat mehr kaufen wollen, als eine Volkswirtschaft kurzfristig bereitstellen kann, entsteht Preisdruck. Unternehmen bemerken hohe Nachfrage und können Preise erhöhen. Das passiert etwa, wenn Einkommen oder Kredite stark wachsen, während Produktionskapazitäten knapp sind. Nicht jede hohe Nachfrage führt automatisch zu Inflation; Unternehmen können auch mehr produzieren. Entscheidend ist, wie flexibel das Angebot reagieren kann."
+    },
+    {
+      "title": "Kosten und Erwartungen wirken ebenfalls",
+      "body": "Steigen Energie, Rohstoffe oder Löhne stark, erhöhen sich Produktionskosten. Unternehmen versuchen dann, zumindest einen Teil davon über höhere Preise weiterzugeben. Inflation kann sich außerdem selbst verstärken, wenn alle dauerhaft höhere Preise erwarten: Beschäftigte fordern stärkere Lohnerhöhungen, Unternehmen kalkulieren zukünftige Kosten ein und Verträge werden angepasst. Zentralbanken beobachten solche Erwartungen genau, weil stabil verankerte Erwartungen helfen, vorübergehende Preisschocks von dauerhafter Inflation zu trennen."
+    }
+  ],
+  "misconception": "Inflation bedeutet nicht, dass jeder Preis steigt. Einige Preise können fallen, während der Durchschnitt steigt. Ebenso ist ein einmaliger Preissprung nicht automatisch eine dauerhaft hohe Inflationsrate.",
+  "keyTakeaways": [
+    "Inflation betrifft das allgemeine Preisniveau, nicht nur einzelne Produkte.",
+    "Hohe Nachfrage bei begrenztem Angebot kann Preise treiben.",
+    "Kostensteigerungen und Erwartungen können Inflation verstärken."
+  ],
+  "questions": [
+    {
+      "id": "economy-inflation-q1",
+      "prompt": "Welche Situation ist am ehesten Inflation?",
+      "options": [
+        "Nur Olivenöl wird wegen einer schlechten Ernte teurer",
+        "Viele Güter und Dienstleistungen werden über längere Zeit im Durchschnitt teurer",
+        "Ein Händler erhöht heute einmalig einen Preis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inflation beschreibt einen breiten und anhaltenden Anstieg des allgemeinen Preisniveaus."
+    }
+  ],
+  "recallPrompt": "Was ist der Unterschied zwischen „ein Produkt wird teurer“ und Inflation?",
+  "recallAnswer": "Eine einzelne Preisänderung betrifft nur ein Gut; Inflation bezeichnet einen breiten, anhaltenden Anstieg des durchschnittlichen Preisniveaus und damit einen Kaufkraftverlust des Geldes.",
+  "relatedLessonIds": []
+}

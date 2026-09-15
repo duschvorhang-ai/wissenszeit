@@ -1,0 +1,61 @@
+{
+  "id": "geography-timezones",
+  "packId": "general-knowledge-basis",
+  "title": "Warum gibt es Zeitzonen?",
+  "durationMinutes": 5,
+  "categoryId": "geography",
+  "path": [
+    "Physische Geografie",
+    "Erde und Zeit"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Zeitzonen",
+    "Längengrade",
+    "UTC",
+    "Erddrehung"
+  ],
+  "synonyms": [
+    "time zones",
+    "Greenwich"
+  ],
+  "summary": "Zeitzonen übersetzen die kontinuierliche Drehung der Erde in ein praktisches gesellschaftliches Zeitsystem. Ihre Grenzen sind deshalb zugleich geografisch und politisch.",
+  "whyRelevant": "Ohne standardisierte Zeit wäre moderner Verkehr, internationale Kommunikation und digitale Koordination kaum beherrschbar. Zeitzonen zeigen außerdem gut, wie Naturgegebenheiten und politische Entscheidungen zusammenkommen.",
+  "learningGoal": "Du kannst erklären, warum die Erde theoretisch 24 Zeitzonen nahelegt und warum reale Zeitzonengrenzen davon abweichen.",
+  "sections": [
+    {
+      "title": "Die Erde dreht sich weiter",
+      "body": "Die Erde rotiert in ungefähr 24 Stunden einmal um ihre Achse. Während an einem Ort die Sonne am höchsten steht, ist sie weiter westlich noch auf dem Weg dorthin und weiter östlich bereits darüber hinaus. Würde jeder Ort nur nach seinem lokalen Sonnenstand leben, hätte fast jede Stadt eine leicht andere Uhrzeit. Das war vor der Industrialisierung tatsächlich weniger problematisch, weil Reisen und Kommunikation langsam waren."
+    },
+    {
+      "title": "15 Längengrade pro Stunde",
+      "body": "Ein voller Kreis hat 360 Grad. Teilt man 360 Grad durch 24 Stunden, erhält man 15 Längengrade pro Stunde. Daraus ergibt sich die theoretische Idee von 24 gleich breiten Zeitzonen. Als Bezug dient heute UTC; historisch wurde der Nullmeridian durch Greenwich bei London international bedeutsam. Wer nach Osten reist, addiert im Grundprinzip Stunden, wer nach Westen reist, zieht sie ab."
+    },
+    {
+      "title": "Warum Grenzen krumm verlaufen",
+      "body": "Staaten richten ihre Uhren nicht streng nach Längengraden aus. Zeitzonengrenzen folgen häufig Landesgrenzen, damit innerhalb eines Staates oder Wirtschaftsraums möglichst dieselbe Zeit gilt. Manche große Länder verwenden mehrere Zeitzonen, andere trotz großer Ost-West-Ausdehnung nur eine. Hinzu kommen halbe oder viertel Stunden Abweichung sowie Sommerzeitregeln. Die Landkarte der Uhrzeiten ist deshalb ein politisch angepasstes Modell der Erdrotation."
+    }
+  ],
+  "misconception": "Zeitzonen sind keine Naturzonen wie Klimagürtel. Die Erdrotation liefert nur die astronomische Grundlage; die konkrete Uhrzeit eines Landes ist eine gesellschaftliche und politische Festlegung.",
+  "keyTakeaways": [
+    "Die Erdrotation erzeugt unterschiedliche lokale Sonnenzeiten.",
+    "15 Längengrade entsprechen theoretisch etwa einer Stunde Zeitunterschied.",
+    "Reale Zeitzonen folgen oft politischen Grenzen statt exakten Meridianen."
+  ],
+  "questions": [
+    {
+      "id": "geography-timezones-q1",
+      "prompt": "Warum verlaufen Zeitzonengrenzen häufig nicht exakt entlang von Längengraden?",
+      "options": [
+        "Weil die Erde unregelmäßig rotiert",
+        "Weil Staaten praktische und politische Grenzen festlegen",
+        "Weil Längengrade nur auf Meeren existieren"
+      ],
+      "correctIndex": 1,
+      "explanation": "Die astronomische Grundlage ist regelmäßig, aber Staaten wählen Zeitzonen so, dass sie im Alltag sinnvoll funktionieren."
+    }
+  ],
+  "recallPrompt": "Warum wären lokale Sonnenzeiten für eine moderne Gesellschaft unpraktisch?",
+  "recallAnswer": "Weil nahezu jeder Ort eine andere Uhrzeit hätte und Fahrpläne, Kommunikation und wirtschaftliche Koordination dadurch unnötig kompliziert würden.",
+  "relatedLessonIds": []
+}

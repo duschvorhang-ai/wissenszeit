@@ -1,0 +1,62 @@
+{
+  "id": "earth-plate-tectonics",
+  "packId": "general-knowledge-basis",
+  "title": "Warum bewegen sich Kontinente?",
+  "durationMinutes": 5,
+  "categoryId": "earth",
+  "path": [
+    "Geologie",
+    "Plattentektonik"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Plattentektonik",
+    "Kontinente",
+    "Erdbeben",
+    "Vulkane",
+    "Erdmantel"
+  ],
+  "synonyms": [
+    "Kontinentaldrift",
+    "tectonic plates"
+  ],
+  "summary": "Die äußere feste Hülle der Erde ist in tektonische Platten zerlegt. Diese bewegen sich langsam auf dem zäh verformbaren oberen Mantel und erzeugen an ihren Grenzen viele Erdbeben, Gebirge und Vulkane.",
+  "whyRelevant": "Plattentektonik verbindet scheinbar unterschiedliche Phänomene – Kontinentaldrift, Ozeanbecken, Gebirge, Erdbeben und Vulkanismus – in einem gemeinsamen Modell.",
+  "learningGoal": "Du kannst erklären, was tektonische Platten sind und drei typische Arten von Plattengrenzen unterscheiden.",
+  "sections": [
+    {
+      "title": "Die Erdkruste ist kein starres Ganzes",
+      "body": "Lithosphäre nennt man die feste äußere Hülle aus Erdkruste und oberstem Mantel. Sie besteht aus mehreren großen und vielen kleineren Platten. Diese bewegen sich mit Geschwindigkeiten von meist wenigen Zentimetern pro Jahr. Das wirkt langsam, summiert sich aber über Millionen Jahre zu Tausenden Kilometern. Kontinente sitzen auf diesen Platten und werden mit ihnen transportiert."
+    },
+    {
+      "title": "Platten entstehen, kollidieren oder gleiten vorbei",
+      "body": "An divergenten Grenzen bewegen sich Platten auseinander. Aufsteigendes Material bildet dort neue ozeanische Kruste, etwa an mittelozeanischen Rücken. An konvergenten Grenzen bewegen sich Platten aufeinander zu. Eine ozeanische Platte kann unter eine andere abtauchen – Subduktion – oder zwei Kontinente können kollidieren und Gebirge auffalten. An Transformgrenzen gleiten Platten seitlich aneinander vorbei. Spannungen lösen sich dort häufig in Erdbeben."
+    },
+    {
+      "title": "Was treibt die Bewegung?",
+      "body": "Die Bewegung hängt mit Wärme aus dem Erdinneren und der Schwerkraft zusammen. Kalte, dichte ozeanische Lithosphäre kann an Subduktionszonen absinken und den Rest einer Platte mitziehen; an erhöhten mittelozeanischen Rücken wirkt ebenfalls eine gravitative Komponente. Mantelströmungen spielen eine Rolle, aber das verbreitete Bild von Platten, die einfach wie Flöße auf großen Förderbändern schwimmen, ist zu simpel. Mehrere Kräfte wirken zusammen. Messbar ist diese Bewegung heute direkt mit Satellitengeodäsie und GPS. Damit lässt sich beobachten, dass sich Platten tatsächlich um Zentimeter pro Jahr gegeneinander verschieben – genau in der Größenordnung, die geologische Modelle erwarten."
+    }
+  ],
+  "misconception": "Kontinente bewegen sich nicht eigenständig durch eine flüssige Magmaschicht. Sie sind Teil fester Lithosphärenplatten, die sich auf geologischen Zeitskalen über den verformbaren Mantel bewegen.",
+  "keyTakeaways": [
+    "Kontinente liegen auf beweglichen Lithosphärenplatten.",
+    "Divergente, konvergente und Transformgrenzen erzeugen unterschiedliche geologische Prozesse.",
+    "Die Plattenbewegung wird durch Wärmefluss und Schwerkraft angetrieben."
+  ],
+  "questions": [
+    {
+      "id": "earth-plate-tectonics-q1",
+      "prompt": "Wo entsteht typischerweise neue ozeanische Kruste?",
+      "options": [
+        "An divergenten Plattengrenzen",
+        "Im Zentrum alter Kontinente",
+        "Nur an Transformstörungen"
+      ],
+      "correctIndex": 0,
+      "explanation": "An mittelozeanischen Rücken bewegen sich Platten auseinander und aufsteigendes Material bildet neue Kruste."
+    }
+  ],
+  "recallPrompt": "Warum können Gebirge und tiefe Ozeangräben beide mit Plattentektonik erklärt werden?",
+  "recallAnswer": "Weil an konvergenten Grenzen Platten kollidieren: Kontinentkollision kann Kruste zu Gebirgen verdicken, während bei Subduktion eine Platte abtaucht und tiefe Ozeangräben entstehen.",
+  "relatedLessonIds": []
+}

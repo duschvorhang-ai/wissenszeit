@@ -1,0 +1,62 @@
+{
+  "id": "earth-greenhouse",
+  "packId": "general-knowledge-basis",
+  "title": "Wie funktioniert der Treibhauseffekt?",
+  "durationMinutes": 5,
+  "categoryId": "earth",
+  "path": [
+    "Klima",
+    "Atmosphäre"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Treibhauseffekt",
+    "CO2",
+    "Klimawandel",
+    "Infrarotstrahlung",
+    "Atmosphäre"
+  ],
+  "synonyms": [
+    "greenhouse effect",
+    "Kohlendioxid"
+  ],
+  "summary": "Die Atmosphäre lässt einen großen Teil des Sonnenlichts passieren, absorbiert aber einen Teil der von der Erde abgegebenen Wärmestrahlung. Treibhausgase strahlen diese Energie in verschiedene Richtungen zurück und erwärmen dadurch die untere Atmosphäre und Oberfläche.",
+  "whyRelevant": "Ohne natürlichen Treibhauseffekt wäre die Erde deutlich kälter. Das Klimaproblem entsteht nicht durch den Effekt an sich, sondern durch seine zusätzliche Verstärkung durch menschliche Treibhausgasemissionen.",
+  "learningGoal": "Du kannst natürlichen und menschengemacht verstärkten Treibhauseffekt unterscheiden und die Rolle von CO₂ erklären.",
+  "sections": [
+    {
+      "title": "Energie kommt kurzwelliger herein",
+      "body": "Die Sonne sendet vor allem kurzwellige Strahlung zur Erde. Ein Teil wird von Wolken, Eis oder hellen Oberflächen reflektiert, ein anderer Teil von Oberfläche und Atmosphäre aufgenommen. Die erwärmte Erdoberfläche gibt Energie wieder ab – vor allem als langwellige Infrarotstrahlung. Wäre die Atmosphäre für diese Strahlung vollständig transparent, würde mehr Wärme direkt ins All entweichen."
+    },
+    {
+      "title": "Treibhausgase absorbieren Wärmestrahlung",
+      "body": "Gase wie Wasserdampf, Kohlendioxid und Methan können bestimmte Wellenlängen der Infrarotstrahlung aufnehmen. Sie geben Energie anschließend wieder als Strahlung in verschiedene Richtungen ab, also auch zurück Richtung Erdoberfläche. Dadurch liegt die Temperatur der unteren Atmosphäre und Oberfläche höher, als sie ohne diese Gase wäre. Der natürliche Treibhauseffekt ist deshalb eine Voraussetzung für das heutige Klima und flüssiges Wasser in großem Umfang."
+    },
+    {
+      "title": "Mehr Treibhausgase verschieben die Energiebilanz",
+      "body": "Durch Verbrennung fossiler Energieträger, Landnutzungsänderungen und andere Prozesse steigt die Konzentration langlebiger Treibhausgase. Dadurch kann die Atmosphäre zusätzliche Wärmestrahlung absorbieren. Das Erdsystem gibt zunächst weniger Energie ins All ab, als es aufnimmt, und erwärmt sich, bis sich eine neue Energiebilanz einstellt. Rückkopplungen – etwa veränderte Wasserdampfgehalte oder Eisflächen – können die Reaktion verstärken oder abschwächen."
+    }
+  ],
+  "misconception": "Der Treibhauseffekt funktioniert nicht wie das Glasdach eines Gewächshauses. Ein echtes Gewächshaus wird stark dadurch warm, dass Luftaustausch unterdrückt wird; der atmosphärische Treibhauseffekt beruht wesentlich auf Strahlungsabsorption und -emission.",
+  "keyTakeaways": [
+    "Der natürliche Treibhauseffekt macht die Erde deutlich wärmer und lebensfreundlicher.",
+    "Treibhausgase absorbieren Teile der langwelligen Wärmestrahlung der Erde.",
+    "Menschliche Emissionen verstärken den natürlichen Effekt, indem sie die Konzentration bestimmter Treibhausgase erhöhen."
+  ],
+  "questions": [
+    {
+      "id": "earth-greenhouse-q1",
+      "prompt": "Was unterscheidet den natürlichen vom menschengemacht verstärkten Treibhauseffekt?",
+      "options": [
+        "Der natürliche Effekt nutzt andere physikalische Gesetze",
+        "Der menschliche Einfluss erhöht die Konzentration bestimmter Treibhausgase und verstärkt denselben Grundmechanismus",
+        "Nur der menschliche Effekt betrifft Infrarotstrahlung"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es handelt sich um denselben physikalischen Mechanismus; verändert wird seine Stärke durch höhere Treibhausgaskonzentrationen."
+    }
+  ],
+  "recallPrompt": "Warum ist der Satz „Der Treibhauseffekt ist schlecht“ naturwissenschaftlich ungenau?",
+  "recallAnswer": "Weil der natürliche Treibhauseffekt für das heutige lebensfreundliche Klima notwendig ist; problematisch ist seine schnelle zusätzliche Verstärkung durch menschliche Emissionen.",
+  "relatedLessonIds": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "biology-sleep",
+  "packId": "general-knowledge-basis",
+  "title": "Warum braucht das Gehirn Schlaf?",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Mensch",
+    "Gehirn und Schlaf"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Schlaf",
+    "Gehirn",
+    "Gedächtnis",
+    "REM",
+    "Tiefschlaf",
+    "Circadianer Rhythmus"
+  ],
+  "synonyms": [
+    "sleep",
+    "Schlafphasen"
+  ],
+  "summary": "Schlaf ist kein passiver Aus-Zustand. Während verschiedener Schlafphasen verändert das Gehirn seine Aktivität, stabilisiert Gedächtnisinhalte, reguliert Stoffwechsel und unterstützt emotionale Verarbeitung.",
+  "whyRelevant": "Schlaf beeinflusst Aufmerksamkeit, Lernen, Stimmung und körperliche Gesundheit. Gerade für Lernen ist deshalb relevant, dass zusätzliche Lernzeit auf Kosten des Schlafs oft kontraproduktiv ist.",
+  "learningGoal": "Du kannst erklären, warum Schlaf für Gedächtnis, Aufmerksamkeit und körperliche Regulation wichtig ist.",
+  "sections": [
+    {
+      "title": "Schlaf folgt einer inneren Uhr",
+      "body": "Der Körper besitzt einen circadianen Rhythmus von ungefähr 24 Stunden. Licht ist ein wichtiger Zeitgeber und beeinflusst unter anderem die Ausschüttung des Hormons Melatonin. Zusätzlich wächst mit langer Wachzeit ein biologischer Schlafdruck. Beide Systeme wirken zusammen: Deshalb kann man trotz Müdigkeit am frühen Abend noch relativ wach sein und später deutlich schläfriger werden. Koffein verändert den Schlafdruck vorübergehend, ersetzt aber keinen Schlaf."
+    },
+    {
+      "title": "Das Gehirn arbeitet weiter",
+      "body": "Im Schlaf wechseln sich verschiedene Stadien ab. Tiefschlaf und REM-Schlaf weisen unterschiedliche Aktivitätsmuster auf. Forschung deutet darauf hin, dass während des Schlafs neu gelernte Informationen stabilisiert und mit vorhandenem Wissen verknüpft werden. Schlaf verbessert deshalb häufig die spätere Erinnerung. Gleichzeitig verarbeitet das Gehirn emotionale Erfahrungen und reguliert neuronale Netzwerke. „Bewusstlos“ bedeutet also nicht „inaktiv“."
+    },
+    {
+      "title": "Zu wenig Schlaf hat unmittelbare Folgen",
+      "body": "Schlafmangel verschlechtert Aufmerksamkeit, Reaktionsgeschwindigkeit und Entscheidungsfähigkeit. Menschen unterschätzen dabei oft, wie stark ihre Leistung bereits beeinträchtigt ist. Langfristig ist chronisch zu kurzer Schlaf mit verschiedenen Gesundheitsrisiken verbunden. Entscheidend ist nicht nur die Dauer, sondern auch Regelmäßigkeit und Qualität. Der individuelle Bedarf variiert, doch dauerhaft sehr wenig Schlaf lässt sich biologisch nicht einfach antrainieren."
+    }
+  ],
+  "misconception": "Man kann Schlaf nicht vollständig „nachholen“ wie ein Bankkonto. Zusätzlicher Schlaf nach einer kurzen Nacht hilft zwar, aber chronische Schlafdefizite und ein dauerhaft gestörter Rhythmus lassen sich nicht beliebig durch Ausschlafen am Wochenende neutralisieren.",
+  "keyTakeaways": [
+    "Schlaf wird von circadianer Uhr und wachsender Schlafneigung gesteuert.",
+    "Gedächtnis und Lernen profitieren von Verarbeitung während des Schlafs.",
+    "Schlafmangel beeinträchtigt Aufmerksamkeit und Entscheidungen oft stärker, als man subjektiv wahrnimmt."
+  ],
+  "questions": [
+    {
+      "id": "biology-sleep-q1",
+      "prompt": "Warum kann Lernen bis tief in die Nacht kontraproduktiv sein?",
+      "options": [
+        "Weil das Gehirn nach Sonnenuntergang nichts mehr speichert",
+        "Weil Schlaf selbst zur Stabilisierung neu gelernter Inhalte beiträgt",
+        "Weil REM-Schlaf nur am Nachmittag vorkommt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lernen und Schlaf ergänzen sich: Neu erworbenes Wissen wird während des Schlafs weiter verarbeitet und stabilisiert."
+    }
+  ],
+  "recallPrompt": "Warum ist Schlaf aus Sicht des Lernens aktive Zeit und nicht einfach verlorene Zeit?",
+  "recallAnswer": "Weil das Gehirn im Schlaf neu gelernte Inhalte stabilisiert, ordnet und mit bestehendem Wissen verknüpft; ausreichender Schlaf verbessert außerdem Aufmerksamkeit für das nächste Lernen.",
+  "relatedLessonIds": []
+}

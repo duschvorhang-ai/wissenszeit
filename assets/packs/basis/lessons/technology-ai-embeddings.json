@@ -1,0 +1,72 @@
+{
+  "id": "technology-ai-embeddings",
+  "title": "Wie Embeddings Bedeutung in Zahlen übersetzen",
+  "durationMinutes": 5,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Künstliche Intelligenz",
+    "Embeddings"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "KI",
+    "Embeddings",
+    "Vektoren",
+    "Vektorsuche",
+    "Semantische Suche",
+    "Ähnlichkeit",
+    "LLM",
+    "Machine Learning"
+  ],
+  "synonyms": [
+    "Vector Embeddings",
+    "Vector Search",
+    "semantic search",
+    "Vektordatenbank"
+  ],
+  "summary": "Embeddings bilden Wörter, Sätze oder andere Daten als Punkte in hochdimensionalen Zahlenräumen ab. Ähnliche Inhalte landen dabei oft näher beieinander – die Grundlage semantischer Suche und vieler RAG-Systeme.",
+  "whyRelevant": "Wer Embeddings versteht, versteht einen zentralen Baustein moderner KI-Anwendungen: Warum eine Suche auch dann passende Inhalte findet, wenn die exakten Wörter gar nicht vorkommen.",
+  "learningGoal": "Du kannst erklären, was ein Embedding ist, wie Ähnlichkeit zwischen Vektoren genutzt wird und warum ein Embedding keine kleine, direkt lesbare Bedeutungsdatenbank ist.",
+  "sections": [
+    {
+      "title": "Bedeutung als Position im Vektorraum",
+      "body": "Ein Embedding ist eine Liste von Zahlen – ein Vektor –, die ein Modell aus einem Wort, Satz, Dokument, Bild oder anderen Daten erzeugt. Die einzelnen Zahlen sind für Menschen meist nicht direkt interpretierbar. Entscheidend ist ihre gemeinsame Position in einem Raum mit vielen Dimensionen. Während des Trainings lernt das Modell, Repräsentationen so anzuordnen, dass Inhalte mit ähnlichen Mustern oder Bedeutungen häufig ähnliche Vektoren erhalten. Ein Satz über „Elektroautos und Batterien“ kann dadurch näher an „Akkutechnik für Fahrzeuge“ liegen als an einem Text über Kochrezepte, obwohl die beiden ähnlichen Sätze kaum identische Wörter enthalten. Genau das unterscheidet semantische Suche von einer reinen Stichwortsuche."
+    },
+    {
+      "title": "Ähnlichkeit wird mathematisch verglichen",
+      "body": "Um passende Vektoren zu finden, berechnet ein System eine Ähnlichkeitsmetrik. Häufig wird die Kosinusähnlichkeit verwendet: Sie betrachtet vereinfacht, wie ähnlich zwei Vektoren ausgerichtet sind. Für eine Suchanfrage erzeugt das Modell zunächst ebenfalls ein Embedding. Anschließend sucht eine Vektordatenbank nach gespeicherten Vektoren, die mathematisch nahe liegen. So kann eine Frage wie „Wie senke ich die Heizkosten?“ einen Abschnitt über „effiziente Wärmedämmung“ finden, obwohl das Wort Heizkosten dort vielleicht gar nicht vorkommt. Bei großen Datenmengen werden dafür spezielle Näherungsverfahren eingesetzt, weil ein exakter Vergleich mit Millionen Vektoren zu teuer wäre."
+    },
+    {
+      "title": "Embeddings sind nützlich – aber nicht magisch",
+      "body": "Nähe im Embedding-Raum bedeutet nicht automatisch faktische Gleichheit. Zwei Texte können thematisch ähnlich sein, obwohl einer den anderen widerspricht. Außerdem hängt die Qualität stark vom verwendeten Embedding-Modell und von der Art der Daten ab. Ein Modell, das für allgemeine Texte trainiert wurde, muss juristische Spezialbegriffe nicht optimal abbilden. Embeddings komprimieren zudem viele Eigenschaften gleichzeitig; einzelne Dimensionen lassen sich normalerweise nicht sauber als „Dimension 42 bedeutet Ironie“ interpretieren. In Anwendungen sind sie deshalb ein leistungsfähiges Such- und Gruppierungswerkzeug, aber kein Ersatz für fachliche Prüfung oder strukturierte Regeln."
+    }
+  ],
+  "misconception": "Ein Embedding ist keine Tabelle, in der jede Dimension eine klar benannte Bedeutung trägt. Die semantische Information ist verteilt über viele Dimensionen und entsteht aus deren Zusammenspiel.",
+  "keyTakeaways": [
+    "Embeddings repräsentieren Inhalte als hochdimensionale Zahlenvektoren.",
+    "Semantisch ähnliche Inhalte können über mathematische Vektorähnlichkeit gefunden werden.",
+    "Vektornähe zeigt Ähnlichkeit, garantiert aber weder Wahrheit noch logische Übereinstimmung."
+  ],
+  "questions": [
+    {
+      "id": "technology-ai-embeddings-q1",
+      "prompt": "Warum kann eine Embedding-Suche Treffer finden, obwohl Suchanfrage und Dokument kaum gleiche Wörter enthalten?",
+      "options": [
+        "Weil die Vektoren semantische Muster abbilden und mathematisch auf Ähnlichkeit verglichen werden.",
+        "Weil jede Suche automatisch das gesamte Internet durchsucht.",
+        "Weil Embeddings Wörter alphabetisch sortieren."
+      ],
+      "correctIndex": 0,
+      "explanation": "Embeddings erlauben einen Vergleich auf Basis gelernter Repräsentationen statt nur identischer Zeichenketten."
+    }
+  ],
+  "recallPrompt": "Erkläre in zwei Sätzen, was ein Embedding ist und wofür eine Vektordatenbank es nutzt.",
+  "recallAnswer": "Ein Embedding ist eine numerische Repräsentation eines Inhalts in einem hochdimensionalen Raum. Eine Vektordatenbank sucht dort nach mathematisch ähnlichen Repräsentationen, um beispielsweise semantisch passende Dokumente zu finden.",
+  "relatedLessonIds": [
+    "technology-llm",
+    "technology-ai-rag"
+  ],
+  "coverageWeight": 0.7,
+  "packId": "general-knowledge-basis"
+}

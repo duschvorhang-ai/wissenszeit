@@ -1,0 +1,111 @@
+{
+  "id": "philosophy-ethics",
+  "packId": "general-knowledge-basis",
+  "title": "Wie helfen ethische Theorien bei moralischen Konflikten?",
+  "durationMinutes": 20,
+  "categoryId": "philosophy",
+  "path": [
+    "Ethik",
+    "Moralphilosophie"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "Ethik",
+    "Utilitarismus",
+    "Pflichtenethik",
+    "Kant",
+    "Tugendethik",
+    "Moral",
+    "Gerechtigkeit"
+  ],
+  "synonyms": [
+    "moral philosophy",
+    "Ethikmodelle"
+  ],
+  "summary": "Ethische Theorien liefern unterschiedliche Perspektiven auf dieselbe moralische Frage: Folgenethik fragt nach Ergebnissen, Pflichtenethik nach Regeln und Rechten, Tugendethik nach Charakter und gutem Handeln.",
+  "whyRelevant": "Moralische Konflikte sind selten schwierig, weil niemand Werte besitzt, sondern weil mehrere plausible Werte kollidieren. Ethische Modelle helfen, diese Konflikte systematisch sichtbar zu machen.",
+  "learningGoal": "Du kannst Folgen-, Pflichten- und Tugendethik unterscheiden, ihre Stärken und Grenzen benennen und sie gemeinsam auf einen praktischen Konflikt anwenden.",
+  "sections": [
+    {
+      "title": "Warum überhaupt Ethiktheorien?",
+      "body": "Im Alltag urteilen Menschen moralisch oft intuitiv. Wir empfinden Lügen, ungerechte Behandlung oder unnötiges Leid als problematisch. Intuitionen können wertvoll sein, aber sie kollidieren. Ist eine Lüge erlaubt, wenn sie jemanden schützt? Darf eine knappe medizinische Ressource danach verteilt werden, wo sie die meisten Lebensjahre rettet? Ethiktheorien versuchen, solche Entscheidungen mit allgemeineren Prinzipien zu strukturieren. Sie ersetzen nicht automatisch jedes Urteil durch eine Formel. Ihr Wert liegt häufig darin, versteckte Annahmen sichtbar zu machen. Wenn zwei Personen über eine Entscheidung streiten, kann sich zeigen, dass eine vor allem Folgen bewertet, während die andere bestimmte Rechte für nicht verhandelbar hält. Dann wird klarer, worin der eigentliche Konflikt besteht."
+    },
+    {
+      "title": "Folgenethik: Welche Option erzeugt die besten Ergebnisse?",
+      "body": "Konsequentialistische Ansätze bewerten Handlungen wesentlich nach ihren Folgen. Der Utilitarismus ist die bekannteste Variante. Vereinfacht soll die Handlung gewählt werden, die insgesamt das größte Wohlergehen beziehungsweise den geringsten Schaden erzeugt. Das zwingt dazu, die Perspektive aller Betroffenen zu berücksichtigen und reale Konsequenzen ernst zu nehmen. In Politik und Medizin erinnert das an Kosten-Nutzen-Abwägungen. Schwieriger wird es, wenn Folgen unsicher sind oder verschiedene Güter miteinander verglichen werden müssen. Noch grundlegender ist die Rechtekritik: Wenn ein großer Nutzen für viele durch schwere Schädigung einer unschuldigen Minderheit erreicht würde, scheint reine Summenbildung moralisch problematisch. Folgenethik ist deshalb stark darin, Konsequenzen sichtbar zu machen, braucht aber oft zusätzliche Überlegungen zu Gerechtigkeit und Rechten."
+    },
+    {
+      "title": "Pflichtenethik: Manche Handlungen haben Grenzen",
+      "body": "Deontologische Ethik beurteilt nicht nur Ergebnisse, sondern fragt, welche Pflichten, Regeln und Rechte gelten. Immanuel Kant ist ein zentraler Vertreter. Sein kategorischer Imperativ wird unterschiedlich formuliert; eine bekannte Idee lautet, Menschen niemals bloß als Mittel, sondern immer auch als Zweck an sich zu behandeln. Das betont Würde und Autonomie. Eine Person darf nicht beliebig geopfert werden, nur weil andere profitieren. Regeln schaffen zudem Verlässlichkeit: Wenn Versprechen nur gelten, solange ihr Bruch gerade nützlich erscheint, verliert das Versprechen seinen Sinn. Schwierigkeiten entstehen bei kollidierenden Pflichten. Wahrheit sagen und jemanden schützen können gegeneinander stehen. Außerdem können sehr starre Regeln in Extremsituationen Ergebnisse erzeugen, die moralisch ebenfalls schwer akzeptabel wirken."
+    },
+    {
+      "title": "Tugendethik: Was würde ein guter Mensch tun?",
+      "body": "Die Tugendethik, die stark mit Aristoteles verbunden ist, verschiebt die Frage. Nicht nur „Welche Handlung ist richtig?“, sondern „Welche Art von Person sollte ich sein?“ Tugenden wie Mut, Gerechtigkeit, Besonnenheit oder Großzügigkeit werden durch Übung und gute Gewohnheiten entwickelt. Aristoteles versteht Tugend häufig als angemessene Mitte zwischen Extremen: Mut liegt beispielsweise zwischen Feigheit und Tollkühnheit, wobei die „Mitte“ nicht mathematisch exakt ist, sondern von der Situation abhängt. Tugendethik eignet sich besonders für Bereiche, in denen moralisches Urteil Kontext und Erfahrung benötigt. Sie erklärt auch, warum Vorbilder und Charakterbildung wichtig sind. Kritisch bleibt, dass sie bei konkreten Konflikten manchmal weniger eindeutige Handlungsregeln liefert und Vorstellungen eines guten Charakters kulturell umstritten sein können."
+    },
+    {
+      "title": "Ein Konflikt aus drei Perspektiven",
+      "body": "Stell dir vor, ein Unternehmen entdeckt einen schweren Fehler in einem Produkt, dessen Rückruf sehr teuer wäre. Folgenethisch würde man systematisch Schäden und Nutzen vergleichen: Wie groß ist das Risiko für Kunden, welche Folgen hat ein Rückruf, wie wirkt Vertrauensverlust? Pflichtenethisch steht im Vordergrund, dass Kunden nicht wissentlich einem vermeidbaren Risiko ausgesetzt und relevante Informationen nicht verschwiegen werden dürfen. Tugendethisch fragt man, wie eine verantwortungsvolle, ehrliche und mutige Unternehmensführung handeln würde. Interessanterweise können alle drei Perspektiven zum selben Ergebnis führen – etwa einem Rückruf –, aber aus unterschiedlichen Gründen. In anderen Fällen widersprechen sie sich. Genau darin liegt der Nutzen: Statt nur ein spontanes „richtig/falsch“-Gefühl zu verteidigen, kann man Folgen, Rechte und Charakter systematisch gegeneinander prüfen."
+    },
+    {
+      "title": "Gerechtigkeit ergänzt Folgen, Pflichten und Tugenden",
+      "body": "Viele moralische Konflikte betreffen nicht nur die Summe des Wohlergehens, sondern dessen Verteilung. Zwei politische Maßnahmen können denselben Gesamtnutzen erzeugen und trotzdem sehr unterschiedlich gerecht sein. Theorien der Gerechtigkeit fragen deshalb, wie Chancen, Rechte, Lasten und Güter verteilt werden sollten. John Rawls schlägt als Gedankenexperiment einen „Schleier des Nichtwissens“ vor: Welche gesellschaftlichen Regeln würde man wählen, wenn man nicht wüsste, ob man später reich oder arm, gesund oder krank, privilegiert oder benachteiligt sein wird? Die Idee zwingt dazu, Regeln aus einer unparteiischeren Perspektive zu betrachten. Sie ist kein universell akzeptiertes Ergebnis, ergänzt aber die drei klassischen Blickwinkel um die Verteilungsfrage."
+    },
+    {
+      "title": "Moralisches Urteil braucht Faktenkenntnis",
+      "body": "Ethische Diskussionen scheitern oft nicht an unterschiedlichen Werten, sondern an unterschiedlichen Annahmen über Tatsachen. Ob eine Maßnahme moralisch vertretbar ist, hängt etwa davon ab, wie wirksam sie ist, wen sie tatsächlich belastet und welche Alternativen existieren. Deshalb gehören empirische Fragen und normative Fragen zusammen, ohne identisch zu sein. Wissenschaft kann untersuchen, welche Folgen eine Handlung wahrscheinlich hat; sie kann nicht allein entscheiden, welche Folgen moralisch am wichtigsten sind. Umgekehrt hilft die beste Ethiktheorie wenig, wenn sie auf falschen Tatsachen aufbaut. Gutes moralisches Argumentieren verlangt daher beides: klare Werte und sorgfältige Prüfung der Realität."
+    },
+    {
+      "title": "Transfer: Das Trolley-Problem richtig einordnen",
+      "body": "Gedankenexperimente wie das Trolley-Problem sind bekannt, weil sie moralische Prinzipien isolieren: Darf man aktiv eingreifen, um mehrere Menschen zu retten, wenn dadurch eine andere Person stirbt? Solche Fälle sind absichtlich künstlich. Ihr Zweck ist nicht, realistische Notfallregeln zu liefern, sondern zu testen, welche Unterschiede wir moralisch wichtig finden – etwa Handeln versus Unterlassen, Absicht versus Nebenfolge oder eine Person als Mittel zu benutzen. Das anschließende Gespräch ist wichtiger als die spontane Antwort. Wenn unsere Intuition zwischen Varianten wechselt, können wir fragen, welches Prinzip dafür verantwortlich ist und ob wir es auch in realen Situationen akzeptieren würden. Gedankenexperimente sind damit Laborbedingungen für moralisches Argumentieren, keine fertigen Lösungen."
+    }
+  ],
+  "misconception": "Ethische Theorien sind keine Automaten, die für jede Situation eine unstrittige Antwort ausgeben. Sie strukturieren Gründe. Selbst innerhalb derselben Theorie können Menschen bei Fakten, Gewichtungen und Auslegung zu unterschiedlichen Urteilen kommen.",
+  "keyTakeaways": [
+    "Folgenethik fragt primär nach den Konsequenzen einer Handlung.",
+    "Pflichtenethik betont Regeln, Rechte und Grenzen dessen, was Menschen einander antun dürfen.",
+    "Tugendethik fragt nach Charakter, Haltung und situationsangemessenem guten Handeln.",
+    "Mehrere ethische Perspektiven können denselben Fall unterschiedlich begründen oder zu echten Konflikten führen.",
+    "Gute moralische Urteile brauchen neben Prinzipien auch verlässliche Tatsachen über die Situation."
+  ],
+  "questions": [
+    {
+      "id": "philosophy-ethics-q1",
+      "prompt": "Welche Frage ist typisch pflichtenethisch?",
+      "options": [
+        "Welche Option maximiert ausschließlich die Gesamtmenge an Nutzen?",
+        "Welche Rechte und Pflichten gelten unabhängig vom gewünschten Ergebnis?",
+        "Welche Handlung ist statistisch am häufigsten?"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pflichtenethik betrachtet moralische Regeln und den Status von Personen, nicht nur die Folgen."
+    },
+    {
+      "id": "philosophy-ethics-q2",
+      "prompt": "Was ist eine Stärke der Tugendethik?",
+      "options": [
+        "Sie berücksichtigt Charakter, Erfahrung und situatives Urteilsvermögen",
+        "Sie gibt für jede Situation eine mathematische Formel",
+        "Sie ignoriert Motive vollständig"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tugendethik nimmt ernst, dass moralisch gutes Handeln auch von eingeübten Haltungen und praktischem Urteil abhängt."
+    },
+    {
+      "id": "philosophy-ethics-q3",
+      "prompt": "Warum kann es hilfreich sein, einen Konflikt mit mehreren Ethiktheorien zu betrachten?",
+      "options": [
+        "Weil dadurch Folgen, Rechte und Charakteraspekte sichtbar werden, die ein einzelner Blick übersehen kann",
+        "Weil dann jede Handlung automatisch erlaubt ist",
+        "Weil Fakten dann keine Rolle mehr spielen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Verschiedene Theorien markieren unterschiedliche moralische Dimensionen und machen die eigentliche Wertkollision klarer."
+    }
+  ],
+  "recallPrompt": "Wie würdest du einen schwierigen moralischen Konflikt systematisch prüfen, ohne sofort eine Lieblingslösung zu verteidigen?",
+  "recallAnswer": "Ich würde zuerst die Fakten und Betroffenen klären, dann die Folgen verschiedener Optionen vergleichen, anschließend prüfen, welche Rechte und Pflichten nicht verletzt werden sollten, und schließlich fragen, welche Haltung eine verantwortungsvolle und gerechte Person oder Institution zeigen sollte. Erst danach würde ich die Argumente gegeneinander abwägen.",
+  "relatedLessonIds": [
+    "philosophy-utilitarianism",
+    "philosophy-stoicism"
+  ]
+}

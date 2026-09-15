@@ -1,0 +1,63 @@
+{
+  "id": "language-argument",
+  "packId": "general-knowledge-basis",
+  "title": "Woran erkennst du ein gutes Argument?",
+  "durationMinutes": 5,
+  "categoryId": "language",
+  "path": [
+    "Kommunikation",
+    "Argumentation"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Argument",
+    "Prämisse",
+    "Schlussfolgerung",
+    "Logik",
+    "Beleg",
+    "Rhetorik"
+  ],
+  "synonyms": [
+    "argumentation",
+    "reasoning"
+  ],
+  "summary": "Ein Argument besteht aus Gründen, die eine Schlussfolgerung stützen sollen. Gute Argumente brauchen nachvollziehbare Prämissen, passende Belege und eine logische Verbindung zwischen Grund und Schluss.",
+  "whyRelevant": "Überzeugende Sprache ist nicht automatisch gute Begründung. Wer Argumente in ihre Bestandteile zerlegen kann, bewertet Debatten, Werbung und Nachrichten nüchterner.",
+  "learningGoal": "Du kannst Behauptung, Begründung und Beleg unterscheiden und einen häufigen Fehlschluss erkennen.",
+  "sections": [
+    {
+      "title": "Behauptung ist noch kein Argument",
+      "body": "„Homeoffice ist besser“ ist zunächst eine Behauptung. Ein Argument entsteht, wenn Gründe hinzukommen: „Homeoffice reduziert für viele Beschäftigte Pendelzeit; weniger Pendelzeit kann verfügbare Freizeit erhöhen; deshalb kann Homeoffice die Lebensqualität verbessern.“ Nun lassen sich einzelne Teile prüfen. Stimmt die Prämisse? Gilt sie für alle Beschäftigten? Reicht sie für die Schlussfolgerung? Gute Analyse macht die Struktur sichtbar."
+    },
+    {
+      "title": "Belege müssen zur Aussage passen",
+      "body": "Eine persönliche Erfahrung kann ein Hinweis sein, aber selten eine allgemeine Aussage über Millionen Menschen beweisen. Unterschiedliche Behauptungen brauchen unterschiedliche Belege: statistische Aussagen benötigen Daten, historische Aussagen Quellen, naturwissenschaftliche Aussagen reproduzierbare Beobachtungen und Experimente. Auch eine seriöse Quelle kann falsch eingesetzt werden, wenn sie etwas anderes untersucht als die diskutierte Behauptung."
+    },
+    {
+      "title": "Vorsicht vor Scheinalternativen",
+      "body": "Ein häufiger Fehler ist das falsche Dilemma: Zwei Möglichkeiten werden präsentiert, obwohl weitere existieren. „Entweder wir verbieten Autos in Innenstädten vollständig oder wir tun gar nichts gegen Verkehr“ blendet viele Zwischenoptionen aus. Die Schlussfolgerung kann emotional überzeugend wirken, obwohl die Struktur unvollständig ist. Ein guter Gegencheck lautet daher: Sind das wirklich alle relevanten Alternativen? Hilfreich ist außerdem die Trennung von Gültigkeit und Überzeugungskraft: Ein emotional starkes Beispiel kann rhetorisch wirken, ohne die allgemeine Schlussfolgerung ausreichend zu belegen."
+    }
+  ],
+  "misconception": "Ein formal logisch gültiges Argument kann trotzdem zu einer falschen Schlussfolgerung führen, wenn seine Prämissen falsch sind. Logik prüft die Verbindung; Wahrheit der Ausgangsaussagen muss zusätzlich geprüft werden.",
+  "keyTakeaways": [
+    "Argumente verbinden Prämissen mit einer Schlussfolgerung.",
+    "Belege müssen zur Reichweite der Behauptung passen.",
+    "Rhetorische Überzeugungskraft ersetzt keine logische und empirische Prüfung."
+  ],
+  "questions": [
+    {
+      "id": "language-argument-q1",
+      "prompt": "Was ist ein falsches Dilemma?",
+      "options": [
+        "Ein Argument mit zwei korrekten Quellen",
+        "Eine Darstellung, die nur zwei Optionen zulässt, obwohl weitere bestehen",
+        "Jede Entscheidung zwischen zwei Produkten"
+      ],
+      "correctIndex": 1,
+      "explanation": "Der Fehlschluss reduziert einen komplexeren Möglichkeitsraum künstlich auf zwei Alternativen."
+    }
+  ],
+  "recallPrompt": "Welche drei Fragen helfen dir, ein Argument schnell zu prüfen?",
+  "recallAnswer": "Welche Schlussfolgerung wird behauptet? Welche Gründe beziehungsweise Prämissen sollen sie tragen? Sind diese Gründe gut belegt und reichen sie tatsächlich für die Schlussfolgerung aus?",
+  "relatedLessonIds": []
+}

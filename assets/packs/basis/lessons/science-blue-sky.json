@@ -1,0 +1,63 @@
+{
+  "id": "science-blue-sky",
+  "packId": "general-knowledge-basis",
+  "title": "Warum ist der Himmel blau?",
+  "durationMinutes": 5,
+  "categoryId": "science",
+  "path": [
+    "Physik",
+    "Optik",
+    "Atmosphäre"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Himmel",
+    "Licht",
+    "Rayleigh-Streuung",
+    "Atmosphäre",
+    "Wellenlänge"
+  ],
+  "synonyms": [
+    "blauer Himmel",
+    "blue sky"
+  ],
+  "summary": "Der Himmel erscheint blau, weil kurzwelliges sichtbares Licht an Molekülen der Atmosphäre stärker gestreut wird als langwelliges rotes Licht.",
+  "whyRelevant": "Das alltägliche Phänomen verbindet Licht, Atmosphäre und Wahrnehmung. Wer es versteht, kann zugleich erklären, warum Sonnenuntergänge rot erscheinen.",
+  "learningGoal": "Du kannst den Zusammenhang zwischen Wellenlänge und Lichtstreuung erklären und auf den Sonnenuntergang übertragen.",
+  "sections": [
+    {
+      "title": "Weißes Sonnenlicht enthält viele Farben",
+      "body": "Sonnenlicht wirkt für uns weiß, enthält aber sichtbare Strahlung mit verschiedenen Wellenlängen. Violettes und blaues Licht besitzt kürzere Wellenlängen, rotes Licht längere. Ein Prisma kann diese Bestandteile räumlich trennen. In der Atmosphäre treffen die Lichtwellen auf Moleküle wie Stickstoff und Sauerstoff. Sind die streuenden Teilchen deutlich kleiner als die Wellenlänge des Lichts, spricht man im vereinfachten Modell von Rayleigh-Streuung."
+    },
+    {
+      "title": "Kurze Wellenlängen werden stärker gestreut",
+      "body": "Die Stärke der Rayleigh-Streuung hängt sehr stark von der Wellenlänge ab: Kurzwelliges Licht wird wesentlich stärker in verschiedene Richtungen verteilt als langwelliges. Dadurch erreicht uns blaues Licht nicht nur direkt aus Richtung der Sonne, sondern aus vielen Richtungen des Himmels. Violettes Licht wird sogar noch stärker gestreut, doch die Sonne sendet davon weniger sichtbare Strahlung, unsere Augen sind weniger empfindlich dafür und ein Teil wird in der oberen Atmosphäre absorbiert. Deshalb dominiert für uns Blau."
+    },
+    {
+      "title": "Warum Sonnenuntergänge rot sind",
+      "body": "Steht die Sonne tief am Horizont, legt ihr Licht einen längeren Weg durch die Atmosphäre zurück. Auf diesem Weg wird ein großer Teil des kurzwelligen blauen Lichts aus der direkten Sichtlinie herausgestreut. Das direkt von der Sonne kommende Licht enthält relativ mehr Orange und Rot. Staub, Aerosole und Wolken können das Farbspiel zusätzlich verändern. Sonnenuntergang und blauer Tageshimmel sind damit zwei Seiten desselben Streuprozesses."
+    }
+  ],
+  "misconception": "Der Himmel ist nicht blau, weil er das Meer spiegelt. Auch über Kontinenten und vor der Entstehung großer Ozeane würde die Atmosphäre kurzwelliges Licht stärker streuen.",
+  "keyTakeaways": [
+    "Sonnenlicht besteht aus vielen sichtbaren Wellenlängen.",
+    "Kurzwelliges blaues Licht wird in der Atmosphäre stärker gestreut als rotes.",
+    "Beim Sonnenuntergang bleibt in der direkten Sichtlinie relativ mehr rotes Licht übrig."
+  ],
+  "questions": [
+    {
+      "id": "science-blue-sky-q1",
+      "prompt": "Warum wirkt die Sonne am Horizont oft rötlich?",
+      "options": [
+        "Weil sie dann kälter wird",
+        "Weil ihr Licht einen längeren Weg durch die Atmosphäre zurücklegt und mehr blaues Licht herausgestreut wird",
+        "Weil das Meer rotes Licht reflektiert"
+      ],
+      "correctIndex": 1,
+      "explanation": "Der längere Atmosphärenweg verstärkt die Herausstreuung kurzer Wellenlängen aus der direkten Sonnenstrahlung."
+    }
+  ],
+  "recallPrompt": "Erkläre in einem Satz, warum derselbe physikalische Effekt sowohl einen blauen Himmel als auch einen roten Sonnenuntergang erzeugt.",
+  "recallAnswer": "Die Atmosphäre streut kurzwelliges blaues Licht besonders stark: tagsüber sehen wir dieses gestreute Licht aus vielen Richtungen, während bei tief stehender Sonne in der direkten Sichtlinie relativ mehr rotes Licht übrig bleibt.",
+  "relatedLessonIds": []
+}

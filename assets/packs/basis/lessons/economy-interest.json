@@ -1,0 +1,63 @@
+{
+  "id": "economy-interest",
+  "packId": "general-knowledge-basis",
+  "title": "Warum beeinflussen Zinsen fast die ganze Wirtschaft?",
+  "durationMinutes": 5,
+  "categoryId": "economy",
+  "path": [
+    "Volkswirtschaft",
+    "Geld und Banken"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Zinsen",
+    "Kredit",
+    "Sparen",
+    "Investitionen",
+    "Leitzins",
+    "Barwert"
+  ],
+  "synonyms": [
+    "interest rates",
+    "Kreditzins"
+  ],
+  "summary": "Zinsen sind der Preis dafür, Geld über Zeit zu nutzen. Deshalb beeinflussen sie Kredite, Sparen, Immobilien, Unternehmensinvestitionen und die Bewertung zukünftiger Einnahmen.",
+  "whyRelevant": "Schon kleine Zinsänderungen können Kreditraten und Investitionsentscheidungen deutlich verändern. Zinsen gehören deshalb zu den wichtigsten Verbindungsgliedern zwischen Geldpolitik und Alltag.",
+  "learningGoal": "Du kannst erklären, warum höhere Zinsen Kreditaufnahme bremsen und Sparen attraktiver machen können.",
+  "sections": [
+    {
+      "title": "Geld heute ist mehr wert als Geld später",
+      "body": "Wer heute 1.000 Euro verleiht, kann das Geld in dieser Zeit nicht selbst verwenden und trägt das Risiko, es nicht vollständig zurückzubekommen. Zinsen entschädigen für Zeit, Risiko und häufig auch erwartete Inflation. Aus Sicht des Kreditnehmers sind sie Kosten; aus Sicht des Sparers oder Gläubigers Ertrag. Dieser einfache Zusammenhang prägt sehr unterschiedliche Märkte – vom Dispokredit bis zur Unternehmensanleihe."
+    },
+    {
+      "title": "Höhere Zinsen verändern Entscheidungen",
+      "body": "Steigt ein Kreditzins, wird dieselbe Finanzierung teurer. Ein Haushalt überlegt länger, ob er ein Haus kauft; ein Unternehmen kann eine neue Maschine verschieben, wenn erwartete Gewinne die Finanzierungskosten nicht mehr deutlich übersteigen. Gleichzeitig werden sichere Sparprodukte attraktiver. Dadurch kann Nachfrage aus Konsum und Investitionen in Richtung Sparen verschoben werden. Genau diesen Kanal nutzen Zentralbanken, wenn sie mit höheren Leitzinsen zu starken Preisauftrieb bremsen wollen."
+    },
+    {
+      "title": "Auch Vermögenspreise reagieren",
+      "body": "Zinsen beeinflussen, wie stark zukünftige Zahlungen heute bewertet werden. Wenn sichere Anlagen höhere Renditen bieten, müssen Aktien, Immobilien oder andere Anlagen im Verhältnis attraktiver werden, um Anleger zu überzeugen. Das kann deren Preise unter Druck setzen. Dieser Effekt ist nicht mechanisch, weil Erwartungen über Wachstum und Gewinne ebenfalls zählen. Trotzdem erklären Zinsen, warum Finanzmärkte auf geldpolitische Entscheidungen oft sehr sensibel reagieren."
+    }
+  ],
+  "misconception": "Hohe Zinsen sind nicht automatisch „gut für Sparer und schlecht für alle anderen“. Sie können Inflation bremsen und Erträge erhöhen, aber zugleich Investitionen, Bauaktivität und Nachfrage schwächen. Die Wirkung hängt von der jeweiligen Situation ab.",
+  "keyTakeaways": [
+    "Zinsen sind der Preis für die Nutzung von Geld über Zeit.",
+    "Höhere Zinsen verteuern Kredite und können Sparen attraktiver machen.",
+    "Zinsen beeinflussen auch Bewertungen von Aktien, Immobilien und Investitionen."
+  ],
+  "questions": [
+    {
+      "id": "economy-interest-q1",
+      "prompt": "Warum können höhere Zinsen die gesamtwirtschaftliche Nachfrage bremsen?",
+      "options": [
+        "Weil Kredite teurer werden und Sparen attraktiver wird",
+        "Weil Geld gesetzlich verboten wird",
+        "Weil Unternehmen keine Preise mehr festlegen dürfen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Höhere Finanzierungskosten verschieben manche Entscheidungen von Kreditaufnahme und Konsum hin zu Sparen oder Aufschub."
+    }
+  ],
+  "recallPrompt": "Warum kann eine Zinsänderung sowohl einen Hauskauf als auch eine Unternehmensinvestition beeinflussen?",
+  "recallAnswer": "Weil beide häufig finanziert werden und der Zins bestimmt, wie teuer Kapital ist und ob eine zukünftige Nutzung oder Rendite die Finanzierungskosten rechtfertigt.",
+  "relatedLessonIds": []
+}

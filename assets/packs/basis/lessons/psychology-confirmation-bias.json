@@ -1,0 +1,62 @@
+{
+  "id": "psychology-confirmation-bias",
+  "packId": "general-knowledge-basis",
+  "title": "Warum suchen wir so gern Bestätigung?",
+  "durationMinutes": 5,
+  "categoryId": "psychology",
+  "path": [
+    "Denken und Entscheiden",
+    "Kognitive Verzerrungen"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Bestätigungsfehler",
+    "Confirmation Bias",
+    "Bias",
+    "Entscheidung",
+    "Wahrnehmung"
+  ],
+  "synonyms": [
+    "confirmation bias",
+    "Bestätigungsverzerrung"
+  ],
+  "summary": "Menschen achten häufig stärker auf Informationen, die bestehende Überzeugungen stützen, und prüfen widersprechende Informationen kritischer. Diese Tendenz heißt Bestätigungsfehler.",
+  "whyRelevant": "Der Effekt beeinflusst politische Meinungen, Kaufentscheidungen, Diagnosen und Alltagsstreit. Wer ihn kennt, kann Informationen bewusster prüfen und bessere Entscheidungen treffen.",
+  "learningGoal": "Du kannst den Bestätigungsfehler erkennen und zwei Strategien nennen, um seinen Einfluss zu reduzieren.",
+  "sections": [
+    {
+      "title": "Unser Denken startet selten bei null",
+      "body": "Wenn wir bereits eine Meinung haben, suchen wir Informationen nicht wie völlig neutrale Forschende. Wir erinnern uns leichter an Beispiele, die zu unserer Sicht passen, formulieren Suchanfragen entsprechend und schenken bestätigenden Quellen mehr Vertrauen. Widersprechende Informationen prüfen wir dagegen oft strenger. Das muss keine bewusste Manipulation sein; es ist eine normale Tendenz menschlicher Informationsverarbeitung."
+    },
+    {
+      "title": "Warum das so überzeugend wirkt",
+      "body": "Eine Überzeugung kann sich dadurch selbst stabilisieren. Wer etwa glaubt, eine bestimmte Automarke sei unzuverlässig, bemerkt jede Panne dieser Marke besonders stark und vergisst problemlos viele störungsfreie Fahrzeuge. In sozialen Medien kann Auswahl zusätzlich verstärkt werden, weil Menschen ähnlichen Accounts folgen und Algorithmen Inhalte nach Interesse ausspielen. Eine wiederholt gesehene Position wirkt dann leicht verbreiteter oder besser belegt, als sie tatsächlich ist."
+    },
+    {
+      "title": "Wie man gegensteuern kann",
+      "body": "Hilfreich ist, aktiv nach Gegenbelegen zu suchen. Statt „Warum ist meine These richtig?“ kann man fragen: „Welche Information würde mich vom Gegenteil überzeugen?“ Bei wichtigen Entscheidungen kann man eine Gegenposition bewusst stark formulieren – ein sogenanntes Steelmanning. Ebenso nützlich ist es, Kriterien vor der Datensuche festzulegen. Vollständig neutral wird niemand, aber gute Verfahren können die eigene Voreingenommenheit sichtbar machen."
+    }
+  ],
+  "misconception": "Der Bestätigungsfehler bedeutet nicht, dass jede feste Überzeugung falsch ist. Auch eine richtige Annahme kann bestätigt werden. Das Problem liegt darin, wie einseitig Belege ausgewählt und bewertet werden.",
+  "keyTakeaways": [
+    "Menschen gewichten bestätigende Informationen häufig stärker als widersprechende.",
+    "Der Effekt kann durch Medienauswahl und Erinnerung verstärkt werden.",
+    "Aktive Suche nach Gegenbelegen und vorher festgelegte Kriterien helfen beim Gegensteuern."
+  ],
+  "questions": [
+    {
+      "id": "psychology-confirmation-bias-q1",
+      "prompt": "Welche Frage hilft am ehesten gegen den Bestätigungsfehler?",
+      "options": [
+        "Welche Beispiele bestätigen meine Ansicht zusätzlich?",
+        "Welche Beobachtung würde meine Annahme widerlegen?",
+        "Wie vermeide ich jede gegenteilige Meinung?"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eine mögliche Widerlegung zwingt dazu, die eigene These überprüfbar statt nur bestätigbar zu machen."
+    }
+  ],
+  "recallPrompt": "Was wäre eine konkrete Methode, um vor einer wichtigen Entscheidung den Bestätigungsfehler zu reduzieren?",
+  "recallAnswer": "Ich kann bewusst nach dem stärksten Gegenargument oder nach Daten suchen, die meine bevorzugte Lösung widerlegen würden, und Kriterien festlegen, bevor ich die Ergebnisse kenne.",
+  "relatedLessonIds": []
+}

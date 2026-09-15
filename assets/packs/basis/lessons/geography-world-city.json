@@ -1,0 +1,61 @@
+{
+  "id": "geography-world-city",
+  "packId": "general-knowledge-basis",
+  "title": "Was macht eine Stadt zur Weltstadt?",
+  "durationMinutes": 5,
+  "categoryId": "geography",
+  "path": [
+    "Humangeografie",
+    "Städte"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Weltstadt",
+    "Global City",
+    "Urbanisierung",
+    "Metropole"
+  ],
+  "synonyms": [
+    "Metropole",
+    "global city"
+  ],
+  "summary": "Eine Weltstadt ist nicht einfach eine besonders große Stadt. Entscheidend ist, wie stark sie globale Wirtschafts-, Politik-, Kultur- und Informationsnetzwerke bündelt.",
+  "whyRelevant": "Mehr als die Hälfte der Menschheit lebt in Städten. Wer versteht, warum einige Städte global überproportional wichtig sind, erkennt zentrale Muster von Wirtschaft, Migration und Macht.",
+  "learningGoal": "Du kannst zwischen Größe und globaler Vernetzungsfunktion einer Stadt unterscheiden.",
+  "sections": [
+    {
+      "title": "Größe ist nicht alles",
+      "body": "Millionen Einwohner machen eine Stadt zur Megastadt, aber nicht automatisch zur Weltstadt. Entscheidend ist ihre Funktion. Eine vergleichsweise kleinere Stadt kann international sehr wichtig sein, wenn dort Finanzmärkte, internationale Organisationen, Medien, Forschung oder Unternehmenszentralen konzentriert sind. Umgekehrt kann eine extrem große Stadt wirtschaftlich stark auf ihr eigenes Land ausgerichtet sein und global weniger Steuerungsfunktionen besitzen."
+    },
+    {
+      "title": "Knoten in globalen Netzwerken",
+      "body": "Weltstädte verbinden Kapital, Menschen und Informationen. Internationale Flughäfen, digitale Infrastruktur, Hochschulen, spezialisierte Dienstleistungen und Unternehmenssitze erhöhen ihre Reichweite. New York, London oder Tokio gelten klassische Beispiele, weil Entscheidungen, die dort getroffen werden, weltweit Folgen haben können. Andere Städte sind in bestimmten Bereichen besonders stark: etwa als politische, technologische, kulturelle oder logistische Zentren."
+    },
+    {
+      "title": "Chancen und Spannungen",
+      "body": "Globale Bedeutung bringt Investitionen, Arbeitsplätze und kulturellen Austausch. Gleichzeitig steigen häufig Wohnkosten und soziale Unterschiede. Hochqualifizierte internationale Arbeitskräfte und einkommensschwächere Dienstleistungsgruppen leben oft im selben Ballungsraum unter sehr unterschiedlichen Bedingungen. Eine Weltstadt ist deshalb nicht nur ein Erfolgsmodell, sondern auch ein Ort, an dem globale Ungleichheiten besonders sichtbar werden. Weltstädte können ihre Rolle außerdem verändern: politische Krisen, neue Technologien oder konkurrierende Standorte verschieben globale Netzwerke. Der Status ist daher keine dauerhafte Auszeichnung."
+    }
+  ],
+  "misconception": "„Megastadt“ und „Weltstadt“ sind nicht dasselbe. Megastadt beschreibt vor allem Einwohnerzahl; Weltstadt beschreibt globale Funktionen und Vernetzung.",
+  "keyTakeaways": [
+    "Weltstädte werden über Funktionen und Netzwerke definiert, nicht nur über Einwohnerzahlen.",
+    "Flughäfen, Finanzmärkte, Forschung und Unternehmenssitze schaffen globale Reichweite.",
+    "Globale Bedeutung kann zugleich Wohlstand und starke soziale Spannungen erzeugen."
+  ],
+  "questions": [
+    {
+      "id": "geography-world-city-q1",
+      "prompt": "Welche Stadt wäre eher eine Weltstadt?",
+      "options": [
+        "Eine sehr große Stadt ohne internationale Funktionen",
+        "Eine kleinere Stadt mit globalem Finanz- und Unternehmenszentrum",
+        "Jede nationale Hauptstadt automatisch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Globale Steuerungs- und Vernetzungsfunktionen sind entscheidender als die reine Einwohnerzahl."
+    }
+  ],
+  "recallPrompt": "Was unterscheidet eine Weltstadt von einer Megastadt?",
+  "recallAnswer": "Eine Megastadt wird vor allem über ihre sehr große Bevölkerung beschrieben; eine Weltstadt über ihre besondere Rolle in globalen Wirtschafts-, Politik-, Kultur- und Informationsnetzwerken.",
+  "relatedLessonIds": []
+}

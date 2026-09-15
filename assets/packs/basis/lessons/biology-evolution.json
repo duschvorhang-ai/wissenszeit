@@ -1,0 +1,110 @@
+{
+  "id": "biology-evolution",
+  "packId": "general-knowledge-basis",
+  "title": "Wie funktioniert Evolution durch natürliche Selektion?",
+  "durationMinutes": 20,
+  "categoryId": "biology",
+  "path": [
+    "Biologie",
+    "Evolution"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "Evolution",
+    "natürliche Selektion",
+    "Mutation",
+    "Variation",
+    "Anpassung",
+    "Genetik"
+  ],
+  "synonyms": [
+    "Darwin",
+    "natural selection"
+  ],
+  "summary": "Evolution entsteht, wenn vererbbare Unterschiede zwischen Individuen dazu führen, dass manche Varianten im jeweiligen Umfeld häufiger Nachkommen hinterlassen. Über viele Generationen ändern sich dadurch Populationen.",
+  "whyRelevant": "Evolution ist das verbindende Prinzip der modernen Biologie. Sie erklärt Anpassungen, Antibiotikaresistenzen, Artenvielfalt und viele Merkmale des menschlichen Körpers.",
+  "learningGoal": "Du kannst Variation, Vererbung und unterschiedlichen Fortpflanzungserfolg zu natürlicher Selektion verbinden, Zufall und Zielgerichtetheit unterscheiden und erklären, wie neue Arten entstehen können.",
+  "sections": [
+    {
+      "title": "Variation ist der Rohstoff der Evolution",
+      "body": "Individuen einer Population sind nicht identisch. Unterschiede entstehen unter anderem durch Mutationen – Veränderungen im Erbgut – und durch die Neukombination genetischer Varianten bei sexueller Fortpflanzung. Mutationen treten nicht auf, weil ein Organismus sie „braucht“. Sie entstehen ohne Blick auf zukünftigen Nutzen. Viele verändern kaum etwas, manche sind nachteilig und wenige können unter bestimmten Umweltbedingungen vorteilhaft sein. Entscheidend ist die Vererbbarkeit. Ein Muskel, den ein Tier während seines Lebens trainiert, wird nicht einfach genetisch an Nachkommen weitergegeben. Eine erbliche Variante, die zum Beispiel Fellfarbe, Stoffwechsel oder Krankheitsresistenz beeinflusst, kann sich dagegen über Generationen in einer Population verändern. Evolution beginnt deshalb nicht mit „dem Stärksten“, sondern mit vorhandener erblicher Variation."
+    },
+    {
+      "title": "Selektion bedeutet unterschiedlichen Fortpflanzungserfolg",
+      "body": "In einer bestimmten Umwelt können manche Merkmale dazu führen, dass ihre Träger im Durchschnitt mehr überlebende Nachkommen haben. Genau darin liegt natürliche Selektion. „Fitness“ meint in der Evolutionsbiologie nicht Muskelkraft, sondern den relativen Beitrag zum Genpool der nächsten Generation. Ein kleineres Tier kann fitter sein als ein größeres, wenn es mehr Nachkommen hinterlässt. Der Selektionsvorteil hängt von der Umwelt ab. Helles Fell kann in einer schneebedeckten Landschaft Tarnung bieten, auf dunklem Boden dagegen auffällig sein. Wenn eine vererbbare helle Fellvariante zu höherem Fortpflanzungserfolg führt, nimmt sie über Generationen tendenziell zu. Die Population verändert sich – kein einzelnes Individuum „evolviert“, weil es sich anstrengt."
+    },
+    {
+      "title": "Evolution hat kein Ziel",
+      "body": "Natürliche Selektion kann den Eindruck von Planung erzeugen. Ein Auge wirkt, als sei es „zum Sehen konstruiert“. Evolution benötigt jedoch keinen vorausschauenden Plan. Kleine vererbbare Varianten, die in einer bestimmten Umgebung bereits einen Vorteil bringen, können schrittweise häufiger werden. Über sehr lange Zeiträume entstehen dadurch komplexe Anpassungen. Gleichzeitig ist Evolution nicht nur Selektion. Genetische Drift verändert Häufigkeiten zufällig, besonders in kleinen Populationen. Migration bringt Gene zwischen Populationen. Mutationen schaffen neue Varianten. Historische Zufälle spielen ebenfalls eine Rolle. Evolution produziert daher keine theoretisch perfekten Organismen, sondern Lösungen, die unter vorhandenen Ausgangsbedingungen ausreichend funktionieren. Der menschliche Rücken etwa trägt Spuren unserer evolutionären Geschichte und ist keineswegs eine perfekte technische Konstruktion."
+    },
+    {
+      "title": "Ein aktuelles Beispiel: Antibiotikaresistenz",
+      "body": "Bakterienpopulationen können bereits einzelne Zellen mit genetischen Varianten enthalten, die sie weniger empfindlich gegen ein Antibiotikum machen. Wird das Medikament eingesetzt, sterben empfindliche Bakterien häufiger, während resistente Varianten bessere Chancen haben, sich zu vermehren. Das Antibiotikum „erzeugt“ die passende Resistenz nicht absichtlich; es verändert vor allem die Selektionsbedingungen. Resistenzgene können durch Mutation entstehen oder zwischen Bakterien übertragen werden. Je stärker und häufiger Antibiotika als Selektionsdruck wirken, desto größer kann der Vorteil resistenter Varianten werden. Dieses Beispiel zeigt Evolution in kurzen Zeiträumen und verdeutlicht, warum medizinischer Umgang mit Antibiotika populationsbiologische Folgen hat."
+    },
+    {
+      "title": "Wie aus Populationen neue Arten werden können",
+      "body": "Populationen derselben Art tauschen normalerweise Gene aus. Werden Gruppen langfristig voneinander getrennt – geografisch, ökologisch oder durch unterschiedliches Paarungsverhalten –, können sich ihre Genpools auseinanderentwickeln. Mutationen, Selektion und genetische Drift wirken in beiden Gruppen unterschiedlich. Mit der Zeit können Unterschiede so groß werden, dass keine fruchtbaren Nachkommen mehr entstehen oder Paarung praktisch nicht mehr stattfindet. Dann spricht man im biologischen Artkonzept von reproduktiver Isolation. Artbildung ist deshalb meist kein einzelner Moment, sondern ein Prozess. Auch hierbei gibt es verschiedene Mechanismen und keine universelle feste Grenze, die für alle Organismen gleich leicht anzuwenden wäre."
+    },
+    {
+      "title": "Selektion wirkt auf Merkmale, Gene verändern ihre Häufigkeit",
+      "body": "Ein hilfreicher Unterschied besteht zwischen der Ebene, auf der Selektion sichtbar wird, und der Ebene, auf der Vererbung stattfindet. Ein Tier überlebt oder reproduziert sich mit seinem gesamten Körper und Verhalten. Dahinter stehen jedoch viele genetische Varianten, deren Häufigkeit sich in der Population verändern kann. Ein einzelnes Merkmal wird meist von mehreren Genen und der Umwelt beeinflusst. Deshalb sind einfache Geschichten vom „Gen für X“ oft zu grob. Evolutionäre Veränderungen können zudem Zielkonflikte enthalten: Ein Merkmal, das Fortpflanzungschancen erhöht, kann zugleich Lebensdauer kosten. Selektion optimiert nicht auf Gesundheit oder Glück, sondern auf Fortpflanzungserfolg unter konkreten Bedingungen."
+    },
+    {
+      "title": "Verwandtschaft zeigt sich in unperfekten Lösungen",
+      "body": "Evolution arbeitet mit vorhandenen Strukturen. Neue Funktionen entstehen häufig durch Umbau älterer Merkmale, nicht durch vollständigen Neustart. Das erklärt homologe Strukturen: Vordergliedmaßen von Mensch, Wal und Fledermaus erfüllen sehr unterschiedliche Aufgaben, besitzen aber denselben grundlegenden Knochenbau. Solche historischen Spuren sind starke Evidenz gemeinsamer Abstammung. Auch scheinbar umständliche biologische Lösungen werden verständlicher, wenn man ihre Vorgeschichte betrachtet. Evolution ist deshalb weniger wie Ingenieurwesen auf weißem Papier und mehr wie fortlaufender Umbau eines Systems, das während der gesamten Veränderung funktionieren muss."
+    },
+    {
+      "title": "Transfer: Warum Anpassung immer relativ ist",
+      "body": "Stell dir eine Käferpopulation vor, in der helle und dunkle Tiere vorkommen. Auf hellem Sand werden dunkle Käfer von Vögeln leichter entdeckt, auf dunklem Vulkangestein dagegen die hellen. Es gibt also keine universell „beste“ Farbe. Ändert sich die Umwelt, kann sich auch die Richtung der Selektion ändern. Dasselbe gilt für viele menschliche Eigenschaften. Ein genetisches Merkmal kann in einer Umwelt Nachteile, in einer anderen Vorteile haben. Ein bekanntes Beispiel betrifft Varianten des Hämoglobins: Bestimmte Varianten können schwere gesundheitliche Folgen haben, bieten in einfacher Kopie aber einen gewissen Schutz vor Malaria. Solche Fälle zeigen, warum Evolution nicht auf Perfektion zuläuft. Sie verändert Häufigkeiten abhängig von lokalen Bedingungen, Zielkonflikten und vorhandener Variation. Wenn sich Umweltbedingungen schneller ändern als Populationen reagieren können, können zuvor nützliche Merkmale sogar nachteilig werden. Ein weiterer Punkt ist sexuelle Selektion: Merkmale können sich durchsetzen, weil sie den Paarungserfolg erhöhen, selbst wenn sie für das reine Überleben kostspielig sind. Das klassische Beispiel ist das auffällige Pfauenrad. Auch Kooperation lässt sich evolutionär untersuchen, etwa über Verwandtenselektion oder wiederholte Interaktionen. Evolutionäre Erklärungen müssen dabei vorsichtig formuliert werden: Dass ein Verhalten heute existiert, beweist nicht automatisch eine einfache Anpassungsgeschichte. Gute Evolutionsbiologie verbindet Hypothesen mit vergleichenden Daten, Genetik, Fossilien und beobachtbaren Mechanismen. Fossilien liefern zusätzlich zeitliche Momentaufnahmen, während DNA-Vergleiche Verwandtschaftsmuster unabhängig davon rekonstruieren können. Wenn beide Evidenzlinien zusammenpassen, wird gemeinsame Abstammung besonders gut gestützt. Evolution ist deshalb nicht nur eine historische Erzählung, sondern ein testbares Forschungsprogramm mit Vorhersagen aus Genetik, Anatomie, Ökologie und Paläontologie. Beobachtete Evolution im Labor und in natürlichen Populationen verbindet diese langfristigen Spuren mit direkt messbaren Veränderungen heutiger Organismen."
+    }
+  ],
+  "misconception": "Die Formulierung „der Stärkste überlebt“ ist irreführend. Evolution bevorzugt nicht automatisch Stärke und auch nicht bloß Überleben. Entscheidend ist, welche vererbbaren Varianten unter bestimmten Bedingungen zu höherem Fortpflanzungserfolg führen.",
+  "keyTakeaways": [
+    "Evolution setzt vererbbare Variation voraus.",
+    "Natürliche Selektion verändert Variantenhäufigkeiten durch unterschiedlichen Fortpflanzungserfolg.",
+    "Mutationen entstehen nicht zielgerichtet als Antwort auf einen Bedarf.",
+    "Populationen evolvieren über Generationen; einzelne Individuen passen ihr Erbgut nicht bewusst an.",
+    "Langfristige Trennung von Populationen kann zur Entstehung neuer Arten führen."
+  ],
+  "questions": [
+    {
+      "id": "biology-evolution-q1",
+      "prompt": "Was bedeutet biologische Fitness im Kontext natürlicher Selektion?",
+      "options": [
+        "Körperliche Stärke",
+        "Relativer Fortpflanzungserfolg",
+        "Maximale Lebensdauer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fitness beschreibt, wie stark ein Individuum beziehungsweise seine Variante zum Genpool der nächsten Generation beiträgt."
+    },
+    {
+      "id": "biology-evolution-q2",
+      "prompt": "Erzeugt ein Antibiotikum gezielt die passende Resistenzmutation?",
+      "options": [
+        "Ja, Bakterien verändern ihr Erbgut bewusst",
+        "Nein, vorhandene oder neu entstehende Varianten werden unter Antibiotikadruck unterschiedlich selektiert",
+        "Nur bei Viren"
+      ],
+      "correctIndex": 1,
+      "explanation": "Das Medikament schafft vor allem Selektionsbedingungen, unter denen resistente Varianten einen Vorteil haben."
+    },
+    {
+      "id": "biology-evolution-q3",
+      "prompt": "Was kann Artbildung fördern?",
+      "options": [
+        "Dauerhafter Genfluss ohne Unterschiede",
+        "Langfristige Isolation von Populationen",
+        "Das Training einzelner Tiere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isolation reduziert den Genfluss, sodass Populationen genetisch auseinanderdriften können."
+    }
+  ],
+  "recallPrompt": "Formuliere natürliche Selektion als Kette aus Variation, Umwelt und Fortpflanzungserfolg.",
+  "recallAnswer": "In einer Population gibt es vererbbare Unterschiede. Unter bestimmten Umweltbedingungen führen einige Varianten im Durchschnitt zu höherem Fortpflanzungserfolg. Dadurch werden die zugehörigen genetischen Varianten über Generationen häufiger und die Population verändert sich.",
+  "relatedLessonIds": [
+    "biology-immune-system",
+    "biology-sleep"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "economy-central-bank",
+  "packId": "general-knowledge-basis",
+  "title": "Wie versucht eine Zentralbank Inflation zu steuern?",
+  "durationMinutes": 20,
+  "categoryId": "economy",
+  "path": [
+    "Volkswirtschaft",
+    "Geldpolitik"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "Zentralbank",
+    "EZB",
+    "Leitzins",
+    "Inflation",
+    "Geldpolitik",
+    "Transmission",
+    "Erwartungen"
+  ],
+  "synonyms": [
+    "ECB",
+    "Geldpolitik",
+    "Monetary Policy"
+  ],
+  "summary": "Zentralbanken setzen nicht direkt die Preise im Supermarkt fest. Sie verändern finanzielle Bedingungen – vor allem Zinsen – und beeinflussen dadurch Kredit, Nachfrage, Wechselkurse und Erwartungen.",
+  "whyRelevant": "Leitzinsen gehören zu den meistbeachteten Wirtschaftsentscheidungen überhaupt. Wer den Transmissionsmechanismus versteht, kann nachvollziehen, warum Zinsschritte oft erst mit Verzögerung wirken und warum Zentralbanken schwierige Zielkonflikte abwägen.",
+  "learningGoal": "Du kannst den Weg vom Leitzins über Banken und Nachfrage bis zur Inflation erklären, die zeitliche Verzögerung einordnen und Grenzen der Geldpolitik benennen.",
+  "sections": [
+    {
+      "title": "Das Ziel: stabile Preise statt einzelne Preise",
+      "body": "Eine Zentralbank versucht typischerweise nicht, bestimmte Produkte billig zu machen. Im Euroraum verfolgt die Europäische Zentralbank das Ziel stabiler Preise und definiert Preisstabilität mittelfristig als eine Inflationsrate von zwei Prozent. Eine moderate positive Rate schafft Abstand zur Deflation und lässt relative Preisänderungen zu. Gemessen wird Inflation über einen breiten Verbraucherpreisindex. Zentralbanken reagieren deshalb nicht auf jede kurzfristige Schwankung gleich stark. Ein vorübergehender Anstieg von Gemüsepreisen nach schlechtem Wetter verlangt eine andere Reaktion als breit steigende Löhne, Dienstleistungen und Inflationserwartungen. Entscheidend ist die Erwartung darüber, wo sich das Preisniveau mittelfristig entwickelt. Geldpolitik arbeitet daher mit Prognosen, obwohl Zukunft unsicher ist. Schon diese Unsicherheit erklärt, warum Entscheidungen häufig kontrovers sind: Niemand kennt exakt den neutralen Zinssatz oder den Zeitpunkt, zu dem Inflation ohne zusätzliche Maßnahmen wieder sinken würde."
+    },
+    {
+      "title": "Vom Leitzins zum Kredit",
+      "body": "Der Leitzins beeinflusst die Bedingungen, zu denen Banken kurzfristig Liquidität halten oder beschaffen. Veränderungen übertragen sich auf Geldmarkt- und Kapitalmarktzinsen. Banken passen anschließend Konditionen für Unternehmenskredite, Immobilienfinanzierungen oder Sparprodukte an. Der Zusammenhang ist nicht eins zu eins: Wettbewerb, Kreditrisiko und Laufzeit spielen ebenfalls eine Rolle. Trotzdem wird Finanzierung bei höheren Leitzinsen im Durchschnitt teurer. Haushalte können Käufe verschieben, insbesondere wenn sie Kredit benötigen. Unternehmen prüfen Investitionen strenger, weil eine Maschine oder Fabrik nun eine höhere Rendite erwirtschaften muss, um sich zu lohnen. Gleichzeitig steigt der Anreiz zu sparen. Über diesen Kredit- und Zinskanal kann die gesamtwirtschaftliche Nachfrage sinken. Wenn Unternehmen weniger Schwierigkeiten haben, Bestellungen zu erfüllen und Arbeitskräfte oder Vorleistungen zu bekommen, nimmt der Druck ab, Preise weiter anzuheben."
+    },
+    {
+      "title": "Weitere Kanäle: Vermögen, Wechselkurs und Erwartungen",
+      "body": "Geldpolitik wirkt nicht nur über Bankkredite. Höhere Zinsen können Anleiherenditen steigen lassen und dadurch Bewertungen von Aktien oder Immobilien beeinflussen. Sinkende Vermögenspreise können Konsum und Investitionen dämpfen, weil Haushalte sich weniger wohlhabend fühlen oder Sicherheiten an Wert verlieren. Außerdem kann eine Währung attraktiver werden, wenn Anlagen in dieser Währung höhere Renditen bieten. Eine stärkere Währung verbilligt importierte Güter und Energie, kann Exporte aber verteuern. Besonders wichtig sind Erwartungen. Wenn Unternehmen und Beschäftigte darauf vertrauen, dass die Zentralbank mittelfristig Preisstabilität wiederherstellt, müssen sie nicht dauerhaft sehr hohe Inflationsraten in Löhne und Preise einplanen. Glaubwürdigkeit wirkt dadurch selbst als Teil der Geldpolitik. Umgekehrt kann eine Zentralbank, die ihre Ziele häufig verfehlt, stärkere Zinsschritte benötigen, weil Erwartungen weniger gut verankert sind."
+    },
+    {
+      "title": "Warum Geldpolitik langsam und ungenau wirkt",
+      "body": "Zwischen einer Zinsentscheidung und ihrer vollen Wirkung können viele Monate liegen. Ein bestehender Immobilienkredit mit langer Zinsbindung verändert sich nicht sofort. Unternehmen haben bereits finanzierte Projekte, Tarifverträge laufen weiter und Lieferketten passen sich langsam an. Deshalb steuert eine Zentralbank gewissermaßen mit Blick durch die Windschutzscheibe statt in den Rückspiegel: Sie muss abschätzen, wie heutige Maßnahmen auf die Wirtschaft von morgen wirken. Das birgt das Risiko, zu wenig oder zu viel zu tun. Erhöht sie Zinsen zu schwach, kann Inflation länger hoch bleiben. Erhöht sie zu stark, kann sie Investitionen und Beschäftigung unnötig bremsen. Diese Verzögerung macht Geldpolitik zu einer Abwägung unter Unsicherheit und erklärt, warum einzelne Monatsdaten selten eine eindeutige Antwort liefern."
+    },
+    {
+      "title": "Angebotsschocks und die Grenzen der Zentralbank",
+      "body": "Besonders schwierig sind Inflationsschübe, die aus knappen Energie- oder Rohstoffangeboten entstehen. Eine Zentralbank kann kein zusätzliches Gas produzieren, Häfen reparieren oder eine schlechte Ernte rückgängig machen. Höhere Zinsen beseitigen den ursprünglichen Engpass nicht. Trotzdem kann die Zentralbank reagieren, wenn ein Schock droht, sich dauerhaft in Preisen und Erwartungen festzusetzen. Ziel ist dann weniger, den ersten Preissprung zu verhindern, sondern Zweitrundeneffekte zu begrenzen. Geldpolitik hat außerdem Verteilungswirkungen: Schuldner, Sparer, Immobilienkäufer und Unternehmen sind unterschiedlich betroffen. Zentralbanken versuchen, diese Folgen nicht als politisches Hauptziel zu steuern, können sie aber nicht vermeiden. Für strukturelle Probleme wie Wohnraummangel, Produktivität oder Energieversorgung braucht es andere politische Instrumente."
+    },
+    {
+      "title": "Reale und nominale Zinsen",
+      "body": "Für wirtschaftliche Entscheidungen zählt nicht nur der nominelle Zinssatz, sondern auch die Inflation. Liegt ein Kreditzins bei vier Prozent und die erwartete Inflation ebenfalls bei vier Prozent, ist die reale Belastung anders als bei vier Prozent Zins und null Prozent Inflation. Vereinfacht nähert man den Realzins an, indem man erwartete Inflation vom Nominalzins abzieht. Zentralbanken achten deshalb darauf, ob ihre Zinspolitik tatsächlich restriktiv oder locker wirkt. Ein nominal hoher Zins kann bei noch höherer Inflation real sehr niedrig sein. Umgekehrt kann ein moderater Nominalzins bei fallender Inflation plötzlich deutlich straffer wirken. Diese Unterscheidung erklärt, warum die bloße Zahl eines Leitzinses ohne Inflationskontext wenig aussagt."
+    },
+    {
+      "title": "Kommunikation ist selbst ein Instrument",
+      "body": "Finanzmärkte reagieren nicht nur auf den heutigen Zinsschritt, sondern auf Erwartungen über die Zukunft. Zentralbanken veröffentlichen deshalb Prognosen, Pressekonferenzen und Hinweise auf ihre Reaktionsfunktion. Wenn Unternehmen und Anleger überzeugt sind, dass Zinsen bei anhaltender Inflation länger hoch bleiben, können langfristige Marktzinsen bereits steigen, bevor weitere Schritte beschlossen werden. Umgekehrt kann die Erwartung zukünftiger Zinssenkungen Finanzbedingungen früh lockern. Kommunikation muss deshalb glaubwürdig und zugleich vorsichtig sein: Zu feste Versprechen können problematisch werden, wenn neue Daten eine andere Entscheidung verlangen. Moderne Geldpolitik besteht also aus tatsächlichen Zinsen, Bilanzinstrumenten und Erwartungsmanagement."
+    },
+    {
+      "title": "Transfer: Warum dieselbe Zinspolitik Haushalte unterschiedlich trifft",
+      "body": "Stell dir zwei Haushalte vor. Haushalt A besitzt ein abbezahltes Haus und hohe Spareinlagen; Haushalt B möchte gerade eine Immobilie finanzieren. Steigende Zinsen können A höhere Sparzinsen bringen, während B eine deutlich höhere monatliche Kreditrate kalkulieren muss. Ein Unternehmen mit viel kurzfristiger Verschuldung reagiert ebenfalls stärker als eines, das langfristig zu festen Zinsen finanziert ist. Genau deshalb gibt es nicht „die“ Wirkung eines Zinsschritts auf jeden Einzelnen. Gesamtwirtschaftlich interessiert die Zentralbank die Summe vieler solcher Reaktionen. Politisch sind die Verteilungsfolgen trotzdem relevant und können erklären, warum geldpolitische Entscheidungen gesellschaftlich unterschiedlich bewertet werden. Deshalb betrachtet gute Geldpolitik nicht nur den aktuellen Zinssatz, sondern das gesamte Bündel aus realen Finanzierungskosten, Erwartungen und wirtschaftlicher Dynamik."
+    }
+  ],
+  "misconception": "Zentralbanken „drucken“ nicht einfach mehr oder weniger Geld und bestimmen damit mechanisch die Inflation. Moderne Geldpolitik wirkt über ein komplexes Finanzsystem, Erwartungen und reale Nachfrage. Ebenso wenig kann sie jeden Angebotsschock direkt beheben.",
+  "keyTakeaways": [
+    "Leitzinsen wirken indirekt über Finanzierungsbedingungen, Nachfrage, Vermögenspreise, Wechselkurse und Erwartungen.",
+    "Die Wirkung geldpolitischer Entscheidungen tritt mit erheblicher Verzögerung ein.",
+    "Zentralbanken können Angebotsschocks nicht beseitigen, aber verhindern, dass daraus dauerhaft hohe Inflationserwartungen entstehen.",
+    "Zu straffe und zu lockere Geldpolitik haben jeweils Risiken."
+  ],
+  "questions": [
+    {
+      "id": "economy-central-bank-q1",
+      "prompt": "Warum sinkt Inflation nach einer Zinserhöhung nicht sofort?",
+      "options": [
+        "Weil Zentralbanken Zinsen nur symbolisch ändern",
+        "Weil Kredite, Verträge, Investitionen und Preise sich mit Verzögerung anpassen",
+        "Weil Leitzinsen ausschließlich Aktienkurse beeinflussen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Der Transmissionsmechanismus läuft über viele Entscheidungen und bestehende Verträge, sodass die volle Wirkung Monate dauern kann."
+    },
+    {
+      "id": "economy-central-bank-q2",
+      "prompt": "Was kann eine Zentralbank bei einem Energiepreisschock NICHT direkt tun?",
+      "options": [
+        "Inflationserwartungen beeinflussen",
+        "Finanzierungsbedingungen verändern",
+        "Zusätzliches Erdgas produzieren"
+      ],
+      "correctIndex": 2,
+      "explanation": "Geldpolitik kann Nachfrage und Erwartungen beeinflussen, nicht aber physische Energieknappheit beseitigen."
+    },
+    {
+      "id": "economy-central-bank-q3",
+      "prompt": "Warum sind Inflationserwartungen für Zentralbanken wichtig?",
+      "options": [
+        "Weil erwartete Inflation Löhne, Preise und Verträge beeinflussen kann",
+        "Weil nur Erwartungen im Preisindex gemessen werden",
+        "Weil reale Inflation keine Rolle spielt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wenn hohe Inflation dauerhaft erwartet wird, kann sie in Lohn- und Preissetzung einfließen und sich dadurch verstetigen."
+    }
+  ],
+  "recallPrompt": "Beschreibe den wichtigsten Wirkungspfad einer Leitzinserhöhung in vier Schritten.",
+  "recallAnswer": "Die Zentralbank erhöht den Leitzins. Finanzierungen und Kredite werden im Durchschnitt teurer, während Sparen attraktiver wird. Dadurch werden Konsum und Investitionen tendenziell gebremst. Geringerer Nachfragedruck und stabilere Inflationserwartungen können den Preisauftrieb mit Verzögerung reduzieren.",
+  "relatedLessonIds": [
+    "economy-inflation",
+    "economy-interest"
+  ]
+}

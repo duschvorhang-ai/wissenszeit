@@ -1,0 +1,62 @@
+{
+  "id": "psychology-memory",
+  "packId": "general-knowledge-basis",
+  "title": "Warum ist Erinnerung kein Videoarchiv?",
+  "durationMinutes": 5,
+  "categoryId": "psychology",
+  "path": [
+    "Gedächtnis",
+    "Wahrnehmung"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Gedächtnis",
+    "Erinnerung",
+    "Rekonstruktion",
+    "Vergessen",
+    "Fehlerinnerung"
+  ],
+  "synonyms": [
+    "memory",
+    "false memory"
+  ],
+  "summary": "Erinnerungen werden nicht wie unveränderte Videodateien gespeichert und abgespielt. Das Gehirn rekonstruiert Erlebnisse aus gespeicherten Bestandteilen, aktuellem Wissen und Kontext.",
+  "whyRelevant": "Diese Rekonstruktion erklärt, warum Augenzeugen sich irren können und warum selbst lebhafte Erinnerungen nicht automatisch exakt sind. Für Lernen bedeutet sie zugleich, dass aktiver Abruf Gedächtnis verändert und stärken kann.",
+  "learningGoal": "Du kannst erklären, warum Erinnerungen veränderlich sind und weshalb Sicherheit über eine Erinnerung nicht dasselbe ist wie Genauigkeit.",
+  "sections": [
+    {
+      "title": "Speichern heißt auswählen",
+      "body": "Schon während eines Erlebnisses nimmt das Gehirn nicht jedes Detail gleich stark auf. Aufmerksamkeit entscheidet mit, was überhaupt verarbeitet wird. Später werden Informationen konsolidiert und mit vorhandenem Wissen verbunden. Dadurch entsteht keine vollständige objektive Kopie. Typische Strukturen oder Erwartungen können Lücken füllen. Das ist meist nützlich, weil das Gedächtnis Bedeutung statt jedes Pixel speichern muss."
+    },
+    {
+      "title": "Abrufen ist Rekonstruktion",
+      "body": "Beim Erinnern werden gespeicherte Elemente wieder zusammengesetzt. Neue Informationen können dabei einfließen. Suggestive Fragen, Gespräche mit anderen oder spätere Medienberichte können beeinflussen, wie ein Ereignis erinnert wird. Das bedeutet nicht, dass Erinnerungen beliebig erfunden sind. Vieles ist stabil, aber Details können sich verändern. Besonders wichtig: Eine Person kann sich sehr sicher fühlen und trotzdem in einem Detail falsch liegen."
+    },
+    {
+      "title": "Vergessen ist nicht nur ein Defekt",
+      "body": "Ein System, das jede Einzelheit dauerhaft gleich stark speichert, wäre schnell überlastet. Vergessen hilft, Unwichtiges abzuschwächen und Muster zu abstrahieren. Beim Lernen wirkt aktiver Abruf wie Training: Wer versucht, eine Information ohne Vorlage zu erinnern, stärkt relevante Gedächtniswege stärker als durch bloßes Wiederlesen. Fehler beim Abruf können außerdem zeigen, was gezielt wiederholt werden sollte."
+    }
+  ],
+  "misconception": "Lebhafte, emotionale Erinnerungen können sich besonders sicher anfühlen, sind aber nicht zwangsläufig detailgenauer. Subjektive Gewissheit ist kein perfektes Maß für objektive Genauigkeit.",
+  "keyTakeaways": [
+    "Gedächtnis speichert selektiv statt vollständig.",
+    "Erinnern ist ein rekonstruktiver Prozess, der durch neuen Kontext beeinflusst werden kann.",
+    "Aktiver Abruf stärkt Lernen stärker als reines Wiederlesen."
+  ],
+  "questions": [
+    {
+      "id": "psychology-memory-q1",
+      "prompt": "Warum kann eine sehr sichere Augenzeugenaussage trotzdem falsch sein?",
+      "options": [
+        "Weil Erinnerungen rekonstruiert werden und Sicherheit nicht identisch mit Genauigkeit ist",
+        "Weil Menschen grundsätzlich nichts speichern können",
+        "Weil emotionale Erlebnisse immer vergessen werden"
+      ],
+      "correctIndex": 0,
+      "explanation": "Erinnerungen können stabil und dennoch in einzelnen Details verzerrt sein; subjektive Sicherheit schützt nicht vollständig davor."
+    }
+  ],
+  "recallPrompt": "Warum ist aktives Erinnern beim Lernen sinnvoll, wenn Gedächtnis doch rekonstruktiv ist?",
+  "recallAnswer": "Gerade weil Abruf ein aktiver Prozess ist, stärkt wiederholtes korrektes Rekonstruieren die relevanten Gedächtnisverbindungen und macht Wissenslücken sichtbar.",
+  "relatedLessonIds": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "technology-ai-rag",
+  "title": "Was RAG wirklich macht – und was nicht",
+  "durationMinutes": 5,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Künstliche Intelligenz",
+    "RAG"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "KI",
+    "RAG",
+    "Retrieval Augmented Generation",
+    "LLM",
+    "Vektorsuche",
+    "Embeddings",
+    "Wissensbasis",
+    "Dokumentensuche"
+  ],
+  "synonyms": [
+    "Retrieval-Augmented Generation",
+    "Retrieval",
+    "Grounding",
+    "KI mit eigenen Dokumenten"
+  ],
+  "summary": "RAG kombiniert Dokumentensuche mit einem Sprachmodell: Relevante Informationen werden zur Anfrage gesucht und dem Modell als Kontext mitgegeben. Dadurch kann es auf aktuelle oder private Daten zugreifen, ohne diese in seine Modellparameter einzutrainieren.",
+  "whyRelevant": "RAG ist eine der wichtigsten Architekturen für KI-Anwendungen mit eigenen Dokumenten. Gleichzeitig wird es oft fälschlich als automatische Garantie für korrekte Antworten verstanden.",
+  "learningGoal": "Du kannst den RAG-Ablauf von Anfrage über Retrieval bis zur Antwort erklären und drei typische Fehlerquellen benennen.",
+  "sections": [
+    {
+      "title": "Retrieval kommt vor der Generierung",
+      "body": "Bei Retrieval-Augmented Generation wird die Frage nicht sofort nur an ein Sprachmodell geschickt. Zunächst sucht ein Retrieval-System in einer Wissensbasis nach passenden Textabschnitten. Häufig werden Dokumente dafür in kleinere Chunks zerlegt, als Embeddings gespeichert und über Vektorähnlichkeit gesucht. Die gefundenen Passagen werden zusammen mit der eigentlichen Nutzerfrage in den Kontext des Sprachmodells gelegt. Das Modell formuliert seine Antwort dann auf Basis dieser zusätzlichen Informationen. Die Modellgewichte selbst müssen dafür nicht verändert werden. Neue Dokumente lassen sich deshalb relativ schnell in die Wissensbasis aufnehmen."
+    },
+    {
+      "title": "RAG verschiebt die Fehlerquellen",
+      "body": "Ein gutes Sprachmodell kann nur mit den Informationen arbeiten, die tatsächlich im Kontext landen. Wenn das Retrieval den falschen Abschnitt findet, einen wichtigen Abschnitt übersieht oder die Dokumente selbst veraltet sind, kann die Antwort ebenfalls falsch werden. Man unterscheidet deshalb mehrere Ebenen: Retrieval-Qualität – wurde das Richtige gefunden? –, Kontextqualität – passt und reicht der Ausschnitt? – und Generierungsqualität – nutzt das Modell die Quellen korrekt? Zitate oder Quellenlinks können die Prüfbarkeit verbessern, sind aber nur dann hilfreich, wenn sie wirklich auf die verwendeten Passagen zeigen."
+    },
+    {
+      "title": "RAG ist kein eingebauter Wahrheitsmodus",
+      "body": "Auch mit korrekten Quellen kann ein Modell Informationen falsch zusammenfassen oder eine Lücke mit plausibel klingendem Text füllen. Robuste Systeme geben deshalb klare Instruktionen wie „Antworte nur aus den bereitgestellten Quellen“ und erlauben ausdrücklich „nicht genügend Information“ als Ergebnis. Zusätzlich können Metadatenfilter, Re-Ranking, strukturierte Extraktion und fachliche Validierung eingesetzt werden. RAG ist damit weniger ein einzelnes Feature als eine Architektur: Suche, Auswahl, Kontextaufbereitung und Sprachmodell müssen als Gesamtsystem funktionieren."
+    }
+  ],
+  "misconception": "RAG bedeutet nicht, dass ein LLM seine Wissensparameter dauerhaft mit deinen Dokumenten aktualisiert. Die Dokumente werden typischerweise zur Laufzeit gesucht und als temporärer Kontext bereitgestellt.",
+  "keyTakeaways": [
+    "RAG besteht aus Retrieval plus anschließender Generierung.",
+    "Die Qualität hängt stark davon ab, ob die richtigen Dokumentpassagen gefunden werden.",
+    "RAG reduziert Halluzinationen nicht automatisch auf null; Quellenbezug und Validierung bleiben wichtig."
+  ],
+  "questions": [
+    {
+      "id": "technology-ai-rag-q1",
+      "prompt": "Was passiert bei einem klassischen RAG-System zuerst?",
+      "options": [
+        "Das LLM wird vollständig neu trainiert.",
+        "Passende Inhalte werden aus einer Wissensbasis gesucht.",
+        "Die Antwort wird zufällig erzeugt und danach mit Dokumenten verglichen."
+      ],
+      "correctIndex": 1,
+      "explanation": "RAG beginnt mit Retrieval. Die gefundenen Inhalte werden anschließend dem Modell als Kontext bereitgestellt."
+    }
+  ],
+  "recallPrompt": "Beschreibe den RAG-Ablauf in drei Schritten.",
+  "recallAnswer": "Eine Anfrage wird in der Wissensbasis gegen Dokumente oder Chunks gesucht. Die relevantesten Passagen werden als Kontext zusammengestellt. Das Sprachmodell formuliert daraus eine Antwort, idealerweise mit klarer Bindung an die bereitgestellten Quellen.",
+  "relatedLessonIds": [
+    "technology-ai-embeddings",
+    "technology-llm"
+  ],
+  "coverageWeight": 0.7,
+  "packId": "general-knowledge-basis"
+}

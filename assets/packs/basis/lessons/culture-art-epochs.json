@@ -1,0 +1,111 @@
+{
+  "id": "culture-art-epochs",
+  "packId": "general-knowledge-basis",
+  "title": "Wie spiegeln Kunstepochen gesellschaftlichen Wandel?",
+  "durationMinutes": 20,
+  "categoryId": "culture",
+  "path": [
+    "Kunst",
+    "Kulturgeschichte"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "Kunstgeschichte",
+    "Renaissance",
+    "Barock",
+    "Romantik",
+    "Impressionismus",
+    "Moderne",
+    "Gesellschaft"
+  ],
+  "synonyms": [
+    "Kunstepochen",
+    "art history"
+  ],
+  "summary": "Kunstepochen sind keine sauber getrennten Schubladen. Sie bündeln typische Stile, Techniken und Themen, die mit gesellschaftlichen, religiösen, technischen und politischen Veränderungen verbunden sind.",
+  "whyRelevant": "Wer einige große Entwicklungslinien kennt, kann Gemälde, Architektur und Musik besser zeitlich einordnen und erkennt, dass Kunst zugleich Ausdruck und Kritik gesellschaftlicher Veränderungen sein kann.",
+  "learningGoal": "Du kannst mehrere zentrale Epochen von Renaissance bis Moderne anhand typischer Merkmale unterscheiden und ihre Verbindung zu gesellschaftlichen Veränderungen erklären.",
+  "sections": [
+    {
+      "title": "Renaissance: Mensch, Antike und berechenbarer Raum",
+      "body": "Zwischen dem 14. und 16. Jahrhundert entwickelten sich in verschiedenen Teilen Europas künstlerische Formen, die wir heute unter Renaissance zusammenfassen. Besonders in italienischen Städten verbanden sich Wohlstand, städtische Konkurrenz, Mäzenatentum und ein erneutes Interesse an antiker Literatur und Kunst. Künstler beschäftigten sich intensiv mit Anatomie, Proportion und räumlicher Perspektive. Der Mensch erschien häufiger als körperliches, individuelles Wesen in einer beobachtbaren Welt. Religiöse Themen blieben zentral; Renaissance bedeutete keineswegs eine Abkehr vom Christentum. Vielmehr veränderte sich die Art der Darstellung. Technische Methoden wie die Zentralperspektive und Ölmalerei ermöglichten neue Formen räumlicher und materieller Illusion. Gleichzeitig stieg der soziale Status mancher Künstler: Namen wie Leonardo, Michelangelo oder Raffael wurden zu individuellen Berühmtheiten statt bloß anonymen Handwerkern."
+    },
+    {
+      "title": "Barock: Inszenierung, Macht und Bewegung",
+      "body": "Im 17. und frühen 18. Jahrhundert dominieren in vielen Regionen Europas barocke Formen. Dramatische Lichtführung, Bewegung, starke Kontraste und überwältigende Architektur erzeugen emotionale Wirkung. Diese Ästhetik passt in eine Zeit konfessioneller Konflikte und absolutistischer Herrschaft. Die katholische Kirche nutzte Kunst nach der Reformation, um Glaubensinhalte emotional erfahrbar zu machen; Fürstenhöfe inszenierten Macht durch Paläste, Gärten und Zeremonien. Versailles ist ein extremes Beispiel dafür, wie Architektur politische Ordnung sichtbar machen kann. Gleichzeitig existierten in protestantischen Regionen andere Märkte: In den Niederlanden kauften wohlhabende Bürger Landschaften, Stillleben oder Alltagsszenen. Eine Epoche ist deshalb nie ein einheitlicher Stil für ganz Europa. Auftraggeber, Religion und Wirtschaftsstruktur beeinflussten, welche Kunst entstand."
+    },
+    {
+      "title": "Romantik: Gefühl, Natur und Reaktion auf Rationalisierung",
+      "body": "Um 1800 veränderten Revolutionen, Industrialisierung und Aufklärung europäische Gesellschaften tiefgreifend. Die Romantik betonte Gefühl, Individualität, Natur, Geschichte und das Unheimliche. Künstler reagierten damit nicht einfach „gegen Vernunft“, sondern auf eine Welt, die zunehmend durch Wissenschaft, Bürokratie und industrielle Veränderung geprägt war. Caspar David Friedrichs Landschaften etwa zeigen kleine Menschen vor überwältigender Natur und laden zur inneren Betrachtung ein. Nationalbewegungen entdeckten Volkslieder, Mythen und historische Stoffe neu. Die romantische Sehnsucht nach vermeintlich ursprünglicher Natur oder Vergangenheit war zugleich modern: Sie entstand gerade in einer Zeit beschleunigten Wandels und machte Verlustgefühle sichtbar."
+    },
+    {
+      "title": "Impressionismus: moderne Stadt, neues Sehen und neue Technik",
+      "body": "Im 19. Jahrhundert veränderten Eisenbahn, Industrialisierung und wachsende Großstädte Alltag und Wahrnehmung. Impressionisten malten moderne Freizeit, Boulevards, Bahnhöfe und Landschaften mit sichtbaren Pinselstrichen und besonderem Interesse an Licht. Neue Farbpigmente in Tuben erleichterten das Malen im Freien; Eisenbahnen machten Ausflüge ins Umland einfacher. Fotografie übernahm zunehmend die Aufgabe realistischer Abbildung und stellte Malerei vor die Frage, was sie zusätzlich leisten konnte. Künstler wie Monet untersuchten deshalb wechselnde Lichtstimmungen statt dauerhafte, perfekte Konturen. Die Ablehnung durch etablierte Salons zeigt auch einen Wandel des Kunstmarktes: unabhängige Ausstellungen und Händler gewannen an Bedeutung."
+    },
+    {
+      "title": "Moderne: Wenn Kunst ihre eigenen Regeln befragt",
+      "body": "Um 1900 und im 20. Jahrhundert zerfiel die Vorstellung eines dominierenden Stils endgültig. Fotografie, Film, Weltkriege, Psychoanalyse, neue Wissenschaften und technische Beschleunigung veränderten Erfahrung. Kubisten zerlegten Gegenstände in mehrere Perspektiven, Expressionisten steigerten Farbe und Form, Dadaisten reagierten mit Provokation auf Krieg und bürgerliche Kultur, abstrakte Künstler lösten sich teilweise vom sichtbaren Gegenstand. Später stellten Konzeptkunst und Pop Art sogar die Frage, was überhaupt als Kunstwerk gilt. Diese Vielfalt ist nicht bloß Verlust handwerklicher Fähigkeit. Viele moderne Künstler beherrschten traditionelle Techniken und entschieden sich bewusst dagegen, sie zum einzigen Maßstab zu machen. Kunst wurde zunehmend auch Reflexion über Wahrnehmung, Medien, Politik und die Institution Kunst selbst."
+    },
+    {
+      "title": "Wer Kunst bezahlt, beeinflusst, was sichtbar wird",
+      "body": "Kunstgeschichte lässt sich nicht nur über Stil erklären, sondern auch über Auftraggeber und Märkte. Kirchen und Höfe finanzierten andere Themen als ein bürgerlicher Kunstmarkt. Mit Galerien, Museen, Kunstkritik und später Massenmedien entstanden neue Wege, wie Künstler Publikum erreichen konnten. Wer finanziert, sammelt und ausstellt, beeinflusst deshalb, welche Werke erhalten bleiben und als kanonisch gelten. Diese Perspektive hilft auch, Lücken klassischer Kunstgeschichten zu verstehen: Künstlerinnen, koloniale Kontexte oder außereuropäische Traditionen wurden lange weniger gesammelt und erforscht, obwohl sie existierten. Ein Kanon ist nicht einfach die neutrale Liste der „besten“ Werke, sondern Ergebnis historischer Institutionen und Bewertungen."
+    },
+    {
+      "title": "Technische Medien verändern die Aufgabe der Kunst",
+      "body": "Jede neue Reproduktionstechnik verschiebt Erwartungen. Der Buchdruck verbreitete Bilder und Ideen, Fotografie konnte sichtbare Realität mit bisher unerreichter mechanischer Genauigkeit festhalten, Film fügte Bewegung hinzu und digitale Medien erlauben unbegrenzte Kopien sowie interaktive Formen. Kunst reagiert darauf nicht nur defensiv. Neue Medien werden selbst künstlerische Werkzeuge, während ältere Medien neue Freiheiten gewinnen. Als Malerei nicht mehr allein für naturgetreue Abbildung zuständig war, konnte sie Farbe, Form und Material stärker untersuchen. Technik ersetzt Kunst deshalb selten einfach; sie verändert eher die Fragen, die Künstler mit einem Medium stellen."
+    },
+    {
+      "title": "Transfer: Ein Werk immer mit zwei Fragen lesen",
+      "body": "Um ein unbekanntes Kunstwerk grob einzuordnen, helfen zwei getrennte Fragen. Erstens: Was sehe ich formal? Dazu gehören Perspektive, Farbe, Licht, Material, Komposition, Grad der Abstraktion und Umgang mit Körpern oder Raum. Zweitens: Unter welchen Bedingungen könnte das Werk entstanden sein? Wer war Auftraggeber oder Publikum, welche Technik stand zur Verfügung, welche religiösen oder politischen Konflikte prägten die Zeit? Die zweite Frage verhindert, Stil nur als Mode zu betrachten. Ein prunkvoller Barockaltar, ein impressionistischer Bahnhof und eine dadaistische Collage lösen ganz unterschiedliche Probleme ihrer jeweiligen Gegenwart. Gleichzeitig sollte Kontext nicht zur Zwangserklärung werden: Künstler reagieren individuell, widersprechen ihrer Epoche und greifen ältere Formen auf. Gute Kunstgeschichte verbindet deshalb genaue Betrachtung mit historischem Wissen, ohne das einzelne Werk auf seinen Zeitgeist zu reduzieren. Auch Globalisierung verändert den Blick auf Epochen. Die traditionelle Abfolge Renaissance–Barock–Romantik–Moderne ist stark europäisch. Zeitgleich entwickelten sich in China, Japan, Indien, Afrika, im Osmanischen Reich und in Amerika eigenständige Kunsttraditionen, die durch Handel und Kolonialismus zunehmend miteinander verflochten wurden. Für breites Allgemeinwissen ist die europäische Epochenfolge nützlich, sollte aber nicht mit einer universellen Weltkunstgeschichte verwechselt werden. Museen präsentieren heute zunehmend genau diese Verflechtungen und stellen ältere Ordnungssysteme infrage. Das verändert nicht die Bedeutung von Leonardo, Monet oder Picasso, erweitert aber die Frage, welche Geschichten neben dem klassischen europäischen Kanon erzählt werden."
+    }
+  ],
+  "misconception": "Kunstepochen folgen nicht weltweit in einer sauberen linearen Reihe und beginnen nicht überall im selben Jahr. Bezeichnungen wie Renaissance oder Romantik sind nachträgliche Ordnungssysteme, die Überschneidungen und regionale Unterschiede vereinfachen.",
+  "keyTakeaways": [
+    "Renaissance verband antike Vorbilder, Beobachtung und neue Raumdarstellung.",
+    "Barock nutzte Inszenierung und Emotion in unterschiedlichen religiösen und politischen Kontexten.",
+    "Romantik reagierte auf beschleunigten gesellschaftlichen Wandel mit Natur, Gefühl und Geschichte.",
+    "Impressionismus war eng mit moderner Stadt, Technik und verändertem Kunstmarkt verbunden.",
+    "Die Moderne machte die Regeln und Grenzen von Kunst selbst zum Gegenstand."
+  ],
+  "questions": [
+    {
+      "id": "culture-art-epochs-q1",
+      "prompt": "Warum passte barocke Kunst gut zu absolutistischen Höfen?",
+      "options": [
+        "Weil sie Macht und Pracht wirkungsvoll inszenieren konnte",
+        "Weil sie grundsätzlich ohne Auftraggeber entstand",
+        "Weil sie nur kleine private Bilder kannte"
+      ],
+      "correctIndex": 0,
+      "explanation": "Monumentale Architektur, Gärten und Zeremonien konnten politische Hierarchie sichtbar und emotional erfahrbar machen."
+    },
+    {
+      "id": "culture-art-epochs-q2",
+      "prompt": "Welche technische Entwicklung beeinflusste den Impressionismus unter anderem?",
+      "options": [
+        "Die Erfindung des Buchdrucks im 15. Jahrhundert",
+        "Neue Farbtuben und Fotografie im 19. Jahrhundert",
+        "Digitale Bildbearbeitung"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mobile Farben erleichterten Freilichtmalerei; Fotografie veränderte zugleich die Rolle realistischer Darstellung."
+    },
+    {
+      "id": "culture-art-epochs-q3",
+      "prompt": "Warum ist moderne abstrakte Kunst nicht einfach Beleg verlorener Maltechnik?",
+      "options": [
+        "Weil viele Künstler traditionelle Techniken kannten und bewusst andere Fragen verfolgten",
+        "Weil moderne Künstler grundsätzlich keine Ausbildung hatten",
+        "Weil abstrakte Kunst älter als figurative Kunst ist"
+      ],
+      "correctIndex": 0,
+      "explanation": "Die Abkehr von naturalistischer Darstellung war häufig eine bewusste ästhetische Entscheidung."
+    }
+  ],
+  "recallPrompt": "Wähle zwei Kunstepochen und erkläre jeweils eine Verbindung zwischen Stil und gesellschaftlichem Kontext.",
+  "recallAnswer": "Beispielsweise nutzte der Barock dramatische Inszenierung in einer Zeit konfessioneller Konkurrenz und absolutistischer Hofkultur. Der Impressionismus reagierte dagegen auf moderne Städte, neue Freizeitformen, Fotografie und technische Möglichkeiten des 19. Jahrhunderts mit einer Malerei des flüchtigen Lichts und Augenblicks.",
+  "relatedLessonIds": [
+    "culture-perspective",
+    "culture-chords"
+  ]
+}

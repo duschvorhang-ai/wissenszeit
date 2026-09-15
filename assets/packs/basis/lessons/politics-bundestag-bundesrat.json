@@ -1,0 +1,62 @@
+{
+  "id": "politics-bundestag-bundesrat",
+  "packId": "general-knowledge-basis",
+  "title": "Bundestag und Bundesrat: Wer macht was?",
+  "durationMinutes": 5,
+  "categoryId": "politics",
+  "path": [
+    "Deutschland",
+    "Politisches System"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Bundestag",
+    "Bundesrat",
+    "Föderalismus",
+    "Gesetzgebung",
+    "Länder"
+  ],
+  "synonyms": [
+    "Parlament Deutschland",
+    "Bundesländer"
+  ],
+  "summary": "Der Bundestag repräsentiert die Bevölkerung auf Bundesebene, der Bundesrat die Regierungen der Länder. Beide wirken an Bundesgesetzen mit, aber auf unterschiedliche Weise.",
+  "whyRelevant": "Viele politische Debatten lassen sich erst verstehen, wenn klar ist, warum eine Bundesregierung trotz Bundestagsmehrheit bei manchen Vorhaben auf die Länder angewiesen ist.",
+  "learningGoal": "Du kannst Bundestag und Bundesrat unterscheiden und erklären, wann der Bundesrat ein Bundesgesetz blockieren kann.",
+  "sections": [
+    {
+      "title": "Der Bundestag als Volksvertretung",
+      "body": "Der Deutsche Bundestag wird direkt von den Wahlberechtigten gewählt. Er beschließt Gesetze, kontrolliert die Bundesregierung und wählt den Bundeskanzler oder die Bundeskanzlerin. Abgeordnete besitzen ein freies Mandat: Rechtlich sind sie nicht an Weisungen ihrer Partei oder Wähler gebunden. Praktisch spielen Fraktionen und Koalitionen eine zentrale Rolle, weil parlamentarische Mehrheiten organisiert werden müssen. Der Bundestag ist damit das zentrale politische Forum auf Bundesebene."
+    },
+    {
+      "title": "Der Bundesrat vertritt die Länderregierungen",
+      "body": "Im Bundesrat sitzen keine direkt gewählten Abgeordneten. Mitglieder der Landesregierungen vertreten dort ihr jeweiliges Bundesland. Die Stimmen eines Landes müssen grundsätzlich einheitlich abgegeben werden. Je nach Bevölkerungszahl verfügt ein Land über drei bis sechs Stimmen. Der Bundesrat bringt damit die Interessen der Länder in die Bundesgesetzgebung ein – wichtig, weil viele Bundesgesetze von Landesverwaltungen umgesetzt werden."
+    },
+    {
+      "title": "Nicht jedes Gesetz braucht dieselbe Zustimmung",
+      "body": "Bei Zustimmungsgesetzen ist eine ausdrückliche Mehrheit im Bundesrat erforderlich. Das betrifft insbesondere Vorhaben, die Länderfinanzen oder bestimmte Verwaltungszuständigkeiten stark berühren. Bei Einspruchsgesetzen kann der Bundesrat widersprechen, der Bundestag kann diesen Einspruch unter bestimmten Voraussetzungen aber überstimmen. Kommt es zum Konflikt, kann der Vermittlungsausschuss nach einem Kompromiss suchen. Der Bundesrat besitzt also nicht bei jedem Gesetz dasselbe Vetorecht."
+    }
+  ],
+  "misconception": "Der Bundesrat ist keine zweite direkt gewählte Parlamentskammer nach genau demselben Modell wie der Bundestag. Er vertritt Regierungen der Länder und ist Teil des deutschen Föderalismus.",
+  "keyTakeaways": [
+    "Der Bundestag wird direkt gewählt und kontrolliert die Bundesregierung.",
+    "Der Bundesrat vertritt die Regierungen der 16 Länder.",
+    "Bei Zustimmungsgesetzen kann ohne Zustimmung des Bundesrates kein Gesetz zustande kommen."
+  ],
+  "questions": [
+    {
+      "id": "politics-bundestag-bundesrat-q1",
+      "prompt": "Warum wirkt der Bundesrat an Bundesgesetzen mit?",
+      "options": [
+        "Weil die Länder viele Bundesgesetze umsetzen und eigene Interessen haben",
+        "Weil jedes Bundesland ein eigenes Außenministerium besitzt",
+        "Weil der Bundestag keine Gesetze beschließen darf"
+      ],
+      "correctIndex": 0,
+      "explanation": "Der Föderalismus gibt den Ländern Mitwirkung, insbesondere wenn ihre Zuständigkeiten oder Finanzen betroffen sind."
+    }
+  ],
+  "recallPrompt": "Was ist der wichtigste institutionelle Unterschied zwischen Bundestag und Bundesrat?",
+  "recallAnswer": "Der Bundestag ist die direkt gewählte Volksvertretung des Bundes; im Bundesrat vertreten Mitglieder der Landesregierungen die Bundesländer.",
+  "relatedLessonIds": []
+}

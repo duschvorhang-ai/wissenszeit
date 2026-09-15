@@ -1,0 +1,63 @@
+{
+  "id": "technology-internet-packets",
+  "packId": "general-knowledge-basis",
+  "title": "Wie findet eine Nachricht ihren Weg durchs Internet?",
+  "durationMinutes": 5,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Internet"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Internet",
+    "IP",
+    "Router",
+    "Pakete",
+    "DNS",
+    "TCP"
+  ],
+  "synonyms": [
+    "Netzwerk",
+    "network packets"
+  ],
+  "summary": "Im Internet werden Daten in kleine Pakete zerlegt und über viele miteinander verbundene Netze weitergeleitet. Adressen, Router und Protokolle sorgen dafür, dass die Pakete ihr Ziel finden und dort wieder sinnvoll zusammengesetzt werden.",
+  "whyRelevant": "Fast jede digitale Anwendung beruht auf denselben Grundprinzipien. Wer Pakete, IP-Adressen und DNS versteht, kann Internetprobleme und Sicherheitsfragen deutlich besser einordnen.",
+  "learningGoal": "Du kannst den Weg von einer Webadresse über DNS und IP-Pakete bis zum Zielserver in Grundzügen erklären.",
+  "sections": [
+    {
+      "title": "Namen müssen zu Adressen werden",
+      "body": "Menschen merken sich Namen wie example.com leichter als numerische IP-Adressen. Das Domain Name System, kurz DNS, übersetzt Domainnamen in IP-Adressen. Dein Gerät fragt dafür meist einen DNS-Resolver, der die passende Information aus seinem Zwischenspeicher kennt oder sie über weitere DNS-Server ermittelt. Erst mit einer Zieladresse kann die eigentliche Netzwerkkommunikation beginnen."
+    },
+    {
+      "title": "Daten reisen in Paketen",
+      "body": "Eine größere Nachricht wird in kleinere Einheiten zerlegt. Jedes IP-Paket trägt Informationen über Quelle und Ziel. Router lesen die Zieladresse und entscheiden, über welchen nächsten Netzwerkknoten das Paket weitergeschickt wird. Nicht jedes Paket muss zwingend exakt denselben Weg nehmen. Das Internet funktioniert deshalb eher wie ein Netz vieler Straßen als wie eine feste direkte Leitung zwischen zwei Geräten."
+    },
+    {
+      "title": "Protokolle sorgen für Ordnung",
+      "body": "IP kümmert sich vor allem um Adressierung und Weiterleitung. Andere Protokolle übernehmen zusätzliche Aufgaben. TCP kann zum Beispiel sicherstellen, dass fehlende Pakete erneut übertragen und Daten in richtiger Reihenfolge zusammengesetzt werden. Moderne Anwendungen nutzen teilweise andere Transportprotokolle wie QUIC. Auf höheren Ebenen regeln Protokolle wie HTTP, wie Browser und Webserver Anfragen und Antworten austauschen."
+    }
+  ],
+  "misconception": "Das Internet ist nicht „die Cloud“ und auch kein einzelnes Netz eines Unternehmens. Es ist ein Verbund vieler eigenständiger Netzwerke, die sich auf gemeinsame Protokolle zur Kommunikation einigen.",
+  "keyTakeaways": [
+    "DNS übersetzt Namen in erreichbare IP-Adressen.",
+    "Daten werden in Pakete zerlegt und von Routern über Netze weitergeleitet.",
+    "Mehrere Protokolle teilen sich Aufgaben wie Adressierung, Zuverlässigkeit und Webkommunikation."
+  ],
+  "questions": [
+    {
+      "id": "technology-internet-packets-q1",
+      "prompt": "Welche Aufgabe hat ein Router hauptsächlich?",
+      "options": [
+        "Domainnamen in Wörterbüchern speichern",
+        "Pakete anhand ihrer Zieladresse zum nächsten geeigneten Netzwerkknoten weiterleiten",
+        "Webseiten dauerhaft auf jedem Endgerät speichern"
+      ],
+      "correctIndex": 1,
+      "explanation": "Router verbinden Netze und treffen Weiterleitungsentscheidungen für Datenpakete."
+    }
+  ],
+  "recallPrompt": "Was passiert grob zwischen der Eingabe einer Webadresse und dem Erreichen des Servers?",
+  "recallAnswer": "DNS ermittelt eine IP-Adresse; das Gerät sendet Daten in Paketen, Router leiten sie über mehrere Netze weiter und Transport- sowie Anwendungsprotokolle sorgen für geordneten Austausch mit dem Server.",
+  "relatedLessonIds": []
+}

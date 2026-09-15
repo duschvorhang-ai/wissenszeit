@@ -1,0 +1,63 @@
+{
+  "id": "biology-immune-system",
+  "packId": "general-knowledge-basis",
+  "title": "Wie erkennt das Immunsystem Krankheitserreger?",
+  "durationMinutes": 5,
+  "categoryId": "biology",
+  "path": [
+    "Mensch",
+    "Immunsystem"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Immunsystem",
+    "Antikörper",
+    "B-Zellen",
+    "T-Zellen",
+    "angeborene Immunität",
+    "adaptive Immunität"
+  ],
+  "synonyms": [
+    "Abwehrsystem",
+    "immune system"
+  ],
+  "summary": "Das Immunsystem arbeitet in mehreren Ebenen. Eine schnelle angeborene Abwehr reagiert auf typische Gefahrensignale; die adaptive Abwehr erkennt bestimmte Strukturen besonders gezielt und bildet Gedächtnis.",
+  "whyRelevant": "Infektionen, Impfungen und Allergien lassen sich besser verstehen, wenn klar ist, dass „das Immunsystem“ kein einzelner Schutzmechanismus, sondern ein koordiniertes Netzwerk ist.",
+  "learningGoal": "Du kannst angeborene und adaptive Immunabwehr unterscheiden und erklären, warum immunologisches Gedächtnis spätere Reaktionen beschleunigt.",
+  "sections": [
+    {
+      "title": "Die erste Verteidigung beginnt vor dem Blut",
+      "body": "Haut und Schleimhäute bilden physische und chemische Barrieren. Gelangen Erreger trotzdem in den Körper, reagiert die angeborene Immunabwehr schnell. Bestimmte Immunzellen erkennen typische molekulare Muster, die bei vielen Bakterien oder Viren vorkommen. Entzündungsreaktionen erhöhen lokal die Durchblutung, locken weitere Abwehrzellen an und können Krankheitserreger eindämmen. Diese Reaktion ist schnell, aber weniger spezifisch als die adaptive Abwehr."
+    },
+    {
+      "title": "Spezifische Erkennung",
+      "body": "B- und T-Lymphozyten gehören zur adaptiven Immunabwehr. Unterschiedliche Zellen tragen Rezeptoren, die zu bestimmten molekularen Strukturen – Antigenen – passen. Wird ein passender Lymphozyt aktiviert, vermehrt er sich. B-Zellen können zu Plasmazellen werden und Antikörper produzieren, die sehr gezielt an bestimmte Strukturen binden. T-Zellen erfüllen unterschiedliche Aufgaben, darunter die Koordination der Immunreaktion und das Erkennen infizierter Körperzellen."
+    },
+    {
+      "title": "Warum die zweite Begegnung oft leichter ist",
+      "body": "Nach einer Infektion bleiben häufig Gedächtnis-B- und Gedächtnis-T-Zellen zurück. Trifft derselbe Erreger später erneut auf den Körper, kann die adaptive Abwehr schneller und stärker reagieren. Impfungen nutzen genau dieses Prinzip: Sie präsentieren dem Immunsystem ungefährliche Bestandteile oder Baupläne eines Erregers, damit eine gezielte Immunantwort und Gedächtnis entstehen können, ohne die entsprechende Krankheit vollständig durchmachen zu müssen. Die adaptive Reaktion braucht beim ersten Kontakt meist mehr Zeit. Deshalb hält die angeborene Abwehr Erreger oft in Schach, während passende B- und T-Zellen aktiviert und vermehrt werden."
+    }
+  ],
+  "misconception": "Antikörper sind wichtig, aber nicht das gesamte Immunsystem. Barrieren, Fresszellen, Botenstoffe und T-Zellen tragen ebenfalls entscheidend zur Abwehr bei.",
+  "keyTakeaways": [
+    "Angeborene Immunität reagiert schnell auf typische Gefahrensignale.",
+    "Adaptive Immunität erkennt bestimmte Antigene sehr gezielt.",
+    "Gedächtniszellen ermöglichen bei erneuter Begegnung eine schnellere Reaktion."
+  ],
+  "questions": [
+    {
+      "id": "biology-immune-system-q1",
+      "prompt": "Warum wirkt eine Impfung bei späterem Erregerkontakt häufig schützend?",
+      "options": [
+        "Weil sie alle Krankheitserreger dauerhaft im Blut zerstört",
+        "Weil sie immunologisches Gedächtnis aufbauen kann",
+        "Weil danach keine angeborene Immunabwehr mehr nötig ist"
+      ],
+      "correctIndex": 1,
+      "explanation": "Impfungen bereiten die adaptive Immunabwehr auf bestimmte Antigene vor und können Gedächtniszellen erzeugen."
+    }
+  ],
+  "recallPrompt": "Was ist der wichtigste Unterschied zwischen angeborener und adaptiver Immunabwehr?",
+  "recallAnswer": "Die angeborene Abwehr reagiert schnell und auf allgemeine Gefahrensignale, während die adaptive Abwehr hochspezifisch ist und ein immunologisches Gedächtnis ausbilden kann.",
+  "relatedLessonIds": []
+}

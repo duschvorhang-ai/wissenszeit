@@ -1,0 +1,75 @@
+{
+  "id": "technology-ai-quantization",
+  "title": "Wie Quantisierung KI-Modelle kleiner macht",
+  "durationMinutes": 5,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Künstliche Intelligenz",
+    "Modelloptimierung"
+  ],
+  "knowledgeLevel": "special",
+  "tags": [
+    "KI",
+    "Quantisierung",
+    "LLM",
+    "Inference",
+    "GPU",
+    "RAM",
+    "VRAM",
+    "4 Bit",
+    "8 Bit",
+    "Modellkompression"
+  ],
+  "synonyms": [
+    "Quantization",
+    "INT8",
+    "INT4",
+    "low precision",
+    "Model Compression"
+  ],
+  "summary": "Bei der Quantisierung werden Modellwerte mit geringerer numerischer Präzision gespeichert oder berechnet. Dadurch sinken Speicherbedarf und oft auch Rechenaufwand – allerdings kann zu aggressive Quantisierung Qualität kosten.",
+  "whyRelevant": "Quantisierung erklärt, warum ein großes Modell auf Hardware laufen kann, die für seine ursprüngliche Präzision eigentlich zu wenig Speicher hätte, und warum „Parameterzahl“ allein den Speicherbedarf nicht bestimmt.",
+  "learningGoal": "Du kannst erklären, was 16-, 8- und 4-Bit-Darstellungen bedeuten, warum sie Speicher sparen und weshalb die Qualitätsauswirkung vom Verfahren abhängt.",
+  "sections": [
+    {
+      "title": "Parameter brauchen Speicher",
+      "body": "Neuronale Netze bestehen aus vielen numerischen Parametern. Werden diese beispielsweise mit 16 Bit pro Wert gespeichert, benötigt ein Modell mit Milliarden Parametern entsprechend viele Milliarden mal zwei Byte allein für die Gewichte. Bei 8 Bit halbiert sich dieser Speicherbedarf ungefähr, bei 4 Bit nochmals. Quantisierung überführt Werte deshalb in eine Darstellung mit weniger möglichen Abstufungen. Statt sehr feiner Zahlenwerte wird ein gröberes Raster verwendet. Das ist ein wenig wie ein Foto mit geringerer Farbtiefe: Die Datei kann kleiner werden, solange die verlorene Feinheit für den Zweck nicht zu stark ins Gewicht fällt."
+    },
+    {
+      "title": "Nicht jeder Wert ist gleich empfindlich",
+      "body": "Einfach alle Gewichte stumpf auf wenige Bits zu runden würde häufig zu unnötigen Qualitätsverlusten führen. Moderne Verfahren arbeiten deshalb mit Skalierungsfaktoren, Gruppen von Gewichten oder behandeln besonders empfindliche Werte anders. Es gibt Post-Training-Quantisierung, bei der ein bereits trainiertes Modell nachträglich komprimiert wird, und quantisierungsbewusstes Training, bei dem die geringere Präzision schon während des Trainings berücksichtigt wird. Manche Systeme speichern Gewichte mit wenigen Bits, rechnen bestimmte Zwischenschritte aber weiterhin mit höherer Präzision."
+    },
+    {
+      "title": "Weniger Speicher kann mehr Geschwindigkeit bedeuten",
+      "body": "Bei der Inferenz müssen Gewichte ständig zwischen Speicher und Recheneinheiten bewegt werden. Kleinere Darstellungen senken diese Datenmenge und können deshalb die Verarbeitung beschleunigen – vorausgesetzt, die Hardware unterstützt die betreffende Präzision effizient. Quantisierung ist daher nicht nur ein Trick für kleine Geräte, sondern auch für Rechenzentren interessant. Sie verändert jedoch nicht grundsätzlich, was ein Modell gelernt hat; sie versucht, dieselbe Funktion mit gröber dargestellten Zahlen möglichst gut anzunähern."
+    }
+  ],
+  "misconception": "Ein 4-Bit-Modell bedeutet nicht, dass jede einzelne Berechnung und jeder interne Wert ausschließlich mit 4 Bit erfolgt. In realen Implementierungen werden häufig verschiedene Präzisionen gemischt.",
+  "keyTakeaways": [
+    "Weniger Bits pro Gewicht reduzieren den Speicherbedarf deutlich.",
+    "Gute Quantisierung berücksichtigt, dass Modellwerte unterschiedlich empfindlich auf Rundung reagieren.",
+    "Kleinere Gewichte können Inferenz beschleunigen, wenn Hardware und Implementierung niedrige Präzision effizient unterstützen."
+  ],
+  "questions": [
+    {
+      "id": "technology-ai-quantization-q1",
+      "prompt": "Warum kann Quantisierung ein LLM auf weniger VRAM lauffähig machen?",
+      "options": [
+        "Weil weniger Bits pro Gewicht gespeichert werden müssen.",
+        "Weil dabei alle Trainingsdaten gelöscht werden.",
+        "Weil das Modell danach keine Matrixoperationen mehr benötigt."
+      ],
+      "correctIndex": 0,
+      "explanation": "Der zentrale Speichervorteil entsteht dadurch, dass die Modellgewichte mit geringerer numerischer Präzision dargestellt werden."
+    }
+  ],
+  "recallPrompt": "Warum kann ein 4-Bit-Modell deutlich weniger Speicher benötigen, obwohl es weiterhin gleich viele Parameter besitzt?",
+  "recallAnswer": "Die Anzahl der Parameter bleibt gleich, aber jeder Parameter wird mit weniger Bits gespeichert. Dadurch sinkt der Speicher pro Gewicht und damit der gesamte Speicherbedarf der Modellgewichte.",
+  "relatedLessonIds": [
+    "technology-llm",
+    "technology-ai-kv-cache"
+  ],
+  "coverageWeight": 0.7,
+  "packId": "general-knowledge-basis"
+}

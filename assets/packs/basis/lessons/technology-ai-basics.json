@@ -1,0 +1,65 @@
+{
+  "id": "technology-ai-basics",
+  "packId": "general-knowledge-basis",
+  "title": "Was ist künstliche Intelligenz?",
+  "durationMinutes": 5,
+  "categoryId": "technology",
+  "path": [
+    "Digitalisierung",
+    "Künstliche Intelligenz"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "KI",
+    "Künstliche Intelligenz",
+    "Machine Learning",
+    "Algorithmen",
+    "Neuronale Netze"
+  ],
+  "synonyms": [
+    "AI",
+    "Artificial Intelligence",
+    "ML"
+  ],
+  "summary": "Künstliche Intelligenz ist ein Sammelbegriff für Computersysteme, die Aufgaben bearbeiten, für die Menschen typischerweise Wahrnehmung, Sprache, Mustererkennung, Planung oder Lernen benötigen.",
+  "whyRelevant": "KI begegnet uns in Suchmaschinen, Kameras, Übersetzung, Empfehlungssystemen und generativen Modellen. Eine klare Begriffsabgrenzung schützt vor der Vorstellung, jedes KI-System denke wie ein Mensch.",
+  "learningGoal": "Du kannst KI, maschinelles Lernen und generative KI voneinander unterscheiden.",
+  "sections": [
+    {
+      "title": "KI ist ein Oberbegriff",
+      "body": "Es gibt keine einzelne Technik namens „die KI“. Der Begriff umfasst sehr unterschiedliche Systeme: Schachprogramme, Bilderkennung, Routenplanung, Sprachmodelle oder Robotik. Manche arbeiten überwiegend mit fest programmierten Regeln, moderne Systeme häufig mit statistischen Lernverfahren. Ob etwas als KI bezeichnet wird, hängt teilweise auch vom historischen Kontext ab – Fähigkeiten, die selbstverständlich geworden sind, wirken oft weniger „intelligent“ als neue Anwendungen."
+    },
+    {
+      "title": "Maschinelles Lernen lernt Muster aus Daten",
+      "body": "Beim maschinellen Lernen werden nicht alle Entscheidungsregeln einzeln programmiert. Ein Modell passt interne Parameter anhand von Beispieldaten an, um Zusammenhänge zu erfassen. Ein Bilderkennungsmodell kann etwa viele markierte Bilder sehen und lernen, welche Muster typisch für bestimmte Objekte sind. Das Modell versteht diese Objekte nicht zwingend so wie ein Mensch; es bildet statistische Strukturen ab, die für die Aufgabe nützlich sind."
+    },
+    {
+      "title": "Generative KI erzeugt neue Ausgaben",
+      "body": "Generative Modelle produzieren Text, Bilder, Audio oder andere Daten. Ein Sprachmodell lernt während des Trainings statistische Regelmäßigkeiten großer Textmengen und sagt bei der Nutzung passende nächste Bestandteile voraus. Daraus können erstaunlich kohärente Antworten entstehen. Das bedeutet aber nicht automatisch, dass jede Aussage korrekt ist. Generative Modelle können überzeugend formulieren und dennoch falsche Informationen erzeugen."
+    }
+  ],
+  "misconception": "„KI“ bedeutet nicht automatisch Bewusstsein, menschliches Denken oder allgemeine Intelligenz. Ein System kann in einer eng definierten Aufgabe sehr leistungsfähig sein und außerhalb davon kaum Fähigkeiten besitzen.",
+  "keyTakeaways": [
+    "KI ist ein Sammelbegriff für viele unterschiedliche rechnergestützte Verfahren.",
+    "Maschinelles Lernen gewinnt Muster aus Daten statt jede Regel manuell zu programmieren.",
+    "Generative KI erzeugt neue Inhalte, ohne dadurch automatisch verlässliches Faktenwissen zu garantieren."
+  ],
+  "questions": [
+    {
+      "id": "technology-ai-basics-q1",
+      "prompt": "Was beschreibt maschinelles Lernen am besten?",
+      "options": [
+        "Jede Software mit vielen if-Abfragen",
+        "Verfahren, bei denen Modelle anhand von Daten Parameter anpassen und Muster lernen",
+        "Nur humanoide Roboter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maschinelles Lernen beschreibt datenbasierte Lernverfahren und ist ein Teilgebiet der KI."
+    }
+  ],
+  "recallPrompt": "Wie würdest du in einem Satz erklären, warum ChatGPT eine KI ist, aber „KI“ nicht gleichbedeutend mit ChatGPT ist?",
+  "recallAnswer": "ChatGPT ist ein konkretes generatives Sprachmodell innerhalb des viel größeren Feldes künstlicher Intelligenz, das auch Bilderkennung, Planung, Robotik, Empfehlungssysteme und viele andere Verfahren umfasst.",
+  "relatedLessonIds": [
+    "technology-llm"
+  ]
+}

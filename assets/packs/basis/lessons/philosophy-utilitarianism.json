@@ -1,0 +1,63 @@
+{
+  "id": "philosophy-utilitarianism",
+  "packId": "general-knowledge-basis",
+  "title": "Was ist Utilitarismus?",
+  "durationMinutes": 5,
+  "categoryId": "philosophy",
+  "path": [
+    "Ethik",
+    "Moralphilosophie"
+  ],
+  "knowledgeLevel": "general",
+  "tags": [
+    "Utilitarismus",
+    "Ethik",
+    "Bentham",
+    "Mill",
+    "Folgenethik",
+    "Moral"
+  ],
+  "synonyms": [
+    "utilitarianism",
+    "Konsequentialismus"
+  ],
+  "summary": "Utilitaristische Ethik beurteilt Handlungen vor allem nach ihren Folgen. Vereinfacht gilt eine Handlung als besser, wenn sie das Wohlergehen aller Betroffenen stärker erhöht als verfügbare Alternativen.",
+  "whyRelevant": "Viele politische Abwägungen – von Gesundheitsmaßnahmen bis Infrastruktur – enthalten utilitaristische Elemente. Gleichzeitig zeigt die Theorie, warum reine Nutzenmaximierung mit individuellen Rechten kollidieren kann.",
+  "learningGoal": "Du kannst den Grundgedanken des Utilitarismus erklären und ein zentrales Problem der Theorie benennen.",
+  "sections": [
+    {
+      "title": "Folgen statt Absichten",
+      "body": "Utilitarismus gehört zu den konsequentialistischen Ethiken. Entscheidend ist nicht primär, ob eine Handlung einer festen Regel folgt, sondern welche Folgen sie hat. Jeremy Bentham formulierte die Idee, Freude beziehungsweise Nutzen zu vermehren und Leid zu vermindern. John Stuart Mill entwickelte den Ansatz weiter. Moderne Varianten sprechen häufig allgemeiner von Wohlergehen oder Präferenzerfüllung statt nur von Lust."
+    },
+    {
+      "title": "Alle Betroffenen zählen",
+      "body": "Ein wichtiger Gedanke ist Unparteilichkeit. Das Wohlergehen einer Person zählt nicht grundsätzlich mehr, nur weil sie mir nähersteht. Bei einer politischen Entscheidung müsste man daher die Folgen für alle Betroffenen berücksichtigen. Das macht utilitaristische Überlegungen attraktiv für Kosten-Nutzen-Abwägungen. Praktisch ist allerdings schwer zu messen, wie unterschiedliche Arten von Nutzen und Leid miteinander verglichen werden sollen."
+    },
+    {
+      "title": "Das Problem der Rechte",
+      "body": "Stell dir vor, das Leid einer unschuldigen Person würde das Wohl vieler anderer erhöhen. Eine einfache Nutzenrechnung könnte die Opferung rechtfertigen. Genau hier entsteht eine starke Kritik: Manche Rechte sollen nicht zur Disposition stehen, selbst wenn eine Mehrheit profitiert. Regelutilitaristische Ansätze versuchen, stabile Regeln zu rechtfertigen, deren allgemeine Befolgung langfristig den größten Nutzen erzeugt. Die Grundspannung bleibt philosophisch interessant."
+    }
+  ],
+  "misconception": "Utilitarismus bedeutet nicht einfach „Was nützt mir persönlich am meisten?“. Klassische Formen verlangen gerade, die Folgen für alle Betroffenen unparteiisch zu berücksichtigen.",
+  "keyTakeaways": [
+    "Utilitarismus bewertet Handlungen wesentlich nach ihren Folgen.",
+    "Wohlergehen aller Betroffenen soll grundsätzlich gleich berücksichtigt werden.",
+    "Schwierigkeiten entstehen bei Messung und Vergleich von Nutzen sowie beim Schutz individueller Rechte."
+  ],
+  "questions": [
+    {
+      "id": "philosophy-utilitarianism-q1",
+      "prompt": "Welche Frage ist typisch utilitaristisch?",
+      "options": [
+        "Welche Handlungsoption führt insgesamt zu den besten Folgen für die Betroffenen?",
+        "Welche Handlung ist gesetzlich am ältesten?",
+        "Welche Option nützt ausschließlich mir selbst?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Utilitarismus richtet den Blick auf die Gesamtfolgen und nicht nur auf den Eigennutzen einer Person."
+    }
+  ],
+  "recallPrompt": "Was ist die wichtigste Stärke und zugleich ein wichtiges Risiko utilitaristischer Ethik?",
+  "recallAnswer": "Sie zwingt dazu, reale Folgen für alle Betroffenen ernst zu nehmen; zugleich kann reine Nutzenmaximierung individuelle Rechte oder Gerechtigkeitsfragen zu schwach schützen.",
+  "relatedLessonIds": []
+}

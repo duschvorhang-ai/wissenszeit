@@ -1,0 +1,111 @@
+{
+  "id": "earth-climate-system",
+  "packId": "general-knowledge-basis",
+  "title": "Wie funktioniert das Klimasystem der Erde?",
+  "durationMinutes": 20,
+  "categoryId": "earth",
+  "path": [
+    "Klima",
+    "Erdsystem"
+  ],
+  "knowledgeLevel": "advanced",
+  "tags": [
+    "Klima",
+    "Atmosphäre",
+    "Ozean",
+    "Treibhauseffekt",
+    "Kohlenstoffkreislauf",
+    "Rückkopplung",
+    "Albedo"
+  ],
+  "synonyms": [
+    "climate system",
+    "Klimawandel"
+  ],
+  "summary": "Klima entsteht aus dem Zusammenspiel von Strahlungsbilanz, Atmosphäre, Ozeanen, Eis, Landoberflächen und Biosphäre. Veränderungen wirken oft über Rückkopplungen und große Wärmespeicher verzögert.",
+  "whyRelevant": "Das Klimasystem ist komplex, aber nicht beliebig. Ein Verständnis der wichtigsten Energieflüsse und Rückkopplungen hilft, Wetter, natürliche Schwankungen und langfristigen Klimawandel voneinander zu unterscheiden.",
+  "learningGoal": "Du kannst Wetter und Klima unterscheiden, die globale Energiebilanz erklären, wichtige Rückkopplungen benennen und die besondere Rolle der Ozeane und des Kohlenstoffkreislaufs einordnen.",
+  "sections": [
+    {
+      "title": "Wetter ist ein Zustand, Klima eine Statistik",
+      "body": "Wetter beschreibt den aktuellen oder kurzfristigen Zustand der Atmosphäre: Temperatur, Niederschlag, Wind und Luftdruck an einem bestimmten Ort und Zeitpunkt. Klima beschreibt statistische Eigenschaften über längere Zeiträume – Mittelwerte, Schwankungen und Häufigkeiten. Ein kalter Wintertag widerlegt deshalb keine langfristige Erwärmung, genauso wenig wie ein einzelner Hitzetag sie beweist. Klimaforschung betrachtet Muster über viele Jahre und große Regionen. Das Klimasystem umfasst zudem mehr als Atmosphäre. Ozeane speichern enorme Wärmemengen, Eisflächen verändern die Reflexion von Sonnenlicht, Vegetation beeinflusst Wasser- und Kohlenstoffkreisläufe, und Böden speichern Kohlenstoff. Diese Komponenten reagieren mit sehr unterschiedlichen Geschwindigkeiten. Die Atmosphäre kann sich binnen Tagen verändern, tiefe Ozeane über Jahrzehnte bis Jahrhunderte. Deshalb besitzt das System „Gedächtnis“ und reagiert auf Antriebe teilweise verzögert."
+    },
+    {
+      "title": "Die Energiebilanz setzt den Rahmen",
+      "body": "Langfristig muss die Erde ungefähr so viel Energie ins All abgeben, wie sie von der Sonne aufnimmt, sonst ändert sich ihre Temperatur. Kurzwellige Sonnenstrahlung trifft auf die Erde. Ein Teil wird durch Wolken, Aerosole, Eis und helle Oberflächen zurück ins All reflektiert; der Rest wird absorbiert. Die erwärmte Erde gibt langwellige Infrarotstrahlung ab. Treibhausgase absorbieren einen Teil dieser Strahlung und emittieren sie erneut. Steigt zum Beispiel die Kohlendioxidkonzentration, verändert sich die Höhe und Effizienz, mit der Wärme ins All abgegeben wird. Zunächst entsteht ein Energieungleichgewicht: Das System nimmt netto mehr Energie auf. Die Oberfläche und insbesondere die Ozeane erwärmen sich, bis bei höherer Temperatur wieder genügend Energie abgestrahlt wird. Dieser Rahmen erklärt, warum der Treibhauseffekt keine bloße Korrelation ist, sondern auf messbarer Strahlungsphysik beruht."
+    },
+    {
+      "title": "Rückkopplungen verstärken oder dämpfen Veränderungen",
+      "body": "Eine anfängliche Erwärmung löst weitere Prozesse aus. Wärmere Luft kann mehr Wasserdampf enthalten; Wasserdampf ist selbst ein Treibhausgas. Diese Wasserdampf-Rückkopplung verstärkt die ursprüngliche Erwärmung. Schmelzen Schnee und Eis, werden dunklere Flächen sichtbar, die mehr Sonnenenergie absorbieren. Auch das ist eine positive Rückkopplung. Andere Prozesse können dämpfend wirken. Eine wärmere Erde strahlt grundsätzlich mehr Infrarotenergie ins All ab – eine zentrale negative Rückkopplung, die verhindert, dass jede Erwärmung unbegrenzt eskaliert. Wolken sind komplizierter, weil sie Sonnenlicht reflektieren und zugleich Wärmestrahlung beeinflussen. Klimasensitivität beschreibt letztlich, wie stark sich die globale Mitteltemperatur nach einer dauerhaften Veränderung des Strahlungsantriebs einstellt. Unsicherheiten betreffen vor allem die genaue Stärke mancher Rückkopplungen, nicht die grundlegende Richtung der CO₂-Wirkung."
+    },
+    {
+      "title": "Ozeane verzögern und verteilen Wärme",
+      "body": "Mehr als 90 Prozent der zusätzlichen Energie, die durch das gegenwärtige Energieungleichgewicht im Erdsystem verbleibt, wird von den Ozeanen aufgenommen. Wasser kann viel Wärme speichern, und Meeresströmungen verteilen Energie global. Dadurch reagiert die Oberflächentemperatur langsamer, als sie es ohne Ozeane tun würde. Diese Trägheit bedeutet zugleich, dass vergangene Antriebe noch lange nachwirken können. Ozeane nehmen außerdem einen Teil des vom Menschen emittierten Kohlendioxids auf. Das bremst den Anstieg in der Atmosphäre, verändert aber die Chemie des Meerwassers: Gelöstes CO₂ führt zu Ozeanversauerung. Klimasystem und Kohlenstoffkreislauf sind deshalb eng gekoppelt. Erwärmung kann wiederum die Fähigkeit verschiedener natürlicher Speicher verändern, Kohlenstoff aufzunehmen."
+    },
+    {
+      "title": "Natürliche Schwankungen und menschlicher Antrieb",
+      "body": "Klima verändert sich auch ohne menschlichen Einfluss. Vulkanische Aerosole können die Erde für einige Jahre abkühlen, Sonnenaktivität schwankt, und langfristige Veränderungen der Erdbahn beeinflussen Eiszeitzyklen. Ozean-Atmosphäre-Muster wie El Niño verschieben Wärme zwischen Regionen und können die globale Mitteltemperatur einzelner Jahre beeinflussen. Solche Prozesse erklären jedoch nicht automatisch jeden langfristigen Trend. Für Ursachenanalysen vergleichen Forschende Messungen mit den erwarteten räumlichen und zeitlichen Mustern verschiedener Antriebe. Der gegenwärtige langfristige Erwärmungstrend lässt sich physikalisch mit dem starken Anstieg menschengemachter Treibhausgase erklären. Natürliche Variabilität liegt darüber wie ein unruhiges Signal: Sie kann einzelne Jahre wärmer oder kühler machen, ohne die langfristige Energiebilanz aufzuheben."
+    },
+    {
+      "title": "Kohlenstoffkreislauf und verbleibende Emissionen",
+      "body": "Kohlendioxid zirkuliert natürlicherweise zwischen Atmosphäre, Ozeanen, Böden, Pflanzen und Gestein. Menschliche Nutzung fossiler Energieträger bringt zusätzlichen Kohlenstoff in diesen Kreislauf, der zuvor über geologische Zeiträume gespeichert war. Land und Ozeane nehmen einen erheblichen Teil dieser Emissionen auf; der Rest erhöht die atmosphärische Konzentration. Dass natürliche Senken CO₂ aufnehmen, bedeutet daher nicht, dass menschliche Emissionen unbedeutend sind – ohne sie wäre die atmosphärische Bilanz eine andere. Die Stärke natürlicher Senken kann sich mit Klima und Landnutzung verändern. Für langfristige Stabilisierung ist deshalb entscheidend, wie viel zusätzliches CO₂ netto in die Atmosphäre gelangt."
+    },
+    {
+      "title": "Warum Modelle trotz Unsicherheit nützlich sind",
+      "body": "Klimamodelle bilden physikalische Prozesse auf einem räumlichen Gitter ab und berechnen, wie Atmosphäre, Ozeane, Eis und Land miteinander wechselwirken. Sie sind keine perfekten Kopien der Erde. Kleinräumige Prozesse wie einzelne Wolken müssen teilweise parametrisiert werden, und zukünftige Emissionen hängen von gesellschaftlichen Entscheidungen ab. Dennoch können Modelle grundlegende physikalische Zusammenhänge testen und unterschiedliche Szenarien vergleichen. Unsicherheit bedeutet dabei nicht Unwissen. Wenn mehrere Modelle bei Details variieren, aber dieselbe robuste Richtung zeigen, ist das eine wichtige Information. Gute Interpretation unterscheidet zwischen gut verstandenen Mechanismen, Bandbreiten möglicher Stärke und tatsächlich offenen Fragen."
+    },
+    {
+      "title": "Transfer: Warum regionale Folgen ungleich ausfallen",
+      "body": "Eine globale Mitteltemperatur ist ein nützlicher Indikator, bedeutet aber nicht, dass sich jeder Ort gleich erwärmt oder dieselben Folgen erlebt. Landflächen erwärmen sich meist stärker als Ozeane, die Arktis besonders schnell. Niederschlagsmuster können sich regional erhöhen oder verringern, und Extremereignisse reagieren unterschiedlich auf Erwärmung. Für Gesellschaften zählt zudem Exposition: Ein zusätzlicher Meter Meeresspiegel ist für eine hoch gelegene Region anders relevant als für ein dicht besiedeltes Flussdelta. Verwundbarkeit hängt wiederum von Infrastruktur, Einkommen, Gesundheitswesen und politischer Handlungsfähigkeit ab. Klimarisiko entsteht daher aus physischer Gefahr, Exposition und Verwundbarkeit zusammen. Diese Unterscheidung erklärt, warum dieselbe globale Klimaveränderung lokal sehr unterschiedliche Schäden und Anpassungsaufgaben erzeugt. Gerade diese Trägheit erklärt, warum frühe Veränderungen der Energiebilanz langfristige Konsequenzen haben können und kurzfristige Schwankungen den Trend nicht vollständig abbilden."
+    }
+  ],
+  "misconception": "„Das Klima hat sich schon immer verändert“ ist richtig, aber als Gegenargument unvollständig. Entscheidend ist nicht, ob Klima veränderlich ist, sondern welcher Antrieb eine konkrete Veränderung verursacht, wie schnell sie abläuft und welche Folgen daraus entstehen.",
+  "keyTakeaways": [
+    "Klima beschreibt langfristige statistische Muster, Wetter kurzfristige Zustände.",
+    "Die globale Temperatur reagiert auf die Bilanz aus aufgenommener Sonnenenergie und abgegebener Wärmestrahlung.",
+    "Rückkopplungen wie Wasserdampf und Eis-Albedo verändern die Stärke einer anfänglichen Erwärmung.",
+    "Ozeane speichern den Großteil zusätzlicher Wärme und verzögern dadurch die Reaktion der Oberfläche.",
+    "Natürliche Schwankungen und menschliche Antriebe können gleichzeitig wirken und müssen physikalisch getrennt untersucht werden."
+  ],
+  "questions": [
+    {
+      "id": "earth-climate-system-q1",
+      "prompt": "Warum kann ein einzelner kalter Wintertag keine Aussage über den globalen Klimatrend entscheiden?",
+      "options": [
+        "Weil Winterdaten grundsätzlich nicht gemessen werden",
+        "Weil Wetter kurzfristig und lokal ist, Klima aber langfristige statistische Muster beschreibt",
+        "Weil Klima ausschließlich im Sommer existiert"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kurzfristige lokale Schwankungen sind Teil des Wetters und können einen langfristigen globalen Trend überlagern."
+    },
+    {
+      "id": "earth-climate-system-q2",
+      "prompt": "Welche Rolle spielen Ozeane im Klimasystem?",
+      "options": [
+        "Sie speichern große Wärmemengen und verlangsamen sowie verteilen Temperaturänderungen",
+        "Sie reflektieren grundsätzlich die gesamte Sonnenstrahlung",
+        "Sie haben keinen Einfluss auf CO₂"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ozeane sind große Wärme- und Kohlenstoffspeicher und prägen daher Tempo und Verteilung klimatischer Veränderungen."
+    },
+    {
+      "id": "earth-climate-system-q3",
+      "prompt": "Was ist eine positive Rückkopplung?",
+      "options": [
+        "Ein Prozess, der eine anfängliche Veränderung verstärkt",
+        "Ein Prozess, der immer gesellschaftlich nützlich ist",
+        "Ein Messfehler in Klimamodellen"
+      ],
+      "correctIndex": 0,
+      "explanation": "„Positiv“ bedeutet hier verstärkend, nicht „gut“. Die Eis-Albedo-Rückkopplung ist ein typisches Beispiel."
+    }
+  ],
+  "recallPrompt": "Erkläre, warum eine erhöhte CO₂-Konzentration nicht sofort zu ihrer vollständigen langfristigen Temperaturwirkung führt.",
+  "recallAnswer": "CO₂ verändert zunächst die Strahlungsbilanz. Das Erdsystem nimmt daraufhin zusätzliche Energie auf, doch besonders die Ozeane speichern viel davon und reagieren langsam. Rückkopplungen und Wärmeaustausch entfalten sich über längere Zeit, sodass sich die volle Temperaturantwort verzögert einstellt.",
+  "relatedLessonIds": [
+    "earth-greenhouse",
+    "earth-plate-tectonics"
+  ]
+}
